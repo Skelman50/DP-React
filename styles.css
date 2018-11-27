@@ -1,0 +1,452 @@
+*{
+box-sizing: border-box;
+}
+body{
+margin: 0;
+text-align: center;
+}
+
+#earth {
+  position: absolute;
+  width: 680px;
+  height: 680px;
+  left: 50%;
+  margin-left: -340px;
+  top:0%;
+  background: url(images/earthMap.jpg) 0 0 repeat;
+  border-radius: 50%;
+  background-size: 1390px;
+  animation: rotate 38s linear infinite;
+  transition: transform 5s linear;
+  transform-style: preserve-3d;
+  box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+  color: #000;
+}
+
+#earth:after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: -80px 15px 80px 10px rgba(0,0,0,.9) inset;
+}
+
+#earth:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background: radial-gradient(circle at 100px 100px, #fff, #000);
+}
+
+@keyframes rotate {
+  0% {background-position: 0 0;}
+  100% {background-position: 1390px 0;}
+}
+
+#wrapStart {
+  padding-top: 250px;
+  position: relative;
+  height: 100vh;
+  background: url(images/starsSky.jpg) 50% 50%/cover;
+  overflow: hidden;
+}
+#start,#backFromTable {
+  opacity: 0.55;
+  display: block;
+  font-size: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  width: 250px;
+  height: 113px;
+  background: url(images/button1.png) 50% 50%/cover;
+  border: none;
+  cursor: pointer;
+}
+#start + div {
+  padding: 3% 0;
+}
+#settings {
+  opacity: 0.55;
+  display: block;
+  margin: 0 auto;
+  font-size: 45px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 2.5px;  
+  width: 250px;
+  height: 113px;
+  background: url(images/buttonViolet.png) 50% 50%/cover !important;
+  border: none;
+  cursor: pointer;
+}
+#rules {
+  opacity: 0.55;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 45px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  width: 250px;
+  height: 113px;
+  background: url(images/button3.png) 50% 50%/cover;
+  border: none;
+  cursor: pointer;
+}
+#yourRecords {
+  opacity: 0.55;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 7% !important;
+  font-size: 45px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  width: 250px;
+  height: 113px;
+  background: url(images/button4.png) 50% 50%/cover;
+  border: none;
+  cursor: pointer;
+}
+
+#back{
+  opacity: 0.55;
+  display: none;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 2px;
+  width: 250px;
+  height: 113px;
+  background: url(images/button2.png) 50% 50%/cover !important;
+  border: none;
+  cursor: pointer;
+}
+#start:focus, #settings:focus, #rules:focus, #yourRecords:focus, #back:focus {
+  outline: none;
+}
+
+#start:hover, #settings:hover, #rules:hover, #yourRecords:hover, #back:hover, #backFromTable:hover, .AllWorld:hover, 
+.FlagGameBtn:hover, .CapitalGameBtn:hover, #apply:hover {
+  opacity: 1;
+  transform: scale(1.35);
+  transition: .3s;
+  z-index: 3;
+}
+
+#textBonus, #textLose{
+  color: #f4f5f9;
+  font-family: 'Vollkorn', serif;
+}
+#record, #continentName, #nameGame, #countryName{
+  color: #f4f5f9;
+  font-family: 'Istok Web', sans-serif;
+}
+#wrap,#end {
+  display: none;
+  position: relative;
+  height: 100vh;
+  margin: 0 auto;
+  background:url(images/karta_mira.jpg) 50% 50%/cover  rgba( 0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  padding-top: 25px;
+}
+
+
+
+#newGame {
+
+  margin: 0 auto;
+}
+
+
+
+#countryName {
+  margin-top: 15px;
+}
+
+#flag {
+  width: 420px;
+  height: 250px;
+  margin: 0 auto;
+  opacity: .85;
+}
+#firstChange {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  min-height: 35px;
+  width: 150px;
+  background: green;
+  cursor: pointer;
+}
+#thirdChange{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  min-height: 35px;
+  width: 150px;
+  background: green;
+  cursor: pointer;
+}
+#secondChange {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  min-height: 35px;
+  width: 150px;
+  background: green;
+  cursor: pointer;
+}
+#fourthChange {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  min-height: 35px;
+  width: 150px;
+  background: green;
+  cursor: pointer;
+}
+
+#blokHealh{
+  position: absolute;
+  width: 120px;
+  top: 25px;
+  right: 10px;
+  text-align: center;
+}
+#health_1,#health_2,#health_3{
+display: inline-block;
+width: 30px;
+height: 30px;
+background: url(images/redHeart.png) no-repeat 50% 50%/cover;
+}
+
+#bonuses{
+  position: absolute;
+  width: 120px;
+  top: 25px;
+  left: 10px;
+  text-align: center;
+}
+
+#biscuit{
+display: inline-block;
+margin-left: 10px;
+width: 30px;
+height: 30px;
+background: url(images/biscuit.png) no-repeat 50% 50%/cover;
+vertical-align: middle;
+}
+
+
+
+#hint {
+  display: block;
+  margin: 0 auto;
+  background-color: blue;
+  cursor: pointer;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+#options {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  margin: 0 auto;
+  background:#b3e6ff;
+  padding-top: 70px;
+}
+
+input {
+  display: block;
+}
+
+.AllWorld{
+  position: absolute;
+  top: 69%;
+  left: 44%;
+  display: block;
+  opacity: 0.55;
+  font-size: 40px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 2px;
+  width: 250px;
+  height: 113px;
+  line-height: 113px;
+  background: url(images/buttonYellow.png) 50% 50%/cover !important;
+  cursor: pointer;
+}
+
+#changeAllContinents:checked ~ .AllWorld,
+#changeFlags:checked ~ .FlagGameBtn,
+#changeCapitals:checked ~ .CapitalGameBtn{
+  transform: scale(1.35);
+  z-index: 2;
+  opacity: 1;
+}
+
+.FlagGameBtn{
+  display: inline-block;
+  opacity: 0.55;
+  font-size: 40px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 2px;
+  width: 250px;
+  height: 113px;
+  background: url(images/buttonOrange.png) 50% 50%/cover !important;
+  cursor: pointer;
+}
+
+.CapitalGameBtn{
+  display: inline-block;
+  margin-left: 15%; 
+  opacity: 0.55;
+  font-size: 40px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 2px;
+  width: 250px;
+  height: 113px;
+  background: url(images/buttonOrange.png) 50% 50%/cover !important;
+  cursor: pointer;
+}
+
+
+
+.asia{
+  position: absolute;
+  top: 24.7%;
+  left: 56.5%;
+  opacity: 0.7;
+}
+
+.europe{
+  position: absolute;
+  top: 26.2%;
+  left: 44.3%;
+  opacity: 0.7;
+}
+
+.africa{
+  position: absolute;
+  top: 40%;
+  left: 42.7%;
+  opacity: 0.7;
+}
+
+.southAmerica{
+  position: absolute;
+  top: 49%;
+  left: 25.8%;
+  opacity: 0.7;
+}
+
+.northAmerica{
+  position: absolute;
+  top: 24%;
+  left: 16%;
+  opacity: 0.7;
+}
+
+.oceania{
+  position: absolute;
+  top: 54%;
+  left: 73%;
+  opacity: 0.7;
+}
+
+.asia:hover, .europe:hover, .africa:hover, .southAmerica:hover, .northAmerica:hover, .oceania:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  z-index: 3;
+  transition: .5s;
+  opacity: 1;
+}
+
+#changeAsia:checked ~ label .asia,
+#changeEurope:checked ~ label .europe,
+#changeAfrica:checked ~ label .africa,
+#changeSouthAmerica:checked ~ label .southAmerica,
+#changeNorthAmerica:checked ~ label .northAmerica,
+#changeOceania:checked ~ label .oceania{
+  transform: scale(1.5);
+  z-index: 2;
+  opacity: 1;
+}
+
+#recordsTable{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  margin: 0 auto;
+  background-color: green;
+  padding-top: 25px;
+}
+
+#settings{
+  display: block;
+  margin: 0 auto;
+  background-color: blue;
+  cursor: pointer;
+  margin-top: 15px;
+  color: red;
+}
+#apply{
+  position: absolute;
+  top: 86%;
+  left: 44%;
+  display: block;
+  margin: 0 auto;
+  font-size: 45px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black; 
+  letter-spacing: 2.5px;
+  width: 250px;
+  height: 113px;
+  background: url(images/buttonViolet.png) 50% 50%/cover;
+  border: none;
+  cursor: pointer;
+}
+#changeContinent {
+margin-top: 25px;
+}
+
+#goBackFlags {
+display: block;
+background-color: red;
+margin: 0 auto;
+margin-top: 350px;
+cursor: pointer;
+margin-top: 225px;
+
+}
+
+#textBonus{
+display: block;
+margin-top: 10px;
+}
+
+
+
