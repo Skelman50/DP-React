@@ -23,16 +23,11 @@ class Game extends React.Component {
 				copy: [fullCounties.concat(),asiaChange.concat(),europeChange.concat(),africaChange.concat(),southAmericaChange.concat(),
 					northAmericaChange.concat(),oceaniaChange.concat()],
 			},
-			backgrounds:["green","green","green","green"],
-			value:[],
-			valueCapital:[],
-			className:['unblok','unblok','unblok','unblok'],
-			display:["none","block"],
-			positionRight: -100,
-			checkedChangeGame:[true,false],
-			checkedChangeGameName:['Угадай страну по флагу','Угадай столицу страны'],
-			checkedContinent:[true,false,false,false,false,false,false],
-			checkedContinentName:["Весь мир","Азия","Европа","Африка","Южная Америка","Северная Америка","Океания"],
+			display: {
+				wrap:"none",
+				wrapStart:"block",
+				endGame:"none"
+			},
 			counts:{
 				win:0,
 				lose:0
@@ -41,8 +36,22 @@ class Game extends React.Component {
 				flags:[flagsRecordsAllCountries.concat(),
 						flagsRecordsAsia.concat(),flagsRecordsEurope.concat(),flagsRecordsAfrica.concat(),flagsRecordsSouthAmerica.concat(),
 						flagsRecordsNorthAmerica.concat(),flagsRecordsOceania.concat()],
-			}
-		}
+			},
+			buttonHint:{
+				background:'',
+				disabled:false,
+			},
+			backgrounds:[`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`,`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`,
+						`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`,`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`],
+			value:[],
+			valueCapital:[],
+			className:['unblok','unblok','unblok','unblok'],
+			checkedChangeGame:[true,false],
+			checkedChangeGameName:['Угадай страну по флагу','Угадай столицу страны'],
+			checkedContinent:[true,false,false,false,false,false,false],
+			checkedContinentName:["Весь мир","Азия","Европа","Африка","Южная Америка","Северная Америка","Океания"],
+			positionRight: -100,	
+		};
 		this.onChange = this.onChange.bind(this)
 		this.onStart = this.onStart.bind(this)
 		this.onBack = this.onBack.bind(this)
@@ -50,6 +59,7 @@ class Game extends React.Component {
 		this.onChangeGame = this.onChangeGame.bind(this)
 	}
 
+	
 
 	onChangeGame(index){
 			let checked = this.state.checkedChangeGame;
@@ -93,13 +103,153 @@ class Game extends React.Component {
 
 	onBack() {
 		this.setState({
-			display:['none','block']
+			display:{
+				wrap:"none",
+				wrapStart:"block",
+				endGame:"none"
+			}
 		})
 	}
 
+	/*onAnimationHints(index) {
+		for(let i=0;i<this.state.backgrounds.length;i++){
+			this.state.backgrounds[i]=`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`
+			this.state.backgrounds[index]=`url(${require('./images/buttonDblue.png')}) 50% 50%/cover`;
+		}
+		this_.setState({
+			backgrounds:this.state.backgrounds
+		})
+	}*/
+
+	onHints(){
+		
+		this.setState({
+			buttonHint:{
+				background:`url(${require('./images/BtnRedWhtBkg.png')}) no-repeat 50% 50%/contain`,
+				disabled:true,
+				
+			},
+			className:['blok','blok','blok','blok'],
+		})
+		const this_=this;
+		new Promise(function(res,rej){
+			
+			let count = 0;
+			let id = setInterval(function(){
+				count = count + 10
+				if (count===200) {
+					clearInterval(id);
+				}
+				if (count/10===1||count/10===4||count/10===8||count/10===12||count/10===16||count/10===20) {
+					for(let i=0;i<this_.state.backgrounds.length;i++){
+						this_.state.backgrounds[i]=`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`
+						this_.state.backgrounds[0]=`url(${require('./images/buttonDblue.png')}) 50% 50%/cover`;
+					}
+					this_.setState({
+						backgrounds:this_.state.backgrounds
+					})
+				}else if (count/10===2||count/10===6||count/10===10||count/10===14||count/10===18) {
+					for(let i=0;i<this_.state.backgrounds.length;i++){
+						this_.state.backgrounds[i]=`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`
+						this_.state.backgrounds[1]=`url(${require('./images/buttonDblue.png')}) 50% 50%/cover`;
+					}
+					this_.setState({
+						backgrounds:this_.state.backgrounds
+					})
+				}else if (count/10===3||count/10===7||count/10===11||count/10===15||count/10===19) {
+					for(let i=0;i<this_.state.backgrounds.length;i++){
+						this_.state.backgrounds[i]=`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`
+						this_.state.backgrounds[2]=`url(${require('./images/buttonDblue.png')}) 50% 50%/cover`;
+					}
+					this_.setState({
+						backgrounds:this_.state.backgrounds
+					})
+				}else if (count/10===5||count/10===9||count/10===13||count/10===17) {
+					for(let i=0;i<this_.state.backgrounds.length;i++){
+						this_.state.backgrounds[i]=`url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`
+						this_.state.backgrounds[3]=`url(${require('./images/buttonDblue.png')}) 50% 50%/cover`;
+					}
+					this_.setState({
+						backgrounds:this_.state.backgrounds
+					})
+				}
+			},100)
+		setTimeout(function(){
+			this_.state.backgrounds.map((value,index)=>{
+				this_.state.backgrounds[index] = `url(${require('./images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`
+				if(this_.state.checkedChangeGame[0]===true?(this_.state.value[index]===this_.state.countries.all[0].country):
+					(this_.state.valueCapital[index]===this_.state.countries.all[0].capital)){
+						this_.state.backgrounds[index] = `url(${require('./images/BtnDgreen.png')}) no-repeat 50% 50%/contain`
+						
+					}	
+			})
+			res(this_.setState({
+				backgrounds:this_.state.backgrounds
+			}))
+		},2000)
+		}).then((res)=> new Promise(function(res,rej){
+			setTimeout(function(){
+					let arr = this_.state.countries.all.concat()
+					let arrCopy = this_.state.countries.copy.concat()
+					arr.splice(0,1)
+					function compareRandom(a, b) {
+						return Math.random()-0.5
+					  }
+					  arr.sort(compareRandom)
+					 let arrSort = [arr[0],arr[1],arr[2],arr[3]];
+					  arrSort.sort(compareRandom)
+					this_.setState({
+						countries:{
+							all:arr,
+							copy:arrCopy 
+						},
+						value:[arrSort[0].country,arrSort[1].country,
+						arrSort[2].country,arrSort[3].country],
+						valueCapital:[arrSort[0].capital,arrSort[1].capital,
+						arr[2].capital,arrSort[3].capital],
+						backgrounds:[`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,
+									 `url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`],
+						
+						buttonHint:{
+							background:'',
+							disabled:false,
+						},
+						counts:{
+							lose:this_.state.counts.lose,
+							win:this_.state.counts.win+1
+						},
+						className:['unblok','unblok','unblok','unblok'],
+					})	
+
+					if(this_.state.counts.lose>2 || this_.state.counts.win>50) {
+						this_.setState({
+							display:{
+								wrap:"none",
+								endGame:"block",
+								wrapStart:"none"
+							},
+						})
+					}
+		},2000)
+	
+		}))
+	}
+
+	/*componentDidUpdate(){
+		let local = JSON.stringify(this.state)
+		localStorage.setItem('saveGame', local)
+	}
+
+	componentDidMount(){
+		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
+		this.setState({
+			...getLocal
+		})
+	}*/
+
 	onStart(){
 	let arr = this.state.countries.copy.concat()
-	console.log('arr',arr)
+
 		function compareRandom(a, b) {
 			return Math.random() - 0.5;
 		  }
@@ -114,20 +264,29 @@ class Game extends React.Component {
 				arr[i][2].country,arr[i][3].country].sort(compareRandom),
 				valueCapital:[arr[i][0].capital,arr[i][1].capital,
 				arr[i][2].capital,arr[i][3].capital].sort(compareRandom),
-				display:['block','none']
+				display:{
+					wrap:"block",
+					wrapStart:"none",
+					endGame:"none"
+				},
+				counts:{
+					win:0,
+					lose:0
+				}
 			})
 		}
 	}
 }
 
 	onChange(index){
+		console.log(this.state.className)
 		let className = this.state.className
 		if(className[index] != "blok") {
 			this.setState({
 				className:['blok','blok','blok','blok']
 			})
 		let bcg = this.state.backgrounds;
-		bcg[index] = "white";
+		bcg[index] = `url(${require('./images/buttonDblue.png')}) no-repeat 50% 50%/contain`;
 		const this_=this;
 		this.setState({
 			backgrounds:bcg
@@ -153,17 +312,18 @@ class Game extends React.Component {
 									})		
 								}
 								const bcg = this_.state.backgrounds
-								bcg[index] = "red";
-								bcg[i] = "blue";
+								bcg[index] = `url(${require('./images/BtnRedWhtBkg.png')}) no-repeat 50% 50%/contain`;
+								bcg[i] = `url(${require('./images/BtnDgreen.png')}) no-repeat 50% 50%/contain`;
 								this_.setState({
 								backgrounds:bcg
 								})
 							}
 						}
 				res(this_.state.countries)
-			},2000)
+		},2000)
 			
-			}).then((res)=> new Promise(function(res,rej){
+	})
+			.then((res)=> new Promise(function(res,rej){
 				setTimeout(function(){
 					let arr = this_.state.countries.all.concat()
 					let arrCopy = this_.state.countries.copy.concat()
@@ -183,9 +343,20 @@ class Game extends React.Component {
 						arrSort[2].country,arrSort[3].country],
 						valueCapital:[arrSort[0].capital,arrSort[1].capital,
 						arr[2].capital,arrSort[3].capital],
-						backgrounds:["green","green","green","green"],
-						className:['unblok','unblok','unblok','unblok']
+						backgrounds:[`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,
+									 `url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`],
+						className:['unblok','unblok','unblok','unblok'],
 					})	
+
+					if(this_.state.counts.lose>2 || this_.state.counts.win>50) {
+						this_.setState({
+							display:{
+								wrap:"none",
+								endGame:"block",
+								wrapStart:"none"
+							}
+						})
+					}
 			},2000)
 		
 		}))
@@ -195,11 +366,21 @@ class Game extends React.Component {
 	render(){
 		return(
 			<div>
-	<div id="wrap" style={{display:this.state.display[0]}}>
+	<div id="wrap" style={{display:this.state.display.wrap}}>
 	<div id="blokHealh">
-		<div id="health_1"></div>
-		<div id="health_2"></div>
-		<div id="health_3"></div>
+
+		<div id="health_1"style=
+		{{background:this.state.counts.lose<3?`url(${require('./images/heartGreen.png')}) 50% 50% / 100% 100% no-repeat`:'transparent'}} 
+		/>
+
+		<div id="health_2"style=
+		{{background:this.state.counts.lose<2?`url(${require('./images/heartYellow.png')}) 50% 50% / 100% 100% no-repeat`:'transparent'}} 
+		/>
+
+		<div id="health_3"style=
+		{{background:this.state.counts.lose===0?`url(${require('./images/heartRed.png')}) 50% 50% / 100% 100% no-repeat`:'transparent'}} 
+		/>
+
 		<span id="textLose">Loses {this.state.counts.lose}/3</span>
 	</div>
 	<div id="bonuses">
@@ -236,7 +417,10 @@ class Game extends React.Component {
 
 	{this.state.countries.all[0].country}</div>
 
-	<button id="hint">Подсказка</button>
+	<button id="hint" style={{background:this.state.buttonHint.background}}disabled={this.state.buttonHint.disabled}
+		onClick={(e)=>this.onHints()}
+	>
+	Подсказка</button>
 
 	<div className={this.state.className} style={{background:this.state.backgrounds[0]}} id="firstChange" onClick={(e)=>this.onChange(0)}>
 	{this.state.checkedChangeGame[0]===true?this.state.value[0]:this.state.valueCapital[0]}
@@ -254,7 +438,30 @@ class Game extends React.Component {
 	<button id="goBackFlags" onClick={(e)=>this.onBack()}>Назад</button>
 </div>
 
-<div id="wrapStart"  style={{display:this.state.display[1]}}>
+<div id ="end" style={{display:this.state.display.endGame}}>
+
+	
+	{this.state.counts.win>50?<div id="endText">OMG!!! <br /> You are GENIUS</div>:null}
+
+	{this.state.counts.lose>2?
+	<div>
+
+	<div id="endText">GAME OVER</div>
+	<div id="loose">ВАШ РЕЗУЛЬТАТ {
+		this.state.counts.win
+	} {(this.state.counts.win>9&&this.state.counts.win<21)||
+		(this.state.counts.win>109&&this.state.counts.win<121)?"БАЛЛОВ":
+		this.state.counts.win%10===1?"БАЛЛ":(this.state.counts.win%10 > 1 && this.state.counts.win%10 < 5)?"БАЛЛA":
+		'БАЛЛОВ'}</div>
+
+	</div>:null}
+
+
+	<button id="afterEnd" onClick={(e)=>this.onStart()}>Начать Заново</button>
+	<button id="endMenu" onClick={(e)=>this.onBack()}>В меню</button>
+</div>
+
+<div id="wrapStart"  style={{display:this.state.display.wrapStart}}>
 	<div id="earth"></div>
 	<button id="start" onClick={(e)=>this.onStart()}>ИГРА</button>
 	<div>
