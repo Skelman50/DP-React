@@ -55,7 +55,7 @@ function Table(props){
 					{	props.recordes.flagsRecordsName.map((value,index)=>{
 						if(value!=null){
 							return(
-							<tr>
+							<tr key={index}>
 								<td>{props.recordes.flagsRecordsName[index]}</td>
 								<td>{props.recordes.flagsRecordsPoint[index]}</td>
 							</tr>
@@ -65,7 +65,7 @@ function Table(props){
 					{props.recordes.capitalsRecordsName.map((value,index)=>{
 						if(value!=null){
 							return(
-							<tr>
+							<tr key={index}>
 								<td>{props.recordes.capitalsRecordsName[index]}</td>
 								<td>{props.recordes.capitalsRecordsPoint[index]}</td>
 							</tr>

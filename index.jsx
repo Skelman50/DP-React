@@ -71,20 +71,25 @@ class Start extends React.Component {
 }
 
 	componentDidMount(){
+		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
+		if(getLocal) {
+			this.setState({
+				...getLocal
+			})
+		}
+
 		let getRecords = JSON.parse(localStorage.getItem("recordes"))
-		if(getRecords!=null){
+		if(getRecords){
 		this.setState({
 			recordes:{
 				...getRecords
 			}
 		})
 	}
-
-		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
-		this.setState({
-			...getLocal
-		})
+			
 	}
+
+	
 
 	onAfterCheck(){
 		let arr = this.state.countries.all.concat()
@@ -104,7 +109,7 @@ class Start extends React.Component {
 			value:[arrSort[0].country,arrSort[1].country,
 			arrSort[2].country,arrSort[3].country],
 			valueCapital:[arrSort[0].capital,arrSort[1].capital,
-			arr[2].capital,arrSort[3].capital],
+			arrSort[2].capital,arrSort[3].capital],
 			backgrounds:[`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,
 						 `url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,`url("${require("./images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`],
 			className:['unblok','unblok','unblok','unblok'],
@@ -352,7 +357,7 @@ class Start extends React.Component {
 }
 
 	onChange(index){
-		console.log(this.state.className)
+		console.log(this.state)
 		let className = this.state.className
 		if(className[index] != "blok") {
 			this.setState({
