@@ -316,7 +316,7 @@ for(let i = 0; i < oceania.length; i++) {
 let countriesAll = change.concat()
 let countriesCopyAll = change.concat()
 
-let flagsRecordsAllCountries = JSON.stringify(0)
+/*let flagsRecordsAllCountries = JSON.stringify(0)
 	localStorage.setItem(`Флаги(Весь мир)`, flagsRecordsAllCountries)
 
 let flagsRecordsAsia = JSON.stringify(0)
@@ -343,11 +343,9 @@ let capitalsRecordsEurope
 let capitalsRecordsAfrica
 let capitalsRecordsSouthAmerica
 let capitalsRecordsNorthAmerica
-let capitalsRecordsOceania
+let capitalsRecordsOceania*/
 
 
 
 export{countriesAll as fullCounties,countriesCopyAll as countriesCopy, asiaChange,
-europeChange,africaChange,southAmericaChange,northAmericaChange,oceaniaChange,flagsRecordsAllCountries,
-flagsRecordsAsia,flagsRecordsEurope,flagsRecordsAfrica,flagsRecordsSouthAmerica,flagsRecordsNorthAmerica,
-flagsRecordsOceania};
+europeChange,africaChange,southAmericaChange,northAmericaChange,oceaniaChange};
