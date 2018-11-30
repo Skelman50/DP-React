@@ -23,7 +23,13 @@ export default function Game(props){
 	</div>
 	<div id="bonuses">
 		<div id="biscuit"></div>
-		<span id="textBonus">Wins {props.counts.win}/0</span>
+		<span id="textBonus">Wins {props.counts.win}/{props.checkedContinent.map((value,index)=>{
+			if(value===true){
+				return(
+					<span key={index}>{props.countries.copy[index].length-6}</span>
+				)
+			}
+		})}</span>
 	</div>
 	
 	

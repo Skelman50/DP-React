@@ -8,36 +8,36 @@ function Options(props){
 		<div id="options" style={{right:`${props.positionRight}%`}}>
 	<div>
 		<input type="radio" id="changeFlags" name="changeGame" defaultChecked={props.checkedChangeGame[0]} onChange={(e)=>props.onChangeGame(0)}
-		/><span>Флаги</span>
+		/>
 		<input type="radio" id="changeCapitals" name="changeGame" defaultChecked={props.checkedChangeGame[1]} onChange={(e)=>props.onChangeGame(1)}
-		/><span>Столицы</span> 
-		{/*
+		/>
+	
 		<label className="FlagGameBtn" htmlFor="changeFlags">УГАДАТЬ СТРАНУ</label>
-		<label className="CapitalGameBtn" htmlFor="changeCapitals">УГАДАТЬ СТОЛИЦУ</label>*/}
+		<label className="CapitalGameBtn" htmlFor="changeCapitals">УГАДАТЬ СТОЛИЦУ</label>	{/**/}
 	</div>
 
 	<div>
 		<input type="radio" id="changeAllContinents" name="continent" data-id="Весь мир" defaultChecked={props.checkedContinent[0]}
-		onChange={(e)=>props.onChangeContinent(0)}/> <span>Весь мир</span>
+		onChange={(e)=>props.onChangeContinent(0)}/> 
 		<input type="radio" id="changeAsia" name="continent" data-id="Азия" defaultChecked={props.checkedContinent[1]}
-		onChange={(e)=>props.onChangeContinent(1)}/> <span>Азия</span>
+		onChange={(e)=>props.onChangeContinent(1)}/> 
 		<input type="radio" id="changeEurope" name="continent" data-id="Европа" defaultChecked={props.checkedContinent[2]}
-		onChange={(e)=>props.onChangeContinent(2)}/> <span>Европа</span>
+		onChange={(e)=>props.onChangeContinent(2)}/> 
 		<input type="radio" id="changeAfrica" name="continent" data-id="Африка" defaultChecked={props.checkedContinent[3]}
-		onChange={(e)=>props.onChangeContinent(3)}/> <span>Африка</span>
+		onChange={(e)=>props.onChangeContinent(3)}/> 
 		<input type="radio" id="changeSouthAmerica" name="continent" data-id="Южная Америка" defaultChecked={props.checkedContinent[4]}
-		onChange={(e)=>props.onChangeContinent(4)}/> <span>Южная Америка</span>
+		onChange={(e)=>props.onChangeContinent(4)}/> 
 		<input type="radio" id="changeNorthAmerica" name="continent" data-id="Северная Америка" defaultChecked={props.checkedContinent[5]}
-		onChange={(e)=>props.onChangeContinent(5)}/> <span>Северная Америка</span>
+		onChange={(e)=>props.onChangeContinent(5)}/> 
 		<input type="radio" id="changeOceania" name="continent" data-id="Океания" defaultChecked={props.checkedContinent[6]}
-		onChange={(e)=>props.onChangeContinent(6)}/> <span>Океания</span>
-		{/*<label className="AllWorld"  htmlFor="changeAllContinents">ВЕСЬ МИР</label>
+		onChange={(e)=>props.onChangeContinent(6)}/> 
+		<label className="AllWorld"  htmlFor="changeAllContinents">ВЕСЬ МИР</label>
 		<label htmlFor="changeAsia"><img className="asia" src={require("./images/asia.png")} alt="asia.png" /></label>
 		<label htmlFor="changeEurope"><img className="europe" src={require("./images/europe.png")} alt="europe.png" /></label>
 		<label htmlFor="changeAfrica"><img className="africa" src={require("./images/africa.png")} alt="africa.png" /></label>
 		<label htmlFor="changeSouthAmerica"><img className="southAmerica" src={require("./images/south_america.png")} alt="south america.png" /></label>
 		<label htmlFor="changeNorthAmerica"><img className="northAmerica" src={require("./images/north_america.png")} alt="north america.png" /></label>
-		<label htmlFor="changeOceania"><img className="oceania" src={require("./images/australia.png")} alt="australia.png" /></label>*/}
+		<label htmlFor="changeOceania"><img className="oceania" src={require("./images/australia.png")} alt="australia.png" /></label>{/**/}
 		</div>
 	<button id="apply" onClick={(e)=>props.onOptions()}>Применить</button>
 </div>	
@@ -45,11 +45,57 @@ function Options(props){
 }
 
 function Table(props){
-	for(let i=0; i <props.recordes.flagsRecordsName.length; i++){
+	let arr = []
+	for(let i =0; i<props.checkedContinent.length; i++){
+		if(props.recordes.flagsRecordsName[i]===null&&props.recordes.capitalsRecordsName[i]===null){
+			arr.push(props.recordes.flagsRecordsName[i])
+			arr.push(props.recordes.capitalsRecordsName[i])
+		}
+	}
+	if(arr.length===14) {
+	return(
+	<div id="recordsTable" style={{right:`${props.positionRightTable}%`}}>
+	<h1 id="noRecords">У вас нет рекордов</h1>
+		<button id="backFromTable" onClick={(e)=>props.onRecordsTable()}>В меню</button>
+	</div>
+	)
+} else{
+	let arrName = []
+	let arrPoint = []
+	for(let i = 0; i< props.checkedContinent.length;i++){
+	arrName.push(props.recordes.flagsRecordsName[i])
+	arrName.push(props.recordes.capitalsRecordsName[i])
+	arrPoint.push(props.recordes.flagsRecordsPoint[i])
+	arrPoint.push(props.recordes.capitalsRecordsPoint[i])
+}
+		return (
+			<div id="recordsTable" style={{right:`${props.positionRightTable}%`}}>
+			<table id="records">
+				<tbody>
+				{
+						arrName.map((value,index)=>{
+							if(value!=null) {
+								return(
+									<tr><td>{arrName[index]}</td><td>{arrPoint[index]}</td></tr>
+								)
+							}
+						})	
+				
+					}
+				</tbody>
+			</table>
+			<button id="backFromTable" onClick={(e)=>props.onRecordsTable()}>В меню</button>
+		</div>
+		)
+	
+}
+
+					
+/*	for(let i = 0; i < props.checkedContinent.length; i++){
+		console.log(i)
 			if(props.recordes.flagsRecordsName[i]!=null||props.recordes.capitalsRecordsName[i]!=null){
 				return(
 					<div id="recordsTable" style={{right:`${props.positionRightTable}%`}}>
-					
 					<table id="records">
 						<tbody>
 					{	props.recordes.flagsRecordsName.map((value,index)=>{
@@ -77,15 +123,8 @@ function Table(props){
 					<button id="backFromTable" onClick={(e)=>props.onRecordsTable()}>В меню</button>
 					</div>
 				)
-			}else{
-				return(
-					<div id="recordsTable" style={{right:`${props.positionRightTable}%`}}>
-					<h1 id="noRecords">У вас нет рекордов</h1>
-					<button id="backFromTable" onClick={(e)=>props.onRecordsTable()}>В меню</button>
-					</div>
-				)
-			}
-	}
+			}	
+	}*/
 	
 }
 

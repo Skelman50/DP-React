@@ -24,7 +24,8 @@ class Start extends React.Component {
 			display: {
 				wrap:"none",
 				wrapStart:"block",
-				endGame:"none"
+				endGame:"none",
+				noRes:"block"
 			},
 			counts:{
 				win:0,
@@ -65,12 +66,11 @@ class Start extends React.Component {
 	}
 
 	componentDidUpdate(){
-		
 		let local = JSON.stringify(this.state)
 		localStorage.setItem('saveGame', local)
 }
 
-	componentDidMount(){
+	componentWillMount(){
 		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
 		if(getLocal) {
 			this.setState({
@@ -118,8 +118,10 @@ class Start extends React.Component {
 				disabled:false,
 			},
 		})	
-
-		if(this.state.counts.lose>2 || this.state.counts.win>50) {
+		this.state.checkedContinent.map((value,index) => {
+			if(value===true) {
+		
+		if(this.state.counts.lose>2 || this.state.counts.win===this.state.countries.copy[index].length-6) {
 			this.setState({
 				display:{
 					wrap:"none",
@@ -129,6 +131,8 @@ class Start extends React.Component {
 			})
 		}
 	}
+})
+}
 
 	onAnimationHints(index) {
 		for(let i=0;i<this.state.backgrounds.length;i++){
@@ -153,13 +157,14 @@ class Start extends React.Component {
 				
 				}
 			}
-		}else{for(let i = 0; i<this.state.checkedContinent.length; i++) {
-			if(this.state.checkedContinent[i]===true){
-				if(+JSON.parse(localStorage.getItem(`Cтолицы(${this.state.checkedContinentName[i]})`))<this.state.counts.win){
-					let recordesFlag = JSON.stringify(this.state.counts.win)
-					this.state.recordes.capitalsRecordsPoint[i] = this.state.counts.win
-					localStorage.setItem(`Столицы(${this.state.checkedContinentName[i]})`,recordesFlag)
-					this.state.recordes.capitalsRecordsName[i] = `Столицы(${this.state.checkedContinentName[i]})`
+		}else if(this.state.checkedChangeGame[1]===true)
+			{for(let i = 0; i<this.state.checkedContinent.length; i++) {
+				if(this.state.checkedContinent[i]===true){
+					if(+JSON.parse(localStorage.getItem(`Столицы(${this.state.checkedContinentName[i]})`))<this.state.counts.win){
+						let recordesCap = JSON.stringify(this.state.counts.win);
+						this.state.recordes.capitalsRecordsPoint[i] = this.state.counts.win
+						localStorage.setItem(`Столицы(${this.state.checkedContinentName[i]})`,recordesCap)
+						this.state.recordes.capitalsRecordsName[i] = `Столицы(${this.state.checkedContinentName[i]})`
 				}
 			
 			}
@@ -325,7 +330,6 @@ class Start extends React.Component {
 
 
 	onStart(){
-		console.log(this.state)
 	let arr = this.state.countries.copy.concat()
 
 		function compareRandom(a, b) {
