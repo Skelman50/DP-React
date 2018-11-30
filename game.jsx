@@ -72,7 +72,9 @@ export default function Game(props){
 	<button id="hint" style={{background:props.buttonHint.background}}disabled={props.buttonHint.disabled}
 		onClick={(e)=>props.onHints()}
 	>
-	Подсказка</button>
+	Подсказка({props.counts.hints}/3)</button> 
+	<button id="goBackFlags" onClick={(e)=>props.onBack()}>Назад</button> 	<br />
+	
 
 	<div  style={{background:props.backgrounds[0]}} id="firstChange" onClick={(e)=>props.onChange(0)}>
 	{props.checkedChangeGame[0]===true?props.value[0]:props.valueCapital[0]}
@@ -80,6 +82,7 @@ export default function Game(props){
 	<div  style={{background:props.backgrounds[1]}} id="secondChange" onClick={(e)=>props.onChange(1)}>
 	{props.checkedChangeGame[0]===true?props.value[1]:props.valueCapital[1]}
 	</div>
+	<br />
 	<div  style={{background:props.backgrounds[2]}} id="thirdChange" onClick={(e)=>props.onChange(2)}>
 	{props.checkedChangeGame[0]===true?props.value[2]:props.valueCapital[2]}
 	</div>
@@ -87,7 +90,9 @@ export default function Game(props){
 	{props.checkedChangeGame[0]===true?props.value[3]:props.valueCapital[3]}
 	</div>
 
-	<button id="goBackFlags" onClick={(e)=>props.onBack()}>Назад</button>
+
+
+	
 </div>
 	)
 }

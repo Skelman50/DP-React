@@ -25,11 +25,12 @@ class Start extends React.Component {
 				wrap:"none",
 				wrapStart:"block",
 				endGame:"none",
-				noRes:"block"
+				btnContinue:"none"
 			},
 			counts:{
 				win:0,
-				lose:0
+				lose:0,
+				hints:3
 			},
 			 recordes:{
 				flagsRecordsPoint:[null,null,null,null,null,null,null], 
@@ -63,6 +64,7 @@ class Start extends React.Component {
 		this.onOptions = this.onOptions.bind(this)
 		this.onRecordsTable = this.onRecordsTable.bind(this)
 		this.onRules = this.onRules.bind(this)
+		this.onContinue = this.onContinue.bind(this)
 	}
 
 	componentDidUpdate(){
@@ -71,6 +73,7 @@ class Start extends React.Component {
 }
 
 	componentWillMount(){
+		console.log(this.state)
 		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
 		if(getLocal) {
 			this.setState({
@@ -202,6 +205,7 @@ class Start extends React.Component {
 	}
 
 	onRecordsTable(){
+		
 		const this_=this;
 		if(this.state.positionRightTable===-100){
 		let id = setInterval(function(){
@@ -261,20 +265,31 @@ class Start extends React.Component {
 
 	}
 
+	onContinue(){
+		this.setState({
+			display:{
+				...this.state.display,
+				wrapStart:"none",
+				wrap:"block"
+			}
+		})
+	}
+
 
 	onBack() {
 		this.setState({
 			display:{
 				wrap:"none",
 				wrapStart:"block",
-				endGame:"none"
+				endGame:"none",
+				btnContinue:"block"
 			}
 		})
 	}
 
 
 	onHints(){
-		
+		if(this.state.counts.hints>0) {
 		this.setState({
 			buttonHint:{
 				background:`url(${require('./images/BtnRedWhtBkg.png')}) no-repeat 50% 50%/contain`,
@@ -315,7 +330,8 @@ class Start extends React.Component {
 				backgrounds:this_.state.backgrounds,
 				counts:{
 					...this_.state.counts,
-					win:this_.state.counts.win+1
+					win:this_.state.counts.win+1,
+					hints:this_.state.counts.hints-1
 				}
 			}))
 		},2000)
@@ -326,6 +342,7 @@ class Start extends React.Component {
 		},2000)
 	
 		}))
+	}
 	}
 
 
@@ -353,7 +370,8 @@ class Start extends React.Component {
 				},
 				counts:{
 					win:0,
-					lose:0
+					lose:0,
+					hints:3
 				}
 			})
 		}
@@ -381,14 +399,16 @@ class Start extends React.Component {
 								if(index===i) {
 									this_.setState({
 										counts:{
+											...this_.state.counts,
 											win:this_.state.counts.win+1,
-											lose:this_.state.counts.lose
+											lose:this_.state.counts.lose,
 										}
 									})
 									this_.saveRecords()
 								}else{
 									this_.setState({
 										counts:{
+											...this_.state.counts,
 											win:this_.state.counts.win,
 											lose:this_.state.counts.lose+1
 										}
@@ -421,7 +441,8 @@ class Start extends React.Component {
 <Game {...this.state} onHints={this.onHints} onChange={this.onChange} onBack={this.onBack}/>
 <EndGame {...this.state} onStart={this.onStart} onBack={this.onBack} />
 <StartPage {...this.state} onOptions={this.onOptions} onChangeContinent={this.onChangeContinent} 
-			onChangeGame={this.onChangeGame} onStart={this.onStart} onRecordsTable={this.onRecordsTable} onRules={this.onRules} />
+			onChangeGame={this.onChangeGame} onStart={this.onStart} onRecordsTable={this.onRecordsTable}
+			 onRules={this.onRules} onContinue={this.onContinue} />
 
 
 </div>

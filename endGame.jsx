@@ -9,12 +9,12 @@ export default function EndGame (props) {
 	
 	{	props.checkedContinent.map((value,index)=> {
 		if(value===true){
-			if (props.counts.win===props.countries.copy[index].length-6) {return (<div id="endText">OMG!!! <br /> You are GENIUS</div>)}
+			if (props.counts.win===props.countries.copy[index].length-6) {return (<div key={index} id="endText">OMG!!! <br /> You are GENIUS</div>)}
 			else if (props.counts.lose>2) {
-		return(	<div>
+		return(	<div key={index}>
 
-	<div id="endText">GAME OVER</div>
-	<div id="loose">ВАШ РЕЗУЛЬТАТ {
+	<div key={props.counts.lose} id="endText">GAME OVER</div>
+	<div key={props.counts.lose+1} id="loose">ВАШ РЕЗУЛЬТАТ {
 		props.counts.win
 	} {(props.counts.win>9&&props.counts.win<21)||
 		(props.counts.win>109&&props.counts.win<121)?"БАЛЛОВ":

@@ -15,17 +15,17 @@ text-align: center;
 
 #earth {
   position: absolute;
-  width: 1000px;
-  height: 1000px;
-  left: 43%;
-  margin-left: -340px;
+  width: 700px;
+  padding-top: 700px;
+  left: 50%;
+  margin-left: -350px;
   top:3%;
   background: url(images/earthMap.jpg) 0 0 repeat;
   border-radius: 50%;
-  background-size: 2000px;
-  animation: rotate 120s linear infinite;
+  background-size: 1400px;
+ /* animation: rotate 120s linear infinite;*/
   transform-style: preserve-3d;
-  box-shadow: inset 80px 0 260px 24px rgba(0, 0, 0, 1);
+  box-shadow: inset 60px 0 230px 18px rgba(0, 0, 0, 1);
 }
 
 #earth:after {
@@ -36,7 +36,7 @@ text-align: center;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  box-shadow: -240px 60px 260px 45px rgba(0,0,0,.9) inset;
+  box-shadow: -220px 45px 230px 35px rgba(0,0,0,.9) inset;
 }
 
 #earth:before {
@@ -51,10 +51,10 @@ text-align: center;
   background: radial-gradient(circle at 300px 300px, #fff, #000);
 }
 
-@keyframes rotate {
+/*@keyframes rotate {
   0% {background-position: 0 0;}
-  100% {background-position: 2000px 0;}
-}
+  100% {background-position: 1400px 0;}
+}*/
 #start{
   opacity: 0.55;
   display: block;
@@ -96,13 +96,13 @@ tr > td:nth-child(2){
 #backFromTable{
   opacity: 0.8;
   display: block;
-  font-size: 50px;
+  font-size: 30px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 3px;
   margin: 50px auto 0;
-  width: 250px;
-  height: 113px;
+  width: 180px;
+  height: 90px;
   background: url(images/button1.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -111,13 +111,13 @@ tr > td:nth-child(2){
 #backFromRules{
   opacity: 0.8;
   display: block;
-  font-size: 50px;
+  font-size: 30px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 3px;
   margin: 50px auto 0;
-  width: 250px;
-  height: 113px;
+  width: 180px;
+  height: 90px;
   background: url(images/buttonYellow.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -127,12 +127,12 @@ tr > td:nth-child(2){
   opacity: 0.55;
   display: block;
   margin: 0 auto;
-  font-size: 45px;
+  font-size: 30px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2.5px;  
-  width: 250px;
-  height: 113px;
+  width: 180px;
+  height: 90px;
   background: url(images/buttonViolet.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
@@ -141,13 +141,13 @@ tr > td:nth-child(2){
   opacity: 0.55;
   vertical-align: middle;
   display: inline-block;
-  font-size: 45px;
+  font-size: 30px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black;
   letter-spacing: 2.5px;
   margin: 0 auto;
-  width: 250px;
-  height: 113px;
+  width: 180px;
+  height: 90px;
   background: url(images/button3.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -157,13 +157,13 @@ tr > td:nth-child(2){
   vertical-align: middle;
   display: inline-block;
   margin-left: 7% !important;
-  font-size: 45px;
+  font-size: 30px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black;
   letter-spacing: 2.5px;
   margin: 0 auto;
-  width: 250px;
-  height: 110px;
+  width: 180px;
+  height: 90px;
   background: url(images/button4.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -173,12 +173,12 @@ tr > td:nth-child(2){
   opacity: 0.55;
   display: none;
   margin: 0 auto;
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 250px;
-  height: 113px;
+  width: 180px;
+  height: 90px;
   background: url(images/button2.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
@@ -222,32 +222,38 @@ tr > td:nth-child(2){
 
 #countryName {
   margin-top: 15px;
+   margin-bottom: 20px;
 }
 
 #flag {
-  width: 420px;
-  height: 280px;
+  width: 320px;
+  padding-top:170px;
   margin: 0 auto;
+
   opacity: .85;
 }
-#firstChange {
-  position: absolute;
-  padding-top: 20px;
-  top: 50%;
-  left: 22%;
+#firstChange,#secondChange,#fourthChange,#thirdChange {
+  /*position: absolute;*/
+  display:inline-block; 
+  padding-top: 30px;
+  margin:25px 35px;
+
+  /*top: 50%;
+  left: 22%;*/
   cursor: pointer;
   vertical-align: middle;
-  font-size: 40px;
+  font-size: 22px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color:#f4f5f9;
   letter-spacing: 2px;
-  width: 300px;
-  height: 140px;
+  width: 200px;
+  height: 100px;
   background: url(images/BtnBlkWhtBrdr.png) 50% 50%/cover;
 }
-#thirdChange{
-  position: absolute;
+/*  position: absolute;
+  display:inline-block; 
   padding-top: 20px;
+  margin:55px 25px;
   top: 66%;
   left: 22%;
   cursor: pointer;
@@ -262,8 +268,10 @@ tr > td:nth-child(2){
 }
 #secondChange {
   position: absolute;
+  display:inline-block; 
   padding-top: 20px;
-  top: 50%;
+  margin:55px 25px;
+  /*top: 50%;
   right: 22%;
   cursor: pointer;
   vertical-align: middle;
@@ -277,7 +285,9 @@ tr > td:nth-child(2){
 }
 #fourthChange {
   position: absolute;
+  display:inline-block; 
   padding-top: 20px;
+  margin:55px 25px;
   top: 66%;
   right: 22%;
   cursor: pointer;
@@ -289,7 +299,7 @@ tr > td:nth-child(2){
   width: 300px;
   height: 140px;
   background: url(images/BtnBlkWhtBrdr.png) 50% 50%/cover;
-}
+}*/
 
 #firstChange:hover, #secondChange:hover, #thirdChange:hover, #fourthChange:hover{
   color: #00bfff;
@@ -365,26 +375,6 @@ background: transparent;
 
 
 
-#hint {
-  display: inline-block;
-  margin-top: 450px;
-  margin: 0.5% auto 0;
-  font-size: 45px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color: black; 
-  letter-spacing: 2.5px;
-  width: 250px;
-  height: 113px;
-  background: url(images/button1.png) 50% 50%/cover;
-  border: none;
-  cursor: pointer;
-  opacity: 0.55;
-}
-
-#hint:hover {
-  opacity: 1;
-  transition: .5s;
-}
 
 
 #options {
@@ -576,19 +566,42 @@ margin-top: 25px;
 
 #goBackFlags {
   display: inline-block;
-  margin-top: 450px;
-  margin-left: 8%;
   opacity: 0.55;
-  font-size: 40px;
+  font-size: 15px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 250px;
-  height: 113px;
+  width: 150px;
+  height: 40px;
   background: url(images/button4.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
+  margin-left: 15px;
+  margin-top: 15px;
 }
+
+#hint {
+  display: inline-block;
+  margin: auto 0;
+  font-size: 15px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black; 
+  letter-spacing: 2.5px;
+  width: 150px;
+  height: 40px;
+  background: url(images/button1.png) 50% 50%/cover !important;
+  border: none;
+  cursor: pointer;
+  opacity: 0.55;
+   margin-right: 15px;
+   margin-top: 15px;
+}
+
+#hint:hover {
+  opacity: 1;
+  transition: .5s;
+}
+
 
 #goBackFlags:hover{
   opacity: 1;
@@ -647,4 +660,53 @@ margin-top: 10px;
   font-family: 'Prosto One', cursive;
   color: #f4f5f9;
   font-size: 3em;
+}
+
+@media (min-width: 1000px) {
+/*.forMedia {
+  margin-top: 500px;
+  }*/
+
+  #earth {
+  position: absolute;
+  width: 700px;
+  padding-top: 700px;
+  left: 50%;
+  margin-left: -350px;
+  top:3%;
+  background: url(images/earthMap.jpg) 0 0 repeat;
+  border-radius: 50%;
+  background-size: 1400px;
+  animation: rotate 120s linear infinite;
+  transform-style: preserve-3d;
+  box-shadow: inset 60px 0 230px 18px rgba(0, 0, 0, 1);
+}
+
+#earth:after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: -220px 45px 230px 35px rgba(0,0,0,.9) inset;
+}
+
+#earth:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background: radial-gradient(circle at 300px 300px, #fff, #000);
+}
+
+@keyframes rotate {
+  0% {background-position: 0 0;}
+  100% {background-position: 1400px 0;}
+}
 }

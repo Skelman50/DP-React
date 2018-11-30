@@ -76,7 +76,7 @@ function Table(props){
 						arrName.map((value,index)=>{
 							if(value!=null) {
 								return(
-									<tr><td>{arrName[index]}</td><td>{arrPoint[index]}</td></tr>
+									<tr key={index}><td>{arrName[index]}</td><td>{arrPoint[index]}</td></tr>
 								)
 							}
 						})	
@@ -86,46 +86,8 @@ function Table(props){
 			</table>
 			<button id="backFromTable" onClick={(e)=>props.onRecordsTable()}>В меню</button>
 		</div>
-		)
-	
-}
-
-					
-/*	for(let i = 0; i < props.checkedContinent.length; i++){
-		console.log(i)
-			if(props.recordes.flagsRecordsName[i]!=null||props.recordes.capitalsRecordsName[i]!=null){
-				return(
-					<div id="recordsTable" style={{right:`${props.positionRightTable}%`}}>
-					<table id="records">
-						<tbody>
-					{	props.recordes.flagsRecordsName.map((value,index)=>{
-						if(value!=null){
-							return(
-							<tr key={index}>
-								<td>{props.recordes.flagsRecordsName[index]}</td>
-								<td>{props.recordes.flagsRecordsPoint[index]}</td>
-							</tr>
-							)
-						}
-					})}
-					{props.recordes.capitalsRecordsName.map((value,index)=>{
-						if(value!=null){
-							return(
-							<tr key={index}>
-								<td>{props.recordes.capitalsRecordsName[index]}</td>
-								<td>{props.recordes.capitalsRecordsPoint[index]}</td>
-							</tr>
-							)
-						}
-					})}
-					</tbody>
-					</table>
-					<button id="backFromTable" onClick={(e)=>props.onRecordsTable()}>В меню</button>
-					</div>
-				)
-			}	
-	}*/
-	
+		)	
+	}
 }
 
 function Rules(props){
@@ -166,17 +128,16 @@ export default function StartPage(props){
 	return(
 		<div id="wrapStart"  style={{display:props.display.wrapStart}}>
 	<div id="earth"></div>
-
-	<button id="start" onClick={(e)=>props.onStart()}>
-
-	 ИГРА </button>
+<div className="forMedia">
+	<button id="start" onClick={(e)=>props.onStart()}> ИГРА </button>
 	
 	<div>
 		<button id="rules" onClick={(e)=>props.onRules()}>ПРАВИЛА</button>
 		<button id="yourRecords" onClick={(e)=>props.onRecordsTable()}>ТАБЛИЦА<br></br>РЕКОРДОВ</button>
 	</div>
 	<button id="settings" onClick={(e)=>props.onOptions()}>РЕЖИМЫ ИГРЫ</button>
-	<button id="back">ПРОДОЛЖИТЬ</button>
+	<button id="back" style={{display:props.display.btnContinue}} onClick={(e)=>props.onContinue()}>ПРОДОЛЖИТЬ</button>
+	</div>
 <Options {...props} />
 <Table {...props}/>	
 <Rules {...props} />

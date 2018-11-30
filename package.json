@@ -1,23 +1,23 @@
 {
-  "name": "my-awesome-project",
-  "version": "0.1.0",
-  "description": "This is an educational game that will increase your knowledge of geography.",
-  "devDependencies": {
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
-    "@babel/preset-stage-3": "^7.0.0",
-    "cssnano": "^4.1.7",
-    "parcel": "^1.10.3"
+  "name":"my-awesome-project",
+  "version":"0.1.0",
+  "description":"This is an educational game that will increase your knowledge of geography.",
+  "devDependencies":{
+  	"@babel/core":"^7.1.6",
+  	"@babel/preset-env":"^7.1.6",
+  	"@babel/preset-stage-3":"^7.0.0",
+  	"cssnano": "^4.1.7",
+  	"parcel":"^1.10.3"
   },
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1"
   },
-  "scripts": {
-    "start": "parcel ./index.html",
-    "build": "parcel build ./index.html --public-url /DP-React",
-    "deploy":"gh-pages-d dist"
-  },
-  "license": "MIT"
+    "scripts":{
+    	"start":"parcel ./index.html",
+    	"build":"parcel build ./index.html --public-url /Диплом_React"
+    },
+  	"license":"MIT"
 }
+
