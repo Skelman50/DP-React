@@ -51,10 +51,6 @@ text-align: center;
   background: radial-gradient(circle at 300px 300px, #fff, #000);
 }
 
-/*@keyframes rotate {
-  0% {background-position: 0 0;}
-  100% {background-position: 1400px 0;}
-}*/
 #start{
   opacity: 0.55;
   display: block;
@@ -80,17 +76,20 @@ text-align: center;
   font-family: 'Istok Web', sans-serif;
   border-color: #f4f5f9;
   border-spacing: 0;
-  border-width: 5px;
+  border-width: 2px;
   border-style: solid;
   border-collapse: collapse;
-  font-size: 50px;
+  font-size: 25px;
   letter-spacing: 3px;
 }
-td {
-  border: 5px solid;
+
+td,tr {
+  border: 2px solid;
+  width: auto;
 }
+
 tr > td:nth-child(2){
-  width: 75px;
+  width: auto;
 }
 
 #backFromTable{
@@ -101,8 +100,8 @@ tr > td:nth-child(2){
   color: black !important;
   letter-spacing: 3px;
   margin: 50px auto 0;
-  width: 180px;
-  height: 90px;
+  width: 120px;
+  height: 60px;
   background: url(images/button1.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -194,6 +193,9 @@ tr > td:nth-child(2){
   transition: .3s;
   z-index: 3;
 }
+#textLose{
+  display: block;
+}
 
 #textBonus, #textLose{
   color: #f4f5f9;
@@ -218,8 +220,6 @@ tr > td:nth-child(2){
   margin: 0 auto;
 }
 
-
-
 #countryName {
   margin-top: 15px;
    margin-bottom: 20px;
@@ -233,13 +233,9 @@ tr > td:nth-child(2){
   opacity: .85;
 }
 #firstChange,#secondChange,#fourthChange,#thirdChange {
-  /*position: absolute;*/
   display:inline-block; 
   padding-top: 30px;
   margin:25px 35px;
-
-  /*top: 50%;
-  left: 22%;*/
   cursor: pointer;
   vertical-align: middle;
   font-size: 22px;
@@ -250,56 +246,6 @@ tr > td:nth-child(2){
   height: 100px;
   background: url(images/BtnBlkWhtBrdr.png) 50% 50%/cover;
 }
-/*  position: absolute;
-  display:inline-block; 
-  padding-top: 20px;
-  margin:55px 25px;
-  top: 66%;
-  left: 22%;
-  cursor: pointer;
-  vertical-align: middle;
-  font-size: 40px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color:#f4f5f9;
-  letter-spacing: 2px;
-  width: 300px;
-  height: 140px;
-  background: url(images/BtnBlkWhtBrdr.png) 50% 50%/cover;
-}
-#secondChange {
-  position: absolute;
-  display:inline-block; 
-  padding-top: 20px;
-  margin:55px 25px;
-  /*top: 50%;
-  right: 22%;
-  cursor: pointer;
-  vertical-align: middle;
-  font-size: 40px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color:#f4f5f9;
-  letter-spacing: 2px;
-  width: 300px;
-  height: 140px;
-  background: url(images/BtnBlkWhtBrdr.png) 50% 50%/cover;
-}
-#fourthChange {
-  position: absolute;
-  display:inline-block; 
-  padding-top: 20px;
-  margin:55px 25px;
-  top: 66%;
-  right: 22%;
-  cursor: pointer;
-  vertical-align: middle;
-  font-size: 40px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color:#f4f5f9;
-  letter-spacing: 2px;
-  width: 300px;
-  height: 140px;
-  background: url(images/BtnBlkWhtBrdr.png) 50% 50%/cover;
-}*/
 
 #firstChange:hover, #secondChange:hover, #thirdChange:hover, #fourthChange:hover{
   color: #00bfff;
@@ -307,7 +253,6 @@ tr > td:nth-child(2){
 
 #blokHealh{
   position: absolute;
-  width: 120px;
   top: 5%;
   right: 2%;
   text-align: center;
@@ -321,7 +266,6 @@ background: transparent;
 
 #bonuses{
   position: absolute;
-  width: 120px;
   top: 25px;
   left: 10px;
   text-align: center;
@@ -371,10 +315,6 @@ background: transparent;
   0% {background-position: 0 0;}
   100% {background-position: 143px 0;}
 }
-
-
-
-
 
 
 #options {
@@ -662,10 +602,260 @@ margin-top: 10px;
   font-size: 3em;
 }
 
-@media (min-width: 1000px) {
-/*.forMedia {
+@media (max-width: 1000px) {
+
+#records{
+  margin: 0 auto;
+  width: 75%;
+  color: #f4f5f9;
+  font-family: 'Istok Web', sans-serif;
+  border-color: #f4f5f9;
+  border-spacing: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-collapse: collapse;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+td,tr {
+  border: 5px solid;
+  width: auto;
+}
+
+tr > td:nth-child(2){
+  width: auto;
+}
+
+#textLose{
+  display: block;
+  font-size: 32px;
+  margin-top: 15px;
+  }
+
+ #health_1,#health_2,#health_3{
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: transparent;
+}
+
+
+  #textBonus {
+  font-size: 32px;
+  }
+
+  #biscuit{
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  width: 140px;
+  height: 140px;
+  font-size: 50px;
+  vertical-align: middle;
+  background: url(images/earthMap.jpg) 0 0 repeat;
+  border-radius: 50%;
+  background-size: 280px;
+  animation: rotates 4s linear infinite;
+  transition: transform 200ms linear;
+  transform-style: preserve-3d;
+  box-shadow: inset 5px 0 25px 3px rgba(0, 0, 0, 1);
+}
+
+#biscuit:after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: -25px 7px 55px 5px rgba(0,0,0,.9) inset;
+}
+
+#biscuit:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background: radial-gradient(circle at 100px 100px, #fff, #000);
+}
+
+@keyframes rotates {
+  0% {background-position: 0 0;}
+  100% {background-position: 280px 0;}
+}
+
+  #record,#countryName {
+    font-size: 32px;
+  }
+  #continentName {
+    font-size: 48px;
+  }
+
+  #nameGame {
+    font-size: 64px
+  }
+
+
+
+  #record, #continentName, #nameGame, #countryName{
+  color: #f4f5f9;
+  font-family: 'Istok Web', sans-serif;
+}
+
+  #flag {
+  width: 500px;
+  padding-top:300px;
+  margin: 0 auto;
+
+  opacity: .85;
+}
+  .forMedia {
   margin-top: 500px;
-  }*/
+  }
+
+  #goBackFlags {
+  display: inline-block;
+  opacity: 0.55;
+  font-size: 32px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 2px;
+  width: 300px;
+  height: 120px;
+  background: url(images/button4.png) 50% 50%/cover !important;
+  border: none;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 55px;
+  margin-bottom: 100px;
+}
+
+#hint {
+  display: inline-block;
+  margin: auto 0;
+  font-size: 32px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black; 
+  letter-spacing: 2.5px;
+  width: 300px;
+  height: 120px;
+  background: url(images/button1.png) 50% 50%/cover !important;
+  border: none;
+  cursor: pointer;
+  opacity: 0.55;
+   margin-right: 15px;
+   margin-top: 35px;
+}
+#firstChange,#secondChange,#fourthChange,#thirdChange {
+  /*position: absolute;*/
+  display:inline-block; 
+  padding-top: 60px;
+  margin:25px 35px;
+
+  /*top: 50%;
+  left: 22%;*/
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color:#f4f5f9;
+  letter-spacing: 2px;
+  width: 400px;
+  height: 200px;
+  background: url(images/BtnBlkWhtBrdr.png) 50% 50%/cover;
+}
+
+#start{
+  opacity: 0.55;
+  display: block;
+  font-size: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  width: 300px;
+  height: 150px;
+  background: url(images/button1.png) 50% 50%/cover;
+  border: none;
+  cursor: pointer;
+}
+
+#settings {
+  opacity: 0.55;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 2.5px;  
+  width: 300px;
+  height: 150px;
+  background: url(images/buttonViolet.png) 50% 50%/cover !important;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+#rules {
+  opacity: 0.55;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  width: 300px;
+  height: 150px;
+  background: url(images/button3.png) 50% 50%/cover;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+#yourRecords {
+  opacity: 0.55;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 7% !important;
+  font-size: 30px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  width: 300px;
+  height: 150px;
+  background: url(images/button4.png) 50% 50%/cover;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+#back{
+  opacity: 0.55;
+  display: none;
+  margin: 0 auto;
+  font-size: 25px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black !important;
+  letter-spacing: 2px;
+  width: 300px;
+  height: 150px;
+  background: url(images/button2.png) 50% 50%/cover !important;
+  border: none;
+  cursor: pointer;
+   margin-top: 25px;
+}
+
+  }
+
+
+@media (min-width: 1000px) {
+
 
   #earth {
   position: absolute;
