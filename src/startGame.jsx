@@ -90,7 +90,7 @@ function Options(props){
 	</svg>
         <img src = {require('../assets/images/12465048.png')}/>
    </div>
-	 	<label id="AllWorld"  htmlFor="changeAllContinents">ВСЕ КОНТИНЕНТЫ</label>
+   		<label id="AllWorld"  htmlFor="changeAllContinents" onClick={(e)=>props.onInteractive(0)}>ВСЕ КОНТИНЕНТЫ</label>
 		{/*<label id="asiaInput" htmlFor="changeAsia">АЗИЯ</label>
 		<label id="europaInput" htmlFor="changeEurope">ЕВРОПА</label>
 		<label id="africaInput" htmlFor="changeAfrica">АФРИКА</label>

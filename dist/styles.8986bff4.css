@@ -405,12 +405,12 @@ input {
 
 .FlagGameBtn{
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 100px;
-  height: 50px;
+  width: 135px;
+  height: 60px;
   background: url(buttonOrange.20c91942.png) 50% 50%/cover !important;
   cursor: pointer;
 }
@@ -418,12 +418,12 @@ input {
 .CapitalGameBtn{
   display: inline-block;
   margin-left: 15%; 
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 100px;
-  height: 50px;
+  width: 135px;
+  height: 60px;
   background: url(buttonOrange.20c91942.png) 50% 50%/cover !important;
   cursor: pointer;
 }
@@ -962,7 +962,7 @@ tr > td:nth-child(2){
   border: none;
   cursor: pointer;
   margin-left: 15px;
-  margin-top: 55px;
+  margin-top: 35px;
   margin-bottom: 100px;
 }
 

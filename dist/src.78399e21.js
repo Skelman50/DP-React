@@ -29779,7 +29779,7 @@ function Game(props) {
     onClick: function onClick(e) {
       return props.onHints();
     }
-  }, "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430(", props.counts.hints, "/3)"), _react.default.createElement("button", {
+  }, "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430 (", props.counts.hints, "/3)"), _react.default.createElement("button", {
     id: "goBackFlags",
     onClick: function onClick(e) {
       return props.onBack();
@@ -30029,7 +30029,10 @@ function Options(props) {
     src: require('../assets/images/12465048.png')
   })), _react.default.createElement("label", {
     id: "AllWorld",
-    htmlFor: "changeAllContinents"
+    htmlFor: "changeAllContinents",
+    onClick: function onClick(e) {
+      return props.onInteractive(0);
+    }
   }, "\u0412\u0421\u0415 \u041A\u041E\u041D\u0422\u0418\u041D\u0415\u041D\u0422\u042B"), _react.default.createElement("button", {
     id: "apply",
     onClick: function onClick(e) {
@@ -30712,7 +30715,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 _reactDom.default.render(_react.default.createElement(Start, null), document.getElementById('root'));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/es/index.js","./countries":"countries.js","./game":"game.jsx","./endGame":"endGame.jsx","./startGame":"startGame.jsx","../assets/images/BtnBlkWhtBrdr.png":"../assets/images/BtnBlkWhtBrdr.png","../assets/images/button1.png":"../assets/images/button1.png","../assets/images/buttonDblue.png":"../assets/images/buttonDblue.png","../assets/images/BtnRedWhtBkg.png":"../assets/images/BtnRedWhtBkg.png","../assets/images/BtnDgreen.png":"../assets/images/BtnDgreen.png"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/es/index.js","./countries":"countries.js","./game":"game.jsx","./endGame":"endGame.jsx","./startGame":"startGame.jsx","../assets/images/BtnBlkWhtBrdr.png":"../assets/images/BtnBlkWhtBrdr.png","../assets/images/button1.png":"../assets/images/button1.png","../assets/images/buttonDblue.png":"../assets/images/buttonDblue.png","../assets/images/BtnRedWhtBkg.png":"../assets/images/BtnRedWhtBkg.png","../assets/images/BtnDgreen.png":"../assets/images/BtnDgreen.png"}],"../../../Users/xyahp/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -30739,7 +30742,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59302" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49956" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -30881,5 +30884,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.jsx"], null)
+},{}]},{},["../../../Users/xyahp/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.jsx"], null)
 //# sourceMappingURL=/src.78399e21.map
