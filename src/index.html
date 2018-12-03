@@ -15,7 +15,7 @@
 <script type="text/javascript" src="index.jsx"></script>
 <script>
 	if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
-	  navigator.serviceWorker.register('/Guess-the-country/sw.js', { scope: '/Guess-the-country/' });
+	  navigator.serviceWorker.register('./sw.js', { scope: '/Guess-the-country/' });
 	};
   </script>
 </body>
