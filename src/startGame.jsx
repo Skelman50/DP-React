@@ -16,24 +16,8 @@ function Options(props){
 		<label className="CapitalGameBtn" htmlFor="changeCapitals">УГАДАТЬ СТОЛИЦУ</label>	{/**/}
 	</div>
 
-	<div>
-		
-		<input type="radio" id="changeAllContinents" name="continent" defaultChecked={props.checkedContinent[0]}
-		onChange={(e)=>props.onChangeContinent(0)}/> 
-		<input type="radio" id="changeAsia" name="continent" defaultChecked={props.checkedContinent[1]}
-		onChange={(e)=>props.onChangeContinent(1)}/> 
-		<input type="radio" id="changeEurope" name="continent" defaultChecked={props.checkedContinent[2]}
-		onChange={(e)=>props.onChangeContinent(2)}/> 
-		<input type="radio" id="changeAfrica" name="continent"  defaultChecked={props.checkedContinent[3]}
-		onChange={(e)=>props.onChangeContinent(3)}/> 
-		<input type="radio" id="changeSouthAmerica" name="continent" defaultChecked={props.checkedContinent[4]}
-		onChange={(e)=>props.onChangeContinent(4)}/> 
-		<input type="radio" id="changeNorthAmerica" name="continent" defaultChecked={props.checkedContinent[5]}
-		onChange={(e)=>props.onChangeContinent(5)}/> 
-		<input type="radio" id="changeOceania" name="continent" defaultChecked={props.checkedContinent[6]}
-		onChange={(e)=>props.onChangeContinent(6)}/> 
-		</div>
-		 <div className="map">
+	
+	 <div className="map">
        <svg viewBox = "0 0 1000 648">
             <path d = "m 377.87264,305.66038 37.4434,-48.14151 56.16509,-6.11321 v 14.90094 l 28.65566,10.69812 12.22642,
             -10.31604 37.44339,9.55189 -9.16981,6.49528 36.67925,66.48113 29.41981,-3.43868 -35.53302,60.36793 0.38208,
@@ -87,17 +71,37 @@ function Options(props){
                 151.8345 0.54034,11.8874 10.26639,-10.26639 z m 56.19498,19.45211 8.10504,-8.64538 22.69413,-8.64538 -15.12942,17.8311 z m 39.44455,
                 -24.31513 1.08067,7.02437 17.8311,-14.04874 -7.02437,-0.54034 -0.54034,-10.26639 -1.62101,11.34706 z"
 				onClick={(e)=>props.onInteractive(6)} style={{opacity:props.path.opacity[6]}}/>
+				
 	</svg>
         <img src = {require('../assets/images/12465048.png')}/>
+		<div id="AllWorld" onClick={(e)=>props.onInteractive(0)}>ВСЕ СТРАНЫ </div>
    </div>
    		<label id="AllWorld"  htmlFor="changeAllContinents" onClick={(e)=>props.onInteractive(0)}>ВСЕ КОНТИНЕНТЫ</label>
 		{/*<label id="asiaInput" htmlFor="changeAsia">АЗИЯ</label>
+
+		<input type="radio" id="changeAllContinents" name="continent" defaultChecked={props.checkedContinent[0]}
+		onChange={(e)=>props.onChangeContinent(0)}/> 
+		<input type="radio" id="changeAsia" name="continent" defaultChecked={props.checkedContinent[1]}
+		onChange={(e)=>props.onChangeContinent(1)}/> 
+		<input type="radio" id="changeEurope" name="continent" defaultChecked={props.checkedContinent[2]}
+		onChange={(e)=>props.onChangeContinent(2)}/> 
+		<input type="radio" id="changeAfrica" name="continent"  defaultChecked={props.checkedContinent[3]}
+		onChange={(e)=>props.onChangeContinent(3)}/> 
+		<input type="radio" id="changeSouthAmerica" name="continent" defaultChecked={props.checkedContinent[4]}
+		onChange={(e)=>props.onChangeContinent(4)}/> 
+		<input type="radio" id="changeNorthAmerica" name="continent" defaultChecked={props.checkedContinent[5]}
+		onChange={(e)=>props.onChangeContinent(5)}/> 
+		<input type="radio" id="changeOceania" name="continent" defaultChecked={props.checkedContinent[6]}
+		onChange={(e)=>props.onChangeContinent(6)}/> 
+	 	{/*<label id="AllWorld"  htmlFor="changeAllContinents" onClick={(e)=>props.onInteractive(0)}>ВСЕ КОНТИНЕНТЫ</label>
+		<label id="asiaInput" htmlFor="changeAsia">АЗИЯ</label>
 		<label id="europaInput" htmlFor="changeEurope">ЕВРОПА</label>
 		<label id="africaInput" htmlFor="changeAfrica">АФРИКА</label>
 		<label id="sAmericaInput" htmlFor="changeSouthAmerica">ЮЖНАЯ АМЕРИКА</label>
 		<label id="nAmericaInput" htmlFor="changeNorthAmerica">СЕВЕРНАЯ АМЕРИКА</label>
 		<label id="oceaniaInput" htmlFor="changeOceania">ОКЕАНИЯ</label>
 		</div>*/}
+
 	<button id="apply" onClick={(e)=>props.onOptions()}>Применить</button>
 </div>	
 	)
