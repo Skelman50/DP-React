@@ -72,7 +72,8 @@ export default function Game(props){
 	<button id="hint" style={{background:props.buttonHint.background}}disabled={props.buttonHint.disabled}
 		onClick={(e)=>props.onHints()}
 	>
-	Подсказка({props.counts.hints}/3)</button> 
+	Подсказка ({props.counts.hints}/3)
+	</button> 
 	<button id="goBackFlags" onClick={(e)=>props.onBack()}>Назад</button> 	<br />
 	
 

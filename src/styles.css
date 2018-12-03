@@ -8,7 +8,7 @@ text-align: center;
 
 
 #wrapStart {
-  padding-top: 250px;
+  padding-top: 300px;
   position: relative;
   height: 100vh;
   background: url(../assets/images/46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg) 50% 50%/cover;
@@ -17,14 +17,14 @@ text-align: center;
 
 #earth {
   position: absolute;
-  width: 700px;
-  padding-top: 700px;
+  width: 900px;
+  padding-top: 900px;
   left: 50%;
-  margin-left: -350px;
-  top:3%;
+  margin-left: -450px;
+  top:29%;
   background: url(../assets/images/earthMap.jpg) 0 0 repeat;
   border-radius: 50%;
-  background-size: 1400px;
+  background-size: 1800px;
  /* animation: rotate 120s linear infinite;*/
   transform-style: preserve-3d;
   box-shadow: inset 60px 0 230px 18px rgba(0, 0, 0, 1);
@@ -61,8 +61,8 @@ text-align: center;
   color: black !important;
   letter-spacing: 3px;
   margin: 0 auto;
-  width: 250px;
-  height: 90px;
+  width: 306px;
+  height: 137px;
   background: url(../assets/images/button1.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -81,7 +81,7 @@ text-align: center;
   border-width: 2px;
   border-style: solid;
   border-collapse: collapse;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 3px;
 }
 
@@ -97,13 +97,13 @@ tr > td:nth-child(2){
 #backFromTable{
   opacity: 0.8;
   display: block;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 3px;
   margin: 50px auto 0;
-  width: 120px;
-  height: 60px;
+  width: 250px;
+  height: 113px;
   background: url(../assets/images/button1.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -112,13 +112,13 @@ tr > td:nth-child(2){
 #backFromRules{
   opacity: 0.8;
   display: block;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 3px;
   margin: 50px auto 0;
-  width: 180px;
-  height: 90px;
+  width: 280px;
+  height: 125px;
   background: url(../assets/images/buttonYellow.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -128,28 +128,28 @@ tr > td:nth-child(2){
   opacity: 0.55;
   display: block;
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2.5px;  
-  width: 180px;
-  height: 90px;
+  width: 306px;
+  height: 137px;
   background: url(../assets/images/buttonViolet.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 #rules {
   opacity: 0.55;
   vertical-align: middle;
   display: inline-block;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black;
   letter-spacing: 2.5px;
   margin: 0 auto;
-  width: 180px;
-  height: 90px;
+  width: 306px;
+  height: 137px;
   background: url(../assets/images/button3.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -159,13 +159,13 @@ tr > td:nth-child(2){
   vertical-align: middle;
   display: inline-block;
   margin-left: 7% !important;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black;
   letter-spacing: 2.5px;
   margin: 0 auto;
-  width: 180px;
-  height: 90px;
+  width: 306px;
+  height: 137px;
   background: url(../assets/images/button4.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -175,12 +175,12 @@ tr > td:nth-child(2){
   opacity: 0.55;
   display: none;
   margin: 0 auto;
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 180px;
-  height: 90px;
+  width: 250px;
+  height: 125px;
   background: url(../assets/images/button2.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
@@ -230,24 +230,23 @@ tr > td:nth-child(2){
 }
 
 #flag {
-  width: 320px;
-  padding-top:170px;
+  width: 500px;
+  height: 280px;
   margin: 0 auto;
-
   opacity: .85;
 }
 #firstChange,#secondChange,#fourthChange,#thirdChange {
   display:inline-block; 
-  padding-top: 30px;
+ padding-top: 45px;
   margin:20px 30px;
   cursor: pointer;
   vertical-align: middle;
-  font-size: 22px;
+  font-size: 35px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color:#f4f5f9;
   letter-spacing: 2px;
-  width: 200px;
-  height: 100px;
+  width: 320px;
+  height: 150px;
   background: url(../assets/images/BtnBlkWhtBrdr.png) 50% 50%/cover;
 }
 
@@ -263,8 +262,8 @@ tr > td:nth-child(2){
 }
 #health_1,#health_2,#health_3{
 display: inline-block;
-width: 30px;
-height: 30px;
+width: 50px;
+height: 50px;
 background: transparent;
 }
 
@@ -279,13 +278,13 @@ background: transparent;
   display: inline-block;
   position: relative;
   margin-left: 10px;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   font-size: 50px;
   vertical-align: middle;
   background: url(../assets/images/earthMap.jpg) 0 0 repeat;
   border-radius: 50%;
-  background-size: 143px;
+  background-size: 200px;
   animation: rotates 4s linear infinite;
   transition: transform 200ms linear;
   transform-style: preserve-3d;
@@ -317,7 +316,7 @@ background: transparent;
 
 @keyframes rotates {
   0% {background-position: 0 0;}
-  100% {background-position: 143px 0;}
+  100% {background-position: 200px 0;}
 }
 
 
@@ -554,12 +553,12 @@ margin-top: 25px;
 #goBackFlags {
   display: inline-block;
   opacity: 0.55;
-  font-size: 15px;
+  font-size: 23px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
   width: 150px;
-  height: 40px;
+  height: 67px;
   background: url(../assets/images/button4.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
@@ -569,13 +568,14 @@ margin-top: 25px;
 
 #hint {
   display: inline-block;
+  vertical-align: top;
   margin: auto 0;
-  font-size: 15px;
+  font-size: 23px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black; 
   letter-spacing: 2.5px;
   width: 150px;
-  height: 40px;
+  height: 67px;
   background: url(../assets/images/button1.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
@@ -932,7 +932,7 @@ tr > td:nth-child(2){
   color: black !important;
   letter-spacing: 2px;
   width: 300px;
-  height: 120px;
+  height: 134px;
   background: url(../assets/images/button4.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
@@ -949,7 +949,7 @@ tr > td:nth-child(2){
   color: black; 
   letter-spacing: 2.5px;
   width: 300px;
-  height: 120px;
+  height: 134px;
   background: url(../assets/images/button1.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
@@ -968,7 +968,7 @@ tr > td:nth-child(2){
   font-family: 'Ubuntu Condensed', sans-serif;
   color:#f4f5f9;
   letter-spacing: 2px;
-  width: 400px;
+  width: 420px;
   height: 200px;
   background: url(../assets/images/BtnBlkWhtBrdr.png) 50% 50%/cover;
 }
@@ -992,7 +992,7 @@ tr > td:nth-child(2){
   opacity: 0.55;
   display: block;
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2.5px;  
@@ -1007,7 +1007,7 @@ tr > td:nth-child(2){
   opacity: 0.55;
   vertical-align: middle;
   display: inline-block;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black;
   letter-spacing: 2.5px;
@@ -1024,7 +1024,7 @@ tr > td:nth-child(2){
   vertical-align: middle;
   display: inline-block;
   margin-left: 7% !important;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black;
   letter-spacing: 2.5px;
@@ -1071,25 +1071,25 @@ tr > td:nth-child(2){
 }
 
 #rulesSheet > h2{
-  font-size: 25px;
+  font-size: 35px;
 }
 
 #rulesSheet > div{
-  font-size: 20px;
+  font-size: 28px;
   margin-top: 35px;
 }
 
 
   #earth {
   position: absolute;
-  width: 700px;
-  padding-top: 700px;
+  width: 950px;
+  padding-top: 950px;
   left: 50%;
-  margin-left: -350px;
+  margin-left: -475px;
   top:3%;
   background: url(../assets/images/earthMap.jpg) 0 0 repeat;
   border-radius: 50%;
-  background-size: 1400px;
+  background-size: 1900px;
   animation: rotate 120s linear infinite;
   transform-style: preserve-3d;
   box-shadow: inset 60px 0 230px 18px rgba(0, 0, 0, 1);
@@ -1120,6 +1120,6 @@ tr > td:nth-child(2){
 
 @keyframes rotate {
   0% {background-position: 0 0;}
-  100% {background-position: 1400px 0;}
+  100% {background-position: 1900px 0;}
 }
 }
