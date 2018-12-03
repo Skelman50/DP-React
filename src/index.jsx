@@ -212,6 +212,13 @@ class Start extends React.Component {
 	onInteractive(index){
 		
 		for(let i=0; i<this.state.checkedContinent.length;i++) {
+			if(index===0) {
+				for(let i=0; i<this.state.checkedContinent.length;i++) {
+					this.state.checkedContinent[0]=true;
+					this.state.checkedContinent[i]=false;
+					this.state.path.opacity[i]=0.1
+			}
+		} else{
 			if(i===index){
 				this.state.checkedContinent[i]=true;
 				this.state.path.opacity[i]=0.1
@@ -220,10 +227,10 @@ class Start extends React.Component {
 				this.state.path.opacity[i]=0.7
 			}
 		}
+	}
 		this.setState({
 			checkedContinent:this.state.checkedContinent
 		})
-		this.forceUpdate()
 		
 	}
 
