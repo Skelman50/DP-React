@@ -38,6 +38,9 @@ class Start extends React.Component {
 				capitalsRecordsPoint:[null,null,null,null,null,null,null],
 				capitalsRecordsName:[null,null,null,null,null,null,null],
 			},
+			path:{
+				opacity:[0.7,0.7,0.7,0.7,0.7,0.7,0.7]
+			},
 			buttonHint:{
 				background:'',
 				disabled:false,
@@ -66,15 +69,16 @@ class Start extends React.Component {
 		this.onRules = this.onRules.bind(this)
 		this.onContinue = this.onContinue.bind(this)
 		this.onBackFromEnd = this.onBackFromEnd.bind(this)
+		this.onInteractive = this.onInteractive.bind(this)
 	}
 
 	componentDidUpdate(){
+		
 		let local = JSON.stringify(this.state)
 		localStorage.setItem('saveGame', local)
 }
 
 	componentWillMount(){
-		console.log(this.state)
 		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
 		if(getLocal) {
 			this.setState({
@@ -203,6 +207,24 @@ class Start extends React.Component {
 		this.setState({
 			checkedContinent:checked
 		})
+	}
+
+	onInteractive(index){
+		
+		for(let i=0; i<this.state.checkedContinent.length;i++) {
+			if(i===index){
+				this.state.checkedContinent[i]=true;
+				this.state.path.opacity[i]=0.1
+			}else{
+				this.state.checkedContinent[i]=false;
+				this.state.path.opacity[i]=0.7
+			}
+		}
+		this.setState({
+			checkedContinent:this.state.checkedContinent
+		})
+		this.forceUpdate()
+		
 	}
 
 	onRecordsTable(){
@@ -455,7 +477,7 @@ class Start extends React.Component {
 	<Game {...this.state} onHints={this.onHints} onChange={this.onChange} onBack={this.onBack}/>
 	<StartPage {...this.state} onOptions={this.onOptions} onChangeContinent={this.onChangeContinent} 
 					onChangeGame={this.onChangeGame} onStart={this.onStart} onRecordsTable={this.onRecordsTable}
-					 onRules={this.onRules} onContinue={this.onContinue} />
+					 onRules={this.onRules} onContinue={this.onContinue} onInteractive={this.onInteractive} />
 	<EndGame {...this.state} onStart={this.onStart} onBackFromEnd={this.onBackFromEnd} />
 
 </div>
