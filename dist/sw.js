@@ -813,7 +813,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "188ad5eadb8d93d7ea7e52e0630b48b9"
+    "revision": "bb464a4dc83fb7bf612edff8b40e0d77"
   },
   {
     "url": "iq.6495574f.png",
@@ -1062,6 +1062,10 @@ self.__precacheManifest = [
   {
     "url": "ma.4b4519a0.png",
     "revision": "b12163d21c462ebebd52ff37504e1b9a"
+  },
+  {
+    "url": "manifest.5afddc78.webmanifest",
+    "revision": "16908a5d288ab2aca487256800ae76aa"
   },
   {
     "url": "manifest.ec85e99e.webmanifest",
