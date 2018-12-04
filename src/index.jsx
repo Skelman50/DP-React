@@ -78,7 +78,22 @@ class Start extends React.Component {
 		localStorage.setItem('saveGame', local)
 }
 
+	componentDidMount(){
+		this.setState({
+			display:{
+				...this.state.display,
+				wrapStart:'block'
+			}
+		})
+	}
+
 	componentWillMount(){
+		this.setState({
+			display:{
+				...this.state.display,
+				wrapStart:'none'
+			}
+		})
 		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
 		if(getLocal) {
 			this.setState({

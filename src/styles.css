@@ -6,6 +6,17 @@ margin: 0;
 text-align: center;
 }
 
+.loader {
+  padding-top: 300px;
+  height: 100vh;
+  background: #00bfff;
+  text-align: center;
+}
+
+.loader h1 {
+  font-size: 50px;
+}
+
 
 #wrapStart {
   padding-top: 300px;
@@ -544,7 +555,7 @@ input {
   top: 0;
   right: -100%;
   margin: 0 auto;
-  background:url(../assets/images/funnyWmap.png) 50% 50%/cover rgba( 0, 0, 0, 0.8);
+  background:url(../assets/images/funnyWmap.jpg) 50% 50%/cover rgba( 0, 0, 0, 0.8);
   background-blend-mode: multiply;
   padding-top: 25px;
 }
