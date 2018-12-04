@@ -421,7 +421,6 @@ class Start extends React.Component {
 }
 
 	onChange(index){
-		console.log(this.state)
 		let className = this.state.className
 		if(className[index] != "blok") {
 			this.setState({
