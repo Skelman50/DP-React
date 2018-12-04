@@ -17,8 +17,8 @@
     "react-router-dom": "^4.3.1"
   },
   "scripts": {
-    "start": "parcel ./index.html",
-    "build": "parcel build ./index.html --public-url /Диплом_React"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url '.' Guess-the-country"
   },
   "license": "MIT"
 }
