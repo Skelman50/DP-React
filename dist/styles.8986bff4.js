@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../Users/xyahp/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -136,7 +136,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../Users/xyahp/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -171,12 +171,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../Users/xyahp/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\assets\\images\\46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg":[["46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.7e8769f3.jpg","../assets/images/46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg"],"../assets/images/46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg"],"./..\\assets\\images\\earthMap.jpg":[["earthMap.ab2dcfaa.jpg","../assets/images/earthMap.jpg"],"../assets/images/earthMap.jpg"],"./..\\assets\\images\\button1.png":[["button1.ca97618e.png","../assets/images/button1.png"],"../assets/images/button1.png"],"./..\\assets\\images\\buttonYellow.png":[["buttonYellow.df7b7209.png","../assets/images/buttonYellow.png"],"../assets/images/buttonYellow.png"],"./..\\assets\\images\\buttonViolet.png":[["buttonViolet.a054590d.png","../assets/images/buttonViolet.png"],"../assets/images/buttonViolet.png"],"./..\\assets\\images\\button3.png":[["button3.87318411.png","../assets/images/button3.png"],"../assets/images/button3.png"],"./..\\assets\\images\\button4.png":[["button4.7023931b.png","../assets/images/button4.png"],"../assets/images/button4.png"],"./..\\assets\\images\\button2.png":[["button2.b633fd6c.png","../assets/images/button2.png"],"../assets/images/button2.png"],"./..\\assets\\images\\karta_mira.jpg":[["karta_mira.c43497c5.jpg","../assets/images/karta_mira.jpg"],"../assets/images/karta_mira.jpg"],"./..\\assets\\images\\BtnBlkWhtBrdr.png":[["BtnBlkWhtBrdr.d912f423.png","../assets/images/BtnBlkWhtBrdr.png"],"../assets/images/BtnBlkWhtBrdr.png"],"./..\\assets\\images\\paper_texture3878.jpg":[["paper_texture3878.c5efe285.jpg","../assets/images/paper_texture3878.jpg"],"../assets/images/paper_texture3878.jpg"],"./..\\assets\\images\\buttonOrange.png":[["buttonOrange.20c91942.png","../assets/images/buttonOrange.png"],"../assets/images/buttonOrange.png"],"./..\\assets\\images\\funnyWmap.png":[["funnyWmap.4c2f2676.png","../assets/images/funnyWmap.png"],"../assets/images/funnyWmap.png"],"_css_loader":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\assets\\images\\46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg":[["46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.7e8769f3.jpg","../assets/images/46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg"],"../assets/images/46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg"],"./..\\assets\\images\\earthMap.jpg":[["earthMap.ab2dcfaa.jpg","../assets/images/earthMap.jpg"],"../assets/images/earthMap.jpg"],"./..\\assets\\images\\button1.png":[["button1.ca97618e.png","../assets/images/button1.png"],"../assets/images/button1.png"],"./..\\assets\\images\\buttonYellow.png":[["buttonYellow.df7b7209.png","../assets/images/buttonYellow.png"],"../assets/images/buttonYellow.png"],"./..\\assets\\images\\buttonViolet.png":[["buttonViolet.a054590d.png","../assets/images/buttonViolet.png"],"../assets/images/buttonViolet.png"],"./..\\assets\\images\\button3.png":[["button3.87318411.png","../assets/images/button3.png"],"../assets/images/button3.png"],"./..\\assets\\images\\button4.png":[["button4.7023931b.png","../assets/images/button4.png"],"../assets/images/button4.png"],"./..\\assets\\images\\button2.png":[["button2.b633fd6c.png","../assets/images/button2.png"],"../assets/images/button2.png"],"./..\\assets\\images\\karta_mira.jpg":[["karta_mira.c43497c5.jpg","../assets/images/karta_mira.jpg"],"../assets/images/karta_mira.jpg"],"./..\\assets\\images\\BtnBlkWhtBrdr.png":[["BtnBlkWhtBrdr.d912f423.png","../assets/images/BtnBlkWhtBrdr.png"],"../assets/images/BtnBlkWhtBrdr.png"],"./..\\assets\\images\\paper_texture3878.jpg":[["paper_texture3878.c5efe285.jpg","../assets/images/paper_texture3878.jpg"],"../assets/images/paper_texture3878.jpg"],"./..\\assets\\images\\buttonOrange.png":[["buttonOrange.20c91942.png","../assets/images/buttonOrange.png"],"../assets/images/buttonOrange.png"],"./..\\assets\\images\\funnyWmap.png":[["funnyWmap.4c2f2676.png","../assets/images/funnyWmap.png"],"../assets/images/funnyWmap.png"],"_css_loader":"../../../Users/xyahp/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../Users/xyahp/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -203,7 +203,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61665" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53132" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -345,4 +345,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../Users/xyahp/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)

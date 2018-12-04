@@ -74,7 +74,7 @@ function Options(props){
 				
 	</svg>
         <img src = {require('../assets/images/12465048.png')}/>
-		<div id="AllWorld" onClick={(e)=>props.onInteractive(0)}>ВСЕ СТРАНЫ </div>
+		<div id="AllWorld" onClick={(e)=>props.onInteractive(0)}>ВЕСЬ МИР</div>
    </div>
 
 		<input type="radio" id="changeAllContinents" name="continent" defaultChecked={props.checkedContinent[0]}

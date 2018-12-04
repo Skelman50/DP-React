@@ -216,12 +216,12 @@ class Start extends React.Component {
 				for(let i=0; i<this.state.checkedContinent.length;i++) {
 					this.state.checkedContinent[0]=true;
 					this.state.checkedContinent[i]=false;
-					this.state.path.opacity[i]=0.1
+					this.state.path.opacity[i]=0.1;
 			}
 		} else{
 			if(i===index){
 				this.state.checkedContinent[i]=true;
-				this.state.path.opacity[i]=0.1
+				this.state.path.opacity[i]=0.1;
 			}else{
 				this.state.checkedContinent[i]=false;
 				this.state.path.opacity[i]=0.7

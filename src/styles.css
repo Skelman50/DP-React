@@ -175,11 +175,11 @@ tr > td:nth-child(2){
   opacity: 0.55;
   display: none;
   margin: 0 auto;
-  font-size: 35px;
+  font-size: 40px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 250px;
+  width: 280px;
   height: 125px;
   background: url(../assets/images/button2.png) 50% 50%/cover !important;
   border: none;
@@ -189,10 +189,10 @@ tr > td:nth-child(2){
   outline: none;
 }
 
-#start:hover, #settings:hover, #rules:hover, #yourRecords:hover, #back:hover, #backFromTable:hover, .AllWorld:hover, 
+#start:hover, #settings:hover, #rules:hover, #yourRecords:hover, #back:hover, #backFromTable:hover, #AllWorld:hover, 
 .FlagGameBtn:hover, .CapitalGameBtn:hover, #apply:hover, #afterEnd:hover, #endMenu:hover, #backFromRules:hover{
   opacity: 1;
-  transform: scale(1.35);
+  transform: scale(1.25);
   transition: .3s;
   z-index: 3;
 }
@@ -388,44 +388,45 @@ input {
 #AllWorld{
   display: inline-block;
   position: absolute;
-  left:50%;
-  bottom: 15%;
-  margin-left: -75px;
-  padding-top: 25px;
-  width: 180px;
-  height: 120px;
+  left:46%;
+  bottom: -7%;
+  padding-top: 15px;
+  width: 160px;
+  height: 70px;
   cursor: pointer;
+  background: url(../assets/images/button3.png) 50% 50%/cover;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
-  font-size: 30px;
+  font-size: 27px;
   font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
 }
 
 
 .FlagGameBtn{
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 100px;
-  height: 50px;
+  width: 135px;
+  height: 60px;
   background: url(../assets/images/buttonOrange.png) 50% 50%/cover !important;
   cursor: pointer;
+  transition: .5s;
 }
 
 .CapitalGameBtn{
   display: inline-block;
   margin-left: 15%; 
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 100px;
-  height: 50px;
+  width: 135px;
+  height: 60px;
   background: url(../assets/images/buttonOrange.png) 50% 50%/cover !important;
   cursor: pointer;
+  transition: .5s;
 }
 
 
@@ -524,20 +525,13 @@ input {
   color: black !important;
 }
 
-#asiaInput:hover,#oceaniaInput:hover,#nAmericaInput:hover,#sAmericaInput:hover,
-#africaInput:hover,#europaInput:hover,#AllWorld:hover{
- background: url(../assets/images/button1.png) 50% 50%/cover;
- opacity: 0.8;
-}
-
 #changeAsia:checked ~ #asiaInput,#changeEurope:checked ~ #europaInput,
 #changeAfrica:checked ~ #africaInput,#changeSouthAmerica:checked ~ #sAmericaInput,
 #changeNorthAmerica:checked ~ #nAmericaInput,#changeOceania:checked ~ #oceaniaInput,
 #changeAllContinents:checked ~ #AllWorld,#changeFlags:checked ~ .FlagGameBtn,
 #changeCapitals:checked ~ .CapitalGameBtn {
  background: url(../assets/images/button1.png) 50% 50%/cover;
- transform: scale(1.2);
- color:red !important;
+ transform: scale(1.35);
  opacity:1;
 }
 
@@ -558,15 +552,15 @@ input {
 #apply{
   position: absolute;
   bottom: 5%;
-  left: 44%;
+  left: 46%;
   display: block;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 27px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black; 
   letter-spacing: 2.5px;
-  width: 150px;
-  height: 50px;
+  width: 160px;
+  height: 70px;
   background: url(../assets/images/buttonViolet.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -676,38 +670,41 @@ margin-top: 10px;
 
 @media (max-width: 1000px) {
 
+  #options{
+    padding-top: 20%; 
+  }
+
+  svg{
+    width:102%;
+  }
+
   #apply{
   position: absolute;
-  bottom: 2%;
-  left: 44%;
-  display: block;
-  margin: 0 auto;
+  bottom: 20%;
+  left: 38%;
   font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black; 
   letter-spacing: 2.5px;
-  width: 255px;
-  height: 100px;
+  width: 275px;
+  height: 120px;
   background: url(../assets/images/buttonViolet.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
 }
 
 #AllWorld{
-  display: inline-block;
   position: absolute;
-  left:50%;
-  bottom: 12%;
-  margin-left: -75px;
+  left:38%;
+  bottom: -20%;
   padding-top: 10px;
-  width: 300px;
-  height: 140px;
+  width: 275px;
+  height: 120px;
   cursor: pointer;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
   font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
 }
 
 
@@ -718,7 +715,7 @@ margin-top: 10px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 200px;
+  width: 275px;
   height: 120px;
   background: url(../assets/images/buttonOrange.png) 50% 50%/cover !important;
   cursor: pointer;
@@ -732,10 +729,11 @@ margin-top: 10px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 200px;
+  width: 275px;
   height: 120px;
   background: url(../assets/images/buttonOrange.png) 50% 50%/cover !important;
   cursor: pointer;
+  
 }
 
 
@@ -946,7 +944,7 @@ tr > td:nth-child(2){
   opacity: .85;
 }
   .forMedia {
-  margin-top: 500px;
+  margin-top: 30%;
   }
 
   #goBackFlags {
@@ -962,7 +960,7 @@ tr > td:nth-child(2){
   border: none;
   cursor: pointer;
   margin-left: 15px;
-  margin-top: 55px;
+  margin-top: 35px;
   margin-bottom: 100px;
 }
 
@@ -1006,7 +1004,7 @@ tr > td:nth-child(2){
   color: black !important;
   letter-spacing: 3px;
   margin: 0 auto;
-  width: 300px;
+  width: 330px;
   height: 150px;
   background: url(../assets/images/button1.png) 50% 50%/cover;
   border: none;
@@ -1021,7 +1019,7 @@ tr > td:nth-child(2){
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2.5px;  
-  width: 300px;
+  width: 330px;
   height: 150px;
   background: url(../assets/images/buttonViolet.png) 50% 50%/cover !important;
   border: none;
@@ -1037,7 +1035,7 @@ tr > td:nth-child(2){
   color: black;
   letter-spacing: 2.5px;
   margin: 0 auto;
-  width: 300px;
+  width: 330px;
   height: 150px;
   background: url(../assets/images/button3.png) 50% 50%/cover;
   border: none;
@@ -1054,7 +1052,7 @@ tr > td:nth-child(2){
   color: black;
   letter-spacing: 2.5px;
   margin: 0 auto;
-  width: 300px;
+  width: 330px;
   height: 150px;
   background: url(../assets/images/button4.png) 50% 50%/cover;
   border: none;
@@ -1066,11 +1064,11 @@ tr > td:nth-child(2){
   opacity: 0.55;
   display: none;
   margin: 0 auto;
-  font-size: 25px;
+  font-size: 40px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
   letter-spacing: 2px;
-  width: 300px;
+  width: 330px;
   height: 150px;
   background: url(../assets/images/button2.png) 50% 50%/cover !important;
   border: none;
