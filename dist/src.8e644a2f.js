@@ -101,418 +101,418 @@ var e=require("isarray");module.exports=d,module.exports.parse=t,module.exports.
 },{"react-router/es/withRouter":"vNnW"}],"obMO":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"BrowserRouter",{enumerable:!0,get:function(){return e.default}}),Object.defineProperty(exports,"HashRouter",{enumerable:!0,get:function(){return r.default}}),Object.defineProperty(exports,"Link",{enumerable:!0,get:function(){return t.default}}),Object.defineProperty(exports,"MemoryRouter",{enumerable:!0,get:function(){return u.default}}),Object.defineProperty(exports,"NavLink",{enumerable:!0,get:function(){return n.default}}),Object.defineProperty(exports,"Prompt",{enumerable:!0,get:function(){return o.default}}),Object.defineProperty(exports,"Redirect",{enumerable:!0,get:function(){return i.default}}),Object.defineProperty(exports,"Route",{enumerable:!0,get:function(){return a.default}}),Object.defineProperty(exports,"Router",{enumerable:!0,get:function(){return f.default}}),Object.defineProperty(exports,"StaticRouter",{enumerable:!0,get:function(){return c.default}}),Object.defineProperty(exports,"Switch",{enumerable:!0,get:function(){return d.default}}),Object.defineProperty(exports,"generatePath",{enumerable:!0,get:function(){return l.default}}),Object.defineProperty(exports,"matchPath",{enumerable:!0,get:function(){return p.default}}),Object.defineProperty(exports,"withRouter",{enumerable:!0,get:function(){return b.default}});var e=s(require("./BrowserRouter")),r=s(require("./HashRouter")),t=s(require("./Link")),u=s(require("./MemoryRouter")),n=s(require("./NavLink")),o=s(require("./Prompt")),i=s(require("./Redirect")),a=s(require("./Route")),f=s(require("./Router")),c=s(require("./StaticRouter")),d=s(require("./Switch")),l=s(require("./generatePath")),p=s(require("./matchPath")),b=s(require("./withRouter"));function s(e){return e&&e.__esModule?e:{default:e}}
 },{"./BrowserRouter":"kyf6","./HashRouter":"3q+D","./Link":"v2L9","./MemoryRouter":"HrgA","./NavLink":"chMH","./Prompt":"GAFY","./Redirect":"lNTf","./Route":"kyn8","./Router":"lsmY","./StaticRouter":"dZ3E","./Switch":"WJCG","./generatePath":"U+I2","./matchPath":"1jMh","./withRouter":"Cy2E"}],"KfEF":[function(require,module,exports) {
-module.exports="/by.dd8fe58e.png";
+module.exports="by.dd8fe58e.png";
 },{}],"6jXv":[function(require,module,exports) {
-module.exports="/ca.501b0bbc.png";
+module.exports="ca.501b0bbc.png";
 },{}],"5koQ":[function(require,module,exports) {
-module.exports="/co.dc0f26b5.png";
+module.exports="co.dc0f26b5.png";
 },{}],"EKE/":[function(require,module,exports) {
-module.exports="/ae.e87ce370.png";
+module.exports="ae.e87ce370.png";
 },{}],"TkD+":[function(require,module,exports) {
-module.exports="/ad.e81e3c42.png";
+module.exports="ad.e81e3c42.png";
 },{}],"b3UC":[function(require,module,exports) {
-module.exports="/af.52e39252.png";
+module.exports="af.52e39252.png";
 },{}],"HzQH":[function(require,module,exports) {
-module.exports="/ag.5c4013aa.png";
+module.exports="ag.5c4013aa.png";
 },{}],"EQkX":[function(require,module,exports) {
-module.exports="/al.3e4574f9.png";
+module.exports="al.3e4574f9.png";
 },{}],"F9+C":[function(require,module,exports) {
-module.exports="/am.b7a5dde6.png";
+module.exports="am.b7a5dde6.png";
 },{}],"uJO/":[function(require,module,exports) {
-module.exports="/ao.af1f3368.png";
+module.exports="ao.af1f3368.png";
 },{}],"P7yZ":[function(require,module,exports) {
-module.exports="/at.660133b0.png";
+module.exports="at.660133b0.png";
 },{}],"1yOO":[function(require,module,exports) {
-module.exports="/au.608d0529.png";
+module.exports="au.608d0529.png";
 },{}],"VHLg":[function(require,module,exports) {
-module.exports="/ar.ee72e289.png";
+module.exports="ar.ee72e289.png";
 },{}],"IrcP":[function(require,module,exports) {
-module.exports="/az.61b344e5.png";
+module.exports="az.61b344e5.png";
 },{}],"e9Hl":[function(require,module,exports) {
-module.exports="/ba.3330c120.png";
+module.exports="ba.3330c120.png";
 },{}],"SNdE":[function(require,module,exports) {
-module.exports="/bb.250d9226.png";
+module.exports="bb.250d9226.png";
 },{}],"6gc5":[function(require,module,exports) {
-module.exports="/bd.7501e435.png";
+module.exports="bd.7501e435.png";
 },{}],"ELlV":[function(require,module,exports) {
-module.exports="/be.42051ecd.png";
+module.exports="be.42051ecd.png";
 },{}],"8ECj":[function(require,module,exports) {
-module.exports="/bf.fbbf1ca4.png";
+module.exports="bf.fbbf1ca4.png";
 },{}],"oT3f":[function(require,module,exports) {
-module.exports="/bh.bb879d25.png";
+module.exports="bh.bb879d25.png";
 },{}],"ACvU":[function(require,module,exports) {
-module.exports="/bi.c7541df7.png";
+module.exports="bi.c7541df7.png";
 },{}],"I6/r":[function(require,module,exports) {
-module.exports="/bj.372ec54d.png";
+module.exports="bj.372ec54d.png";
 },{}],"8FM5":[function(require,module,exports) {
-module.exports="/bn.a0643f78.png";
+module.exports="bn.a0643f78.png";
 },{}],"RHZg":[function(require,module,exports) {
-module.exports="/bo.5b6dc7c2.png";
+module.exports="bo.5b6dc7c2.png";
 },{}],"w2Ft":[function(require,module,exports) {
-module.exports="/br.737067f0.png";
+module.exports="br.737067f0.png";
 },{}],"3zbO":[function(require,module,exports) {
-module.exports="/bs.ec36314e.png";
+module.exports="bs.ec36314e.png";
 },{}],"ijF5":[function(require,module,exports) {
-module.exports="/bt.2a4b69fd.png";
+module.exports="bt.2a4b69fd.png";
 },{}],"mu3u":[function(require,module,exports) {
-module.exports="/bw.0911707c.png";
+module.exports="bw.0911707c.png";
 },{}],"910D":[function(require,module,exports) {
-module.exports="/bz.3b670873.png";
+module.exports="bz.3b670873.png";
 },{}],"yX0r":[function(require,module,exports) {
-module.exports="/cd.5805be94.png";
+module.exports="cd.5805be94.png";
 },{}],"AALC":[function(require,module,exports) {
-module.exports="/cf.b4705b12.png";
+module.exports="cf.b4705b12.png";
 },{}],"p7aK":[function(require,module,exports) {
-module.exports="/cg.54be0ca0.png";
+module.exports="cg.54be0ca0.png";
 },{}],"vd2l":[function(require,module,exports) {
-module.exports="/ch.b24f7623.png";
+module.exports="ch.b24f7623.png";
 },{}],"Ajbh":[function(require,module,exports) {
-module.exports="/ci.e84854da.png";
+module.exports="ci.e84854da.png";
 },{}],"d2J4":[function(require,module,exports) {
-module.exports="/cl.12f5ed06.png";
+module.exports="cl.12f5ed06.png";
 },{}],"DOBQ":[function(require,module,exports) {
-module.exports="/cn.4f027762.png";
+module.exports="cn.4f027762.png";
 },{}],"bp2i":[function(require,module,exports) {
-module.exports="/cr.8f9af980.png";
+module.exports="cr.8f9af980.png";
 },{}],"4e68":[function(require,module,exports) {
-module.exports="/cu.e745b3bf.png";
+module.exports="cu.e745b3bf.png";
 },{}],"eZaf":[function(require,module,exports) {
-module.exports="/cv.180453d6.png";
+module.exports="cv.180453d6.png";
 },{}],"mxfx":[function(require,module,exports) {
-module.exports="/cy.89dcca60.png";
+module.exports="cy.89dcca60.png";
 },{}],"OTSW":[function(require,module,exports) {
-module.exports="/cz.7613bcdf.png";
+module.exports="cz.7613bcdf.png";
 },{}],"giPu":[function(require,module,exports) {
-module.exports="/de.e689ea9a.png";
+module.exports="de.e689ea9a.png";
 },{}],"Wzuk":[function(require,module,exports) {
-module.exports="/dj.5eadc123.png";
+module.exports="dj.5eadc123.png";
 },{}],"S4Iq":[function(require,module,exports) {
-module.exports="/dk.885497e8.png";
+module.exports="dk.885497e8.png";
 },{}],"EI8l":[function(require,module,exports) {
-module.exports="/dm.f056cc29.png";
+module.exports="dm.f056cc29.png";
 },{}],"NRmf":[function(require,module,exports) {
-module.exports="/do.20e18d1d.png";
+module.exports="do.20e18d1d.png";
 },{}],"5QxG":[function(require,module,exports) {
-module.exports="/dz.98d7f4b0.png";
+module.exports="dz.98d7f4b0.png";
 },{}],"ErdS":[function(require,module,exports) {
-module.exports="/ec.5bb2b650.png";
+module.exports="ec.5bb2b650.png";
 },{}],"RTU+":[function(require,module,exports) {
-module.exports="/ee.24595ec2.png";
+module.exports="ee.24595ec2.png";
 },{}],"oG24":[function(require,module,exports) {
-module.exports="/eg.f8cdb8be.png";
+module.exports="eg.f8cdb8be.png";
 },{}],"qmbc":[function(require,module,exports) {
-module.exports="/eh.1316bfa7.png";
+module.exports="eh.1316bfa7.png";
 },{}],"pi7d":[function(require,module,exports) {
-module.exports="/er.a32ca0cf.png";
+module.exports="er.a32ca0cf.png";
 },{}],"GYAT":[function(require,module,exports) {
-module.exports="/es.15752057.png";
+module.exports="es.15752057.png";
 },{}],"Pc3V":[function(require,module,exports) {
-module.exports="/et.b93ace6c.png";
+module.exports="et.b93ace6c.png";
 },{}],"uRdX":[function(require,module,exports) {
-module.exports="/fi.9a3d6c88.png";
+module.exports="fi.9a3d6c88.png";
 },{}],"6pQZ":[function(require,module,exports) {
-module.exports="/fj.b317bf70.png";
+module.exports="fj.b317bf70.png";
 },{}],"4kHf":[function(require,module,exports) {
-module.exports="/fm.de6bd96e.png";
+module.exports="fm.de6bd96e.png";
 },{}],"ECiI":[function(require,module,exports) {
-module.exports="/fr.7679007d.png";
+module.exports="fr.7679007d.png";
 },{}],"sYVl":[function(require,module,exports) {
-module.exports="/ga.d6d2fbd5.png";
+module.exports="ga.d6d2fbd5.png";
 },{}],"zYLw":[function(require,module,exports) {
-module.exports="/gb.b67d97f0.png";
+module.exports="gb.b67d97f0.png";
 },{}],"9kLD":[function(require,module,exports) {
-module.exports="/gd.b8426bbd.png";
+module.exports="gd.b8426bbd.png";
 },{}],"bqcg":[function(require,module,exports) {
-module.exports="/ge.1bfa85af.png";
+module.exports="ge.1bfa85af.png";
 },{}],"DDDL":[function(require,module,exports) {
-module.exports="/gh.dbcc4d59.png";
+module.exports="gh.dbcc4d59.png";
 },{}],"iJjh":[function(require,module,exports) {
-module.exports="/gm.e5716c13.png";
+module.exports="gm.e5716c13.png";
 },{}],"Nl+F":[function(require,module,exports) {
-module.exports="/gn.8d97e387.png";
+module.exports="gn.8d97e387.png";
 },{}],"L5KI":[function(require,module,exports) {
-module.exports="/gq.b555ce18.png";
+module.exports="gq.b555ce18.png";
 },{}],"XspN":[function(require,module,exports) {
-module.exports="/gr.c772a8c0.png";
+module.exports="gr.c772a8c0.png";
 },{}],"MiQl":[function(require,module,exports) {
-module.exports="/gt.35efa128.png";
+module.exports="gt.35efa128.png";
 },{}],"6BW9":[function(require,module,exports) {
-module.exports="/gw.50877e3c.png";
+module.exports="gw.50877e3c.png";
 },{}],"/qix":[function(require,module,exports) {
-module.exports="/gy.95bc87b3.png";
+module.exports="gy.95bc87b3.png";
 },{}],"YUVw":[function(require,module,exports) {
-module.exports="/hn.4cf27a44.png";
+module.exports="hn.4cf27a44.png";
 },{}],"Pv7j":[function(require,module,exports) {
-module.exports="/hr.a1eef275.png";
+module.exports="hr.a1eef275.png";
 },{}],"0AgX":[function(require,module,exports) {
-module.exports="/ht.e80db4e7.png";
+module.exports="ht.e80db4e7.png";
 },{}],"W2Xa":[function(require,module,exports) {
-module.exports="/hu.59111cb5.png";
+module.exports="hu.59111cb5.png";
 },{}],"J84a":[function(require,module,exports) {
-module.exports="/id.5c40aeff.png";
+module.exports="id.5c40aeff.png";
 },{}],"KLKW":[function(require,module,exports) {
-module.exports="/ie.163ed966.png";
+module.exports="ie.163ed966.png";
 },{}],"2qnI":[function(require,module,exports) {
-module.exports="/il.49a7e0ea.png";
+module.exports="il.49a7e0ea.png";
 },{}],"S69l":[function(require,module,exports) {
-module.exports="/in.557163c9.png";
+module.exports="in.557163c9.png";
 },{}],"uN9t":[function(require,module,exports) {
-module.exports="/iq.6495574f.png";
+module.exports="iq.6495574f.png";
 },{}],"sJU3":[function(require,module,exports) {
-module.exports="/ir.b76e51f3.png";
+module.exports="ir.b76e51f3.png";
 },{}],"NHab":[function(require,module,exports) {
-module.exports="/is.6659d5a0.png";
+module.exports="is.6659d5a0.png";
 },{}],"884C":[function(require,module,exports) {
-module.exports="/it.28b304ce.png";
+module.exports="it.28b304ce.png";
 },{}],"NbW5":[function(require,module,exports) {
-module.exports="/jm.1abf0c3b.png";
+module.exports="jm.1abf0c3b.png";
 },{}],"Sze6":[function(require,module,exports) {
-module.exports="/jo.0ef85d62.png";
+module.exports="jo.0ef85d62.png";
 },{}],"GfEv":[function(require,module,exports) {
-module.exports="/jp.cd1f4fc2.png";
+module.exports="jp.cd1f4fc2.png";
 },{}],"cxv7":[function(require,module,exports) {
-module.exports="/ke.48292dfa.png";
+module.exports="ke.48292dfa.png";
 },{}],"b1Pv":[function(require,module,exports) {
-module.exports="/kg.ac5c0352.png";
+module.exports="kg.ac5c0352.png";
 },{}],"4WxZ":[function(require,module,exports) {
-module.exports="/kh.ce672736.png";
+module.exports="kh.ce672736.png";
 },{}],"uhdU":[function(require,module,exports) {
-module.exports="/ki.43b6ba97.png";
+module.exports="ki.43b6ba97.png";
 },{}],"buwx":[function(require,module,exports) {
-module.exports="/km.a4531300.png";
+module.exports="km.a4531300.png";
 },{}],"5Xv3":[function(require,module,exports) {
-module.exports="/kn.9398c271.png";
+module.exports="kn.9398c271.png";
 },{}],"K6a0":[function(require,module,exports) {
-module.exports="/kp.5a4fb84c.png";
+module.exports="kp.5a4fb84c.png";
 },{}],"TtUs":[function(require,module,exports) {
-module.exports="/kr.d8ce54ed.png";
+module.exports="kr.d8ce54ed.png";
 },{}],"348r":[function(require,module,exports) {
-module.exports="/kw.f167eac7.png";
+module.exports="kw.f167eac7.png";
 },{}],"/ZWp":[function(require,module,exports) {
-module.exports="/kz.d71052bb.png";
+module.exports="kz.d71052bb.png";
 },{}],"TwOk":[function(require,module,exports) {
-module.exports="/la.666d9b40.png";
+module.exports="la.666d9b40.png";
 },{}],"gzvN":[function(require,module,exports) {
-module.exports="/lb.de697d8c.png";
+module.exports="lb.de697d8c.png";
 },{}],"KNd1":[function(require,module,exports) {
-module.exports="/lc.feb0fe28.png";
+module.exports="lc.feb0fe28.png";
 },{}],"KsRT":[function(require,module,exports) {
-module.exports="/li.2f35ff6d.png";
+module.exports="li.2f35ff6d.png";
 },{}],"mX+W":[function(require,module,exports) {
-module.exports="/lk.099cdeb6.png";
+module.exports="lk.099cdeb6.png";
 },{}],"gWv1":[function(require,module,exports) {
-module.exports="/lr.4beeec28.png";
+module.exports="lr.4beeec28.png";
 },{}],"ffJV":[function(require,module,exports) {
-module.exports="/ls.87ea9aab.png";
+module.exports="ls.87ea9aab.png";
 },{}],"/z05":[function(require,module,exports) {
-module.exports="/lt.c705fdcb.png";
+module.exports="lt.c705fdcb.png";
 },{}],"ghSF":[function(require,module,exports) {
-module.exports="/lu.0d31f071.png";
+module.exports="lu.0d31f071.png";
 },{}],"tp58":[function(require,module,exports) {
-module.exports="/lv.b228e621.png";
+module.exports="lv.b228e621.png";
 },{}],"DASi":[function(require,module,exports) {
-module.exports="/ly.6a6b4cea.png";
+module.exports="ly.6a6b4cea.png";
 },{}],"Lhl7":[function(require,module,exports) {
-module.exports="/ma.473b3c2f.png";
+module.exports="ma.473b3c2f.png";
 },{}],"RiT/":[function(require,module,exports) {
-module.exports="/md.411bca70.png";
+module.exports="md.411bca70.png";
 },{}],"sx2y":[function(require,module,exports) {
-module.exports="/me.5056344c.png";
+module.exports="me.5056344c.png";
 },{}],"Mw1X":[function(require,module,exports) {
-module.exports="/mg.9ba74872.png";
+module.exports="mg.9ba74872.png";
 },{}],"8OsX":[function(require,module,exports) {
-module.exports="/mh.885f1e05.png";
+module.exports="mh.885f1e05.png";
 },{}],"DLJm":[function(require,module,exports) {
-module.exports="/mk.65af98a9.png";
+module.exports="mk.65af98a9.png";
 },{}],"rtgv":[function(require,module,exports) {
-module.exports="/ml.29991f1e.png";
+module.exports="ml.29991f1e.png";
 },{}],"ginQ":[function(require,module,exports) {
-module.exports="/mm.0de8bb5f.png";
+module.exports="mm.0de8bb5f.png";
 },{}],"K97m":[function(require,module,exports) {
-module.exports="/mn.82ea6ac2.png";
+module.exports="mn.82ea6ac2.png";
 },{}],"lNth":[function(require,module,exports) {
-module.exports="/mr.71d015a5.png";
+module.exports="mr.71d015a5.png";
 },{}],"408A":[function(require,module,exports) {
-module.exports="/mt.0aa31c36.png";
+module.exports="mt.0aa31c36.png";
 },{}],"99Z/":[function(require,module,exports) {
-module.exports="/mu.247d768b.png";
+module.exports="mu.247d768b.png";
 },{}],"BD9E":[function(require,module,exports) {
-module.exports="/mv.71d6af80.png";
+module.exports="mv.71d6af80.png";
 },{}],"yJip":[function(require,module,exports) {
-module.exports="/mw.117aea90.png";
+module.exports="mw.117aea90.png";
 },{}],"SAn2":[function(require,module,exports) {
-module.exports="/mx.67e8f1b4.png";
+module.exports="mx.67e8f1b4.png";
 },{}],"Pqqu":[function(require,module,exports) {
-module.exports="/my.08d34f84.png";
+module.exports="my.08d34f84.png";
 },{}],"Iv5P":[function(require,module,exports) {
-module.exports="/mz.c4d11ed2.png";
+module.exports="mz.c4d11ed2.png";
 },{}],"tvz1":[function(require,module,exports) {
-module.exports="/na.40c0138a.png";
+module.exports="na.40c0138a.png";
 },{}],"76HY":[function(require,module,exports) {
-module.exports="/ne.6b963636.png";
+module.exports="ne.6b963636.png";
 },{}],"n4bT":[function(require,module,exports) {
-module.exports="/ng.d5c72290.png";
+module.exports="ng.d5c72290.png";
 },{}],"y/m9":[function(require,module,exports) {
-module.exports="/ni.4a8e2802.png";
+module.exports="ni.4a8e2802.png";
 },{}],"a6K5":[function(require,module,exports) {
-module.exports="/nl.1605a271.png";
+module.exports="nl.1605a271.png";
 },{}],"Gu4D":[function(require,module,exports) {
-module.exports="/no.f59932c0.png";
+module.exports="no.f59932c0.png";
 },{}],"O0XN":[function(require,module,exports) {
-module.exports="/np.e1e6fecc.png";
+module.exports="np.e1e6fecc.png";
 },{}],"m3In":[function(require,module,exports) {
-module.exports="/nr.6d3a022a.png";
+module.exports="nr.6d3a022a.png";
 },{}],"sW/a":[function(require,module,exports) {
-module.exports="/nz.db86792a.png";
+module.exports="nz.db86792a.png";
 },{}],"DssP":[function(require,module,exports) {
-module.exports="/om.6da7808d.png";
+module.exports="om.6da7808d.png";
 },{}],"ySMJ":[function(require,module,exports) {
-module.exports="/pa.8e9f42a0.png";
+module.exports="pa.8e9f42a0.png";
 },{}],"Xxqh":[function(require,module,exports) {
-module.exports="/pe.6411e470.png";
+module.exports="pe.6411e470.png";
 },{}],"gKN3":[function(require,module,exports) {
-module.exports="/pg.6ec2e41b.png";
+module.exports="pg.6ec2e41b.png";
 },{}],"juia":[function(require,module,exports) {
-module.exports="/ph.9770bb2f.png";
+module.exports="ph.9770bb2f.png";
 },{}],"SUGh":[function(require,module,exports) {
-module.exports="/pk.2a3ee16f.png";
+module.exports="pk.2a3ee16f.png";
 },{}],"rs1e":[function(require,module,exports) {
-module.exports="/pl.ac54e683.png";
+module.exports="pl.ac54e683.png";
 },{}],"Ou6K":[function(require,module,exports) {
-module.exports="/pt.bb5b51f6.png";
+module.exports="pt.bb5b51f6.png";
 },{}],"12GE":[function(require,module,exports) {
-module.exports="/pw.107ba153.png";
+module.exports="pw.107ba153.png";
 },{}],"57qk":[function(require,module,exports) {
-module.exports="/py.1d535680.png";
+module.exports="py.1d535680.png";
 },{}],"H8pm":[function(require,module,exports) {
-module.exports="/qa.122880bc.png";
+module.exports="qa.122880bc.png";
 },{}],"baK/":[function(require,module,exports) {
-module.exports="/ro.f260d910.png";
+module.exports="ro.f260d910.png";
 },{}],"ynW8":[function(require,module,exports) {
-module.exports="/rs.90c0e807.png";
+module.exports="rs.90c0e807.png";
 },{}],"A+tG":[function(require,module,exports) {
-module.exports="/mc.cbc19d76.png";
+module.exports="mc.cbc19d76.png";
 },{}],"i7D5":[function(require,module,exports) {
-module.exports="/ru.9234ddbb.png";
+module.exports="ru.9234ddbb.png";
 },{}],"+SRl":[function(require,module,exports) {
-module.exports="/rw.3fda6fb1.png";
+module.exports="rw.3fda6fb1.png";
 },{}],"HLej":[function(require,module,exports) {
-module.exports="/sa.20008d0e.png";
+module.exports="sa.20008d0e.png";
 },{}],"nHR4":[function(require,module,exports) {
-module.exports="/sb.7a00d7ac.png";
+module.exports="sb.7a00d7ac.png";
 },{}],"oBh7":[function(require,module,exports) {
-module.exports="/sc.ed996892.png";
+module.exports="sc.ed996892.png";
 },{}],"aHIx":[function(require,module,exports) {
-module.exports="/sd.b6811000.png";
+module.exports="sd.b6811000.png";
 },{}],"DM8g":[function(require,module,exports) {
-module.exports="/se.ac14f12e.png";
+module.exports="se.ac14f12e.png";
 },{}],"Bp8c":[function(require,module,exports) {
-module.exports="/sg.abe5c80e.png";
+module.exports="sg.abe5c80e.png";
 },{}],"si+k":[function(require,module,exports) {
-module.exports="/si.4bcbf5d4.png";
+module.exports="si.4bcbf5d4.png";
 },{}],"9CHy":[function(require,module,exports) {
-module.exports="/sk.bc184d08.png";
+module.exports="sk.bc184d08.png";
 },{}],"zbnq":[function(require,module,exports) {
-module.exports="/sl.e3475036.png";
+module.exports="sl.e3475036.png";
 },{}],"qDnD":[function(require,module,exports) {
-module.exports="/sm.15fd7fa8.png";
+module.exports="sm.15fd7fa8.png";
 },{}],"H4EK":[function(require,module,exports) {
-module.exports="/sn.3774809a.png";
+module.exports="sn.3774809a.png";
 },{}],"ditI":[function(require,module,exports) {
-module.exports="/so.02230fc1.png";
+module.exports="so.02230fc1.png";
 },{}],"KOn9":[function(require,module,exports) {
-module.exports="/sr.999851c1.png";
+module.exports="sr.999851c1.png";
 },{}],"oFWr":[function(require,module,exports) {
-module.exports="/st.5783fcd2.png";
+module.exports="st.5783fcd2.png";
 },{}],"6ODy":[function(require,module,exports) {
-module.exports="/sv.e2fb2c92.png";
+module.exports="sv.e2fb2c92.png";
 },{}],"7nFX":[function(require,module,exports) {
-module.exports="/sy.4f1277bd.png";
+module.exports="sy.4f1277bd.png";
 },{}],"R+2G":[function(require,module,exports) {
-module.exports="/td.d6370d63.png";
+module.exports="td.d6370d63.png";
 },{}],"FyOY":[function(require,module,exports) {
-module.exports="/tg.84c06949.png";
+module.exports="tg.84c06949.png";
 },{}],"zy5K":[function(require,module,exports) {
-module.exports="/th.530a60f6.png";
+module.exports="th.530a60f6.png";
 },{}],"hWyM":[function(require,module,exports) {
-module.exports="/tj.5189393a.png";
+module.exports="tj.5189393a.png";
 },{}],"xNdR":[function(require,module,exports) {
-module.exports="/tl.ad27b298.png";
+module.exports="tl.ad27b298.png";
 },{}],"2OTo":[function(require,module,exports) {
-module.exports="/tm.b2b3ace4.png";
+module.exports="tm.b2b3ace4.png";
 },{}],"gAYR":[function(require,module,exports) {
-module.exports="/tn.08f18896.png";
+module.exports="tn.08f18896.png";
 },{}],"ncFU":[function(require,module,exports) {
-module.exports="/to.1bf8a9f0.png";
+module.exports="to.1bf8a9f0.png";
 },{}],"BpLH":[function(require,module,exports) {
-module.exports="/tr.48737878.png";
+module.exports="tr.48737878.png";
 },{}],"8O5/":[function(require,module,exports) {
-module.exports="/tt.550b9303.png";
+module.exports="tt.550b9303.png";
 },{}],"7zra":[function(require,module,exports) {
-module.exports="/tv.e2754588.png";
+module.exports="tv.e2754588.png";
 },{}],"uJ5m":[function(require,module,exports) {
-module.exports="/tw.00315899.png";
+module.exports="tw.00315899.png";
 },{}],"fyDg":[function(require,module,exports) {
-module.exports="/tz.59325bd8.png";
+module.exports="tz.59325bd8.png";
 },{}],"x3yi":[function(require,module,exports) {
-module.exports="/ua.b347f447.png";
+module.exports="ua.b347f447.png";
 },{}],"zqaQ":[function(require,module,exports) {
-module.exports="/ug.be985974.png";
+module.exports="ug.be985974.png";
 },{}],"RExK":[function(require,module,exports) {
-module.exports="/us.63d67581.png";
+module.exports="us.63d67581.png";
 },{}],"9I6f":[function(require,module,exports) {
-module.exports="/uy.d2ab9185.png";
+module.exports="uy.d2ab9185.png";
 },{}],"brb2":[function(require,module,exports) {
-module.exports="/uz.24e554e7.png";
+module.exports="uz.24e554e7.png";
 },{}],"sVjl":[function(require,module,exports) {
-module.exports="/va.19d1b0f2.png";
+module.exports="va.19d1b0f2.png";
 },{}],"+lld":[function(require,module,exports) {
-module.exports="/vc.81461374.png";
+module.exports="vc.81461374.png";
 },{}],"zqIu":[function(require,module,exports) {
-module.exports="/ve.abfdc5d3.png";
+module.exports="ve.abfdc5d3.png";
 },{}],"jHXI":[function(require,module,exports) {
-module.exports="/vn.a9666192.png";
+module.exports="vn.a9666192.png";
 },{}],"Dxqd":[function(require,module,exports) {
-module.exports="/vu.42b147a8.png";
+module.exports="vu.42b147a8.png";
 },{}],"TzKb":[function(require,module,exports) {
-module.exports="/ws.c3f16665.png";
+module.exports="ws.c3f16665.png";
 },{}],"leTJ":[function(require,module,exports) {
-module.exports="/ye.af181079.png";
+module.exports="ye.af181079.png";
 },{}],"43TH":[function(require,module,exports) {
-module.exports="/za.f2d932f0.png";
+module.exports="za.f2d932f0.png";
 },{}],"DB3p":[function(require,module,exports) {
-module.exports="/zm.54c2d186.png";
+module.exports="zm.54c2d186.png";
 },{}],"OnIZ":[function(require,module,exports) {
-module.exports="/zw.e4f71bcb.png";
+module.exports="zw.e4f71bcb.png";
 },{}],"A2FK":[function(require,module,exports) {
-module.exports="/ks.bb51d5de.png";
+module.exports="ks.bb51d5de.png";
 },{}],"8KNv":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.oceaniaChange=exports.northAmericaChange=exports.southAmericaChange=exports.africaChange=exports.europeChange=exports.asiaChange=exports.countriesCopy=exports.fullCounties=void 0;for(var r=["Азербайджан","Армения","Афганистан","Бангладеш","Бахрейн","Бруней","Бутан","Восточный Тимор","Вьетнам","Грузия","Израиль","Индия","Индонезия","Иордания","Ирак","Иран","Йемен","Казахстан","Камбоджа","Катар","Кипр","Киргизстан","Китай","Корея Северная","Корея Южная","Кувейт","Лаос","Ливан","Малайзия","Мальдивы","Монголия","Мьянма","Непал","ОАЭ","Оман","Пакистан","Палестина","Саудовская Аравия","Сингапур","Сирия","Таджикистан","Таиланд","Тайвань","Туркмения","Турция","Узбекистан","Филиппины","Шри-Ланка","Япония"],e=["Баку","Ереван","Кабул","Дакка","Манама","Бандар-Сери-Бегаван","Тхимпху","Дили","Ханой","Тбилиси","Иерусалим","Дели","Джакарта","Амман","Багдад","Тегеран","Сана","Астана","Пномпень","Доха","Никозия","Бишкек","Пекин","Пхеньян","Сеул","Эль-Кувейт","Вьентьян","Бейрут","Куала-Лумпур","Мале","Улан-Батор","Нейпьидо","Катманду","Абу-Даби","Маскат","Исламабад","Рамалла","Эр-Рияд","Сингапур","Дамаск","Душанбе","Бангкок","Тайпей","Ашхабад","Анкаpа","Ташкент","Манила","Коломбо","Токио"],a=["Австрия","Албания","Андорра","Белоруссия","Бельгия","Болгария","Босния и Герцеговина","Ватикан","Великобритания","Венгрия","Германия","Греция","Дания","Ирландия","Исландия","Испания","Италия","Латвия","Литва","Лихтенштейн","Люксембург","Македония","Мальта","Молдова","Монако","Нидерланды","Норвегия","Польша","Португалия","Российская Федерация","Румыния","Сан-Марино","Сербия","Словакия","Словения","Украина","Финляндия","Франция","Хорватия","Черногория","Чехия","Швейцария","Швеция","Эстония","Косово"],s=["Вена","Тирана","Андорра-ла-Велья","Минск","Брюссель","София","Сараево","Ватикан","Лондон","Будапешт","Берлин","Афины","Копенгаген","Дублин","Рейкьявик","Мадрид","Рим","Рига","Вильнюс","Вадуц","Люксембург","Скопье","Валетта","Кишинев","Монако","Амстердам","Осло","Варшава","Лиссабон","Москва","Бухарест","Сан-Марино","Белград","Братислава","Любляна","Киев","Хельсинки","Париж","Загреб","Подгорица","Прага","Берн","Стокгольм","Таллинн","Приштина"],t=["Алжир","Ангола","Бенин","Ботсвана","Буркина-Фасо","Бурунди","Габон","Гамбия","Гана","Гвинея","Гвинея-Бисау","Джибути","Египет","Замбия","Западная Сахара","Зимбабве","Кабо-Верде","Камерун","Кения","Коморские острова","Конго","Конго (Дем. Република)","Кот-д'Ивуар","Лесото","Либерия","Ливия","Маврикий","Мавритания","Мадагаскар","Малави","Мали","Марокко","Мозамбик","Намибия","Нигер","Нигерия","Руанда","Сан-Томе и Принсипи","Свазиленд","Сейшельские острова","Сенегал","Сомали","Судан","Сьерра-Леоне","Танзания","Того","Тунис","Уганда","Центрально-африканская Республика","Чад","Экваториальная Гвинея","Эритрея","Эфиопия","ЮАР","Южный Судан"],n=["Алжир","Луанда","Порто-Ново","Габороне","Уагадугу","Бужумбура","Либревиль","Банжул","Аккра","Конакри","Бисау","Джибути","Каир","Лусака","Эль-Аюн","Хараре","Прая","Яунде","Найроби","Морони","Браззавиль","Киншаса","Ямусукро","Масеру","Монровия","Триполи","Порт-Луи","Нуакшот","Антананариву","Лилонгве","Бамако","Рабат","Мапуту","Виндхук","Ниамей","Абуджа","Кигали","Сан-Томе","Мбабане","Виктория","Дакар","Могадишо","Хаpтум","Фpитаун","Додома","Ломе","Тунис","Кампала","Банги","Нджамена","Малабо","Асмэра","Аддис-Абеба","Претория","Джуба"],o=["Аргентина","Боливия","Бразилия","Венесуэла","Гайана","Колумбия","Парагвай","Перу","Суринам","Уругвай","Чили","Эквадор"],g=["Буэнос-Айрес","Ла-Пас","Бразилиа","Каракас","Джорджтаун","Богота","Асунсьон","Лима","Паpамаpибо","Монтевидео","Сантьяго","Кито"],u=["Антигуа","Багамские острова","Барбадос","Белиз","Гаити","Гватемала","Гондурас","Гренада","Доминика","Доминиканская Республика","Канада","Коста-Рика","Куба","Мексика","Никарагуа","Панама","Эль-Сальвадор","Сент-Винсент и Гренадины","Сент-Кристофер и Невис","Сент-Люсия","США","Тринидад и Тобаго","Ямайка"],l=["Сент-Джонс","Нассау","Бриджтаун","Бельмопан","Порт-о-Пренс","Гватемала","Тегусигальпа","Сент-Джорджес","Розо","Санто-Доминго","Оттава","Сан-Хосе","Гавана","Мехико","Манагуа","Панама","Сан-Сальвадор","Кингстаун","Бастер","Кастри","Вашингтон","Порт-оф-Спейн","Кингстон"],c=["Австралия","Вануату","Кирибати","Маршалловы острова","Микронезия","Науру","Новая Зеландия","Палау","Папуа - Новая Гвинея","Самоа","Соломоновы острова","Тонга","Тувалу","Фиджи"],p=["Канберра","Вила","Тарава","Маджуро","Паликир","Ярен","Веллингтон","Корор","Порт-Морсби","Апиа","Хониаpа","Нукуалофа","Фунафути","Сува"],f=[],i=[],y=0,q=0,h=[{flags:'url("'.concat(require("../assets/flags/by.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Белоруссия"},{flags:'url("'.concat(require("../assets/flags/ca.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Канада"},{flags:'url("'.concat(require("../assets/flags/co.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Колумбия"},{flags:'url("'.concat(require("../assets/flags/ae.png"),'") 50% 50% / 100% 100% no-repeat'),country:"ОАЭ"},{flags:'url("'.concat(require("../assets/flags/ad.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Андорра"},{flags:'url("'.concat(require("../assets/flags/af.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Афганистан"},{flags:'url("'.concat(require("../assets/flags/ag.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Антигуа"},{flags:'url("'.concat(require("../assets/flags/al.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Албания"},{flags:'url("'.concat(require("../assets/flags/am.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Армения"},{flags:'url("'.concat(require("../assets/flags/ao.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Ангола"},{flags:'url("'.concat(require("../assets/flags/at.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Австрия"},{flags:'url("'.concat(require("../assets/flags/au.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Австралия"},{flags:'url("'.concat(require("../assets/flags/ar.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Аргентина"},{flags:'url("'.concat(require("../assets/flags/az.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Азербайджан"},{flags:'url("'.concat(require("../assets/flags/ba.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Босния и Герцеговина"},{flags:'url("'.concat(require("../assets/flags/bb.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Барбадос"},{flags:'url("'.concat(require("../assets/flags/bd.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Бангладеш"},{flags:'url("'.concat(require("../assets/flags/be.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Бельгия"},{flags:'url("'.concat(require("../assets/flags/bf.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Буркина-Фасо"},{flags:'url("'.concat(require("../assets/flags/bh.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Бахрейн"},{flags:'url("'.concat(require("../assets/flags/bi.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Бурунди"},{flags:'url("'.concat(require("../assets/flags/bj.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Бенин"},{flags:'url("'.concat(require("../assets/flags/bn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Бруней"},{flags:'url("'.concat(require("../assets/flags/bo.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Боливия"},{flags:'url("'.concat(require("../assets/flags/br.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Бразилия"},{flags:'url("'.concat(require("../assets/flags/bs.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Багамские острова"},{flags:'url("'.concat(require("../assets/flags/bt.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Бутан"},{flags:'url("'.concat(require("../assets/flags/bw.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Ботсвана"},{flags:'url("'.concat(require("../assets/flags/bz.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Белиз"},{flags:'url("'.concat(require("../assets/flags/cd.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Конго (Дем. Република)"},{flags:'url("'.concat(require("../assets/flags/cf.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Центрально-африканская Республика"},{flags:'url("'.concat(require("../assets/flags/cg.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Конго"},{flags:'url("'.concat(require("../assets/flags/ch.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Швейцария"},{flags:'url("'.concat(require("../assets/flags/ci.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Кот-д'Ивуар"},{flags:'url("'.concat(require("../assets/flags/cl.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Чили"},{flags:'url("'.concat(require("../assets/flags/cn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Китай"},{flags:'url("'.concat(require("../assets/flags/cr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Коста-Рика"},{flags:'url("'.concat(require("../assets/flags/cu.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Куба"},{flags:'url("'.concat(require("../assets/flags/cv.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Кабо-Верде"},{flags:'url("'.concat(require("../assets/flags/cy.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Кипр"},{flags:'url("'.concat(require("../assets/flags/cz.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Чехия"},{flags:'url("'.concat(require("../assets/flags/de.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Германия"},{flags:'url("'.concat(require("../assets/flags/dj.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Джибути"},{flags:'url("'.concat(require("../assets/flags/dk.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Дания"},{flags:'url("'.concat(require("../assets/flags/dm.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Доминика"},{flags:'url("'.concat(require("../assets/flags/do.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Доминиканская Республика"},{flags:'url("'.concat(require("../assets/flags/dz.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Алжир"},{flags:'url("'.concat(require("../assets/flags/ec.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Эквадор"},{flags:'url("'.concat(require("../assets/flags/ee.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Эстония"},{flags:'url("'.concat(require("../assets/flags/eg.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Египет"},{flags:'url("'.concat(require("../assets/flags/eh.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Западная Сахара"},{flags:'url("'.concat(require("../assets/flags/er.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Эритрея"},{flags:'url("'.concat(require("../assets/flags/es.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Испания"},{flags:'url("'.concat(require("../assets/flags/et.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Эфиопия"},{flags:'url("'.concat(require("../assets/flags/fi.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Финляндия"},{flags:'url("'.concat(require("../assets/flags/fj.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Фиджи"},{flags:'url("'.concat(require("../assets/flags/fm.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Микронезия"},{flags:'url("'.concat(require("../assets/flags/fr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Франция"},{flags:'url("'.concat(require("../assets/flags/ga.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Габон"},{flags:'url("'.concat(require("../assets/flags/gb.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Великобритания"},{flags:'url("'.concat(require("../assets/flags/gd.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гренада"},{flags:'url("'.concat(require("../assets/flags/ge.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Грузия"},{flags:'url("'.concat(require("../assets/flags/gh.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гана"},{flags:'url("'.concat(require("../assets/flags/gm.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гамбия"},{flags:'url("'.concat(require("../assets/flags/gn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гвинея"},{flags:'url("'.concat(require("../assets/flags/gq.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Экваториальная Гвинея"},{flags:'url("'.concat(require("../assets/flags/gr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Греция"},{flags:'url("'.concat(require("../assets/flags/gt.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гватемала"},{flags:'url("'.concat(require("../assets/flags/gw.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гвинея-Бисау"},{flags:'url("'.concat(require("../assets/flags/gy.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гайана"},{flags:'url("'.concat(require("../assets/flags/hn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гондурас"},{flags:'url("'.concat(require("../assets/flags/hr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Хорватия"},{flags:'url("'.concat(require("../assets/flags/ht.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Гаити"},{flags:'url("'.concat(require("../assets/flags/hu.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Венгрия"},{flags:'url("'.concat(require("../assets/flags/id.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Индонезия"},{flags:'url("'.concat(require("../assets/flags/ie.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Ирландия"},{flags:'url("'.concat(require("../assets/flags/il.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Израиль"},{flags:'url("'.concat(require("../assets/flags/in.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Индия"},{flags:'url("'.concat(require("../assets/flags/iq.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Ирак"},{flags:'url("'.concat(require("../assets/flags/ir.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Иран"},{flags:'url("'.concat(require("../assets/flags/is.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Исландия"},{flags:'url("'.concat(require("../assets/flags/it.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Италия"},{flags:'url("'.concat(require("../assets/flags/jm.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Ямайка"},{flags:'url("'.concat(require("../assets/flags/jo.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Иордания"},{flags:'url("'.concat(require("../assets/flags/jp.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Япония"},{flags:'url("'.concat(require("../assets/flags/ke.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Кения"},{flags:'url("'.concat(require("../assets/flags/kg.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Киргизстан"},{flags:'url("'.concat(require("../assets/flags/kh.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Камбоджа"},{flags:'url("'.concat(require("../assets/flags/ki.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Кирибати"},{flags:'url("'.concat(require("../assets/flags/km.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Коморские острова"},{flags:'url("'.concat(require("../assets/flags/kn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сент-Кристофер и Невис"},{flags:'url("'.concat(require("../assets/flags/kp.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Корея Северная"},{flags:'url("'.concat(require("../assets/flags/kr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Корея Южная"},{flags:'url("'.concat(require("../assets/flags/kw.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Кувейт"},{flags:'url("'.concat(require("../assets/flags/kz.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Казахстан"},{flags:'url("'.concat(require("../assets/flags/la.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Лаос"},{flags:'url("'.concat(require("../assets/flags/lb.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Ливан"},{flags:'url("'.concat(require("../assets/flags/lc.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сент-Люсия"},{flags:'url("'.concat(require("../assets/flags/li.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Лихтенштейн"},{flags:'url("'.concat(require("../assets/flags/lk.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Шри-Ланка"},{flags:'url("'.concat(require("../assets/flags/lr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Либерия"},{flags:'url("'.concat(require("../assets/flags/ls.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Лесото"},{flags:'url("'.concat(require("../assets/flags/lt.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Литва"},{flags:'url("'.concat(require("../assets/flags/lu.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Люксембург"},{flags:'url("'.concat(require("../assets/flags/lv.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Латвия"},{flags:'url("'.concat(require("../assets/flags/ly.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Ливия"},{flags:'url("'.concat(require("../assets/flags/ma.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Марокко"},{flags:'url("'.concat(require("../assets/flags/md.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Молдова"},{flags:'url("'.concat(require("../assets/flags/me.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Черногория"},{flags:'url("'.concat(require("../assets/flags/mg.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Мадагаскар"},{flags:'url("'.concat(require("../assets/flags/mh.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Маршалловы острова"},{flags:'url("'.concat(require("../assets/flags/mk.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Македония"},{flags:'url("'.concat(require("../assets/flags/ml.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Мали"},{flags:'url("'.concat(require("../assets/flags/mm.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Мьянма"},{flags:'url("'.concat(require("../assets/flags/mn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Монголия"},{flags:'url("'.concat(require("../assets/flags/mr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Мавритания"},{flags:'url("'.concat(require("../assets/flags/mt.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Мальта"},{flags:'url("'.concat(require("../assets/flags/mu.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Маврикий"},{flags:'url("'.concat(require("../assets/flags/mv.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Мальдивы"},{flags:'url("'.concat(require("../assets/flags/mw.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Малави"},{flags:'url("'.concat(require("../assets/flags/mx.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Мексика"},{flags:'url("'.concat(require("../assets/flags/my.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Малайзия"},{flags:'url("'.concat(require("../assets/flags/mz.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Мозамбик"},{flags:'url("'.concat(require("../assets/flags/na.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Намибия"},{flags:'url("'.concat(require("../assets/flags/ne.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Нигер"},{flags:'url("'.concat(require("../assets/flags/ng.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Нигерия"},{flags:'url("'.concat(require("../assets/flags/ni.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Никарагуа"},{flags:'url("'.concat(require("../assets/flags/nl.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Нидерланды"},{flags:'url("'.concat(require("../assets/flags/no.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Норвегия"},{flags:'url("'.concat(require("../assets/flags/np.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Непал"},{flags:'url("'.concat(require("../assets/flags/nr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Науру"},{flags:'url("'.concat(require("../assets/flags/nz.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Новая Зеландия"},{flags:'url("'.concat(require("../assets/flags/om.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Оман"},{flags:'url("'.concat(require("../assets/flags/pa.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Панама"},{flags:'url("'.concat(require("../assets/flags/pe.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Перу"},{flags:'url("'.concat(require("../assets/flags/pg.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Папуа - Новая Гвинея"},{flags:'url("'.concat(require("../assets/flags/ph.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Филиппины"},{flags:'url("'.concat(require("../assets/flags/pk.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Пакистан"},{flags:'url("'.concat(require("../assets/flags/pl.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Польша"},{flags:'url("'.concat(require("../assets/flags/pt.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Португалия"},{flags:'url("'.concat(require("../assets/flags/pw.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Палау"},{flags:'url("'.concat(require("../assets/flags/py.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Парагвай"},{flags:'url("'.concat(require("../assets/flags/qa.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Катар"},{flags:'url("'.concat(require("../assets/flags/ro.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Румыния"},{flags:'url("'.concat(require("../assets/flags/rs.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сербия"},{flags:'url("'.concat(require("../assets/flags/mc.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Монако"},{flags:'url("'.concat(require("../assets/flags/ru.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Российская Федерация"},{flags:'url("'.concat(require("../assets/flags/rw.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Руанда"},{flags:'url("'.concat(require("../assets/flags/sa.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Саудовская Аравия"},{flags:'url("'.concat(require("../assets/flags/sb.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Соломоновы острова"},{flags:'url("'.concat(require("../assets/flags/sc.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сейшельские острова"},{flags:'url("'.concat(require("../assets/flags/sd.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Судан"},{flags:'url("'.concat(require("../assets/flags/se.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Швеция"},{flags:'url("'.concat(require("../assets/flags/sg.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сингапур"},{flags:'url("'.concat(require("../assets/flags/si.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Словения"},{flags:'url("'.concat(require("../assets/flags/sk.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Словакия"},{flags:'url("'.concat(require("../assets/flags/sl.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сьерра-Леоне"},{flags:'url("'.concat(require("../assets/flags/sm.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сан-Марино"},{flags:'url("'.concat(require("../assets/flags/sn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сенегал"},{flags:'url("'.concat(require("../assets/flags/so.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сомали"},{flags:'url("'.concat(require("../assets/flags/sr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Суринам"},{flags:'url("'.concat(require("../assets/flags/st.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сан-Томе и Принсипи"},{flags:'url("'.concat(require("../assets/flags/sv.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Эль-Сальвадор"},{flags:'url("'.concat(require("../assets/flags/sy.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сирия"},{flags:'url("'.concat(require("../assets/flags/td.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Чад"},{flags:'url("'.concat(require("../assets/flags/tg.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Того"},{flags:'url("'.concat(require("../assets/flags/th.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Таиланд"},{flags:'url("'.concat(require("../assets/flags/tj.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Таджикистан"},{flags:'url("'.concat(require("../assets/flags/tl.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Восточный Тимор"},{flags:'url("'.concat(require("../assets/flags/tm.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Туркмения"},{flags:'url("'.concat(require("../assets/flags/tn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Тунис"},{flags:'url("'.concat(require("../assets/flags/to.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Тонга"},{flags:'url("'.concat(require("../assets/flags/tr.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Турция"},{flags:'url("'.concat(require("../assets/flags/tt.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Тринидад и Тобаго"},{flags:'url("'.concat(require("../assets/flags/tv.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Тувалу"},{flags:'url("'.concat(require("../assets/flags/tw.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Тайвань"},{flags:'url("'.concat(require("../assets/flags/tz.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Танзания"},{flags:'url("'.concat(require("../assets/flags/ua.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Украина"},{flags:'url("'.concat(require("../assets/flags/ug.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Уганда"},{flags:'url("'.concat(require("../assets/flags/us.png"),'") 50% 50% / 100% 100% no-repeat'),country:"США"},{flags:'url("'.concat(require("../assets/flags/uy.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Уругвай"},{flags:'url("'.concat(require("../assets/flags/uz.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Узбекистан"},{flags:'url("'.concat(require("../assets/flags/va.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Ватикан"},{flags:'url("'.concat(require("../assets/flags/vc.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Сент-Винсент и Гренадины"},{flags:'url("'.concat(require("../assets/flags/ve.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Венесуэла"},{flags:'url("'.concat(require("../assets/flags/vn.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Вьетнам"},{flags:'url("'.concat(require("../assets/flags/vu.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Вануату"},{flags:'url("'.concat(require("../assets/flags/ws.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Самоа"},{flags:'url("'.concat(require("../assets/flags/ye.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Йемен"},{flags:'url("'.concat(require("../assets/flags/za.png"),'") 50% 50% / 100% 100% no-repeat'),country:"ЮАР"},{flags:'url("'.concat(require("../assets/flags/zm.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Замбия"},{flags:'url("'.concat(require("../assets/flags/zw.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Зимбабве"},{flags:'url("'.concat(require("../assets/flags/ks.png"),'") 50% 50% / 100% 100% no-repeat'),country:"Косово"}],v=0;v<r.length;v++)f.push(r[v]),i.push(e[v]);for(var m=0;m<a.length;m++)f.push(a[m]),i.push(s[m]);for(var b=0;b<t.length;b++)f.push(t[b]),i.push(n[b]);for(var x=0;x<o.length;x++)f.push(o[x]),i.push(g[x]);for(var d=0;d<u.length;d++)f.push(u[d]),i.push(l[d]);for(var k=0;k<c.length;k++)f.push(c[k]),i.push(p[k]);for(var C in h)for(var z=0;z<f.length;z++)if(f[z]===h[C].country){h[C].capital=i[z];break}var w=[];exports.asiaChange=w;for(var j=0;j<r.length;j++)for(var A=0;A<h.length;A++)h[A].country===r[j]&&w.push(h[A]);var _=[];exports.europeChange=_;for(var M=0;M<a.length;M++)for(var O=0;O<h.length;O++)h[O].country===a[M]&&_.push(h[O]);var P=[];exports.africaChange=P;for(var B=0;B<t.length;B++)for(var D=0;D<h.length;D++)h[D].country===t[B]&&P.push(h[D]);var E=[];exports.southAmericaChange=E;for(var F=0;F<o.length;F++)for(var G=0;G<h.length;G++)h[G].country===o[F]&&E.push(h[G]);var H=[];exports.northAmericaChange=H;for(var I=0;I<u.length;I++)for(var J=0;J<h.length;J++)h[J].country===u[I]&&H.push(h[J]);var K=[];exports.oceaniaChange=K;for(var L=0;L<c.length;L++)for(var N=0;N<h.length;N++)h[N].country===c[L]&&K.push(h[N]);var Q=h.concat();exports.fullCounties=Q;var R=h.concat();exports.countriesCopy=R;
 },{"../assets/flags/by.png":"KfEF","../assets/flags/ca.png":"6jXv","../assets/flags/co.png":"5koQ","../assets/flags/ae.png":"EKE/","../assets/flags/ad.png":"TkD+","../assets/flags/af.png":"b3UC","../assets/flags/ag.png":"HzQH","../assets/flags/al.png":"EQkX","../assets/flags/am.png":"F9+C","../assets/flags/ao.png":"uJO/","../assets/flags/at.png":"P7yZ","../assets/flags/au.png":"1yOO","../assets/flags/ar.png":"VHLg","../assets/flags/az.png":"IrcP","../assets/flags/ba.png":"e9Hl","../assets/flags/bb.png":"SNdE","../assets/flags/bd.png":"6gc5","../assets/flags/be.png":"ELlV","../assets/flags/bf.png":"8ECj","../assets/flags/bh.png":"oT3f","../assets/flags/bi.png":"ACvU","../assets/flags/bj.png":"I6/r","../assets/flags/bn.png":"8FM5","../assets/flags/bo.png":"RHZg","../assets/flags/br.png":"w2Ft","../assets/flags/bs.png":"3zbO","../assets/flags/bt.png":"ijF5","../assets/flags/bw.png":"mu3u","../assets/flags/bz.png":"910D","../assets/flags/cd.png":"yX0r","../assets/flags/cf.png":"AALC","../assets/flags/cg.png":"p7aK","../assets/flags/ch.png":"vd2l","../assets/flags/ci.png":"Ajbh","../assets/flags/cl.png":"d2J4","../assets/flags/cn.png":"DOBQ","../assets/flags/cr.png":"bp2i","../assets/flags/cu.png":"4e68","../assets/flags/cv.png":"eZaf","../assets/flags/cy.png":"mxfx","../assets/flags/cz.png":"OTSW","../assets/flags/de.png":"giPu","../assets/flags/dj.png":"Wzuk","../assets/flags/dk.png":"S4Iq","../assets/flags/dm.png":"EI8l","../assets/flags/do.png":"NRmf","../assets/flags/dz.png":"5QxG","../assets/flags/ec.png":"ErdS","../assets/flags/ee.png":"RTU+","../assets/flags/eg.png":"oG24","../assets/flags/eh.png":"qmbc","../assets/flags/er.png":"pi7d","../assets/flags/es.png":"GYAT","../assets/flags/et.png":"Pc3V","../assets/flags/fi.png":"uRdX","../assets/flags/fj.png":"6pQZ","../assets/flags/fm.png":"4kHf","../assets/flags/fr.png":"ECiI","../assets/flags/ga.png":"sYVl","../assets/flags/gb.png":"zYLw","../assets/flags/gd.png":"9kLD","../assets/flags/ge.png":"bqcg","../assets/flags/gh.png":"DDDL","../assets/flags/gm.png":"iJjh","../assets/flags/gn.png":"Nl+F","../assets/flags/gq.png":"L5KI","../assets/flags/gr.png":"XspN","../assets/flags/gt.png":"MiQl","../assets/flags/gw.png":"6BW9","../assets/flags/gy.png":"/qix","../assets/flags/hn.png":"YUVw","../assets/flags/hr.png":"Pv7j","../assets/flags/ht.png":"0AgX","../assets/flags/hu.png":"W2Xa","../assets/flags/id.png":"J84a","../assets/flags/ie.png":"KLKW","../assets/flags/il.png":"2qnI","../assets/flags/in.png":"S69l","../assets/flags/iq.png":"uN9t","../assets/flags/ir.png":"sJU3","../assets/flags/is.png":"NHab","../assets/flags/it.png":"884C","../assets/flags/jm.png":"NbW5","../assets/flags/jo.png":"Sze6","../assets/flags/jp.png":"GfEv","../assets/flags/ke.png":"cxv7","../assets/flags/kg.png":"b1Pv","../assets/flags/kh.png":"4WxZ","../assets/flags/ki.png":"uhdU","../assets/flags/km.png":"buwx","../assets/flags/kn.png":"5Xv3","../assets/flags/kp.png":"K6a0","../assets/flags/kr.png":"TtUs","../assets/flags/kw.png":"348r","../assets/flags/kz.png":"/ZWp","../assets/flags/la.png":"TwOk","../assets/flags/lb.png":"gzvN","../assets/flags/lc.png":"KNd1","../assets/flags/li.png":"KsRT","../assets/flags/lk.png":"mX+W","../assets/flags/lr.png":"gWv1","../assets/flags/ls.png":"ffJV","../assets/flags/lt.png":"/z05","../assets/flags/lu.png":"ghSF","../assets/flags/lv.png":"tp58","../assets/flags/ly.png":"DASi","../assets/flags/ma.png":"Lhl7","../assets/flags/md.png":"RiT/","../assets/flags/me.png":"sx2y","../assets/flags/mg.png":"Mw1X","../assets/flags/mh.png":"8OsX","../assets/flags/mk.png":"DLJm","../assets/flags/ml.png":"rtgv","../assets/flags/mm.png":"ginQ","../assets/flags/mn.png":"K97m","../assets/flags/mr.png":"lNth","../assets/flags/mt.png":"408A","../assets/flags/mu.png":"99Z/","../assets/flags/mv.png":"BD9E","../assets/flags/mw.png":"yJip","../assets/flags/mx.png":"SAn2","../assets/flags/my.png":"Pqqu","../assets/flags/mz.png":"Iv5P","../assets/flags/na.png":"tvz1","../assets/flags/ne.png":"76HY","../assets/flags/ng.png":"n4bT","../assets/flags/ni.png":"y/m9","../assets/flags/nl.png":"a6K5","../assets/flags/no.png":"Gu4D","../assets/flags/np.png":"O0XN","../assets/flags/nr.png":"m3In","../assets/flags/nz.png":"sW/a","../assets/flags/om.png":"DssP","../assets/flags/pa.png":"ySMJ","../assets/flags/pe.png":"Xxqh","../assets/flags/pg.png":"gKN3","../assets/flags/ph.png":"juia","../assets/flags/pk.png":"SUGh","../assets/flags/pl.png":"rs1e","../assets/flags/pt.png":"Ou6K","../assets/flags/pw.png":"12GE","../assets/flags/py.png":"57qk","../assets/flags/qa.png":"H8pm","../assets/flags/ro.png":"baK/","../assets/flags/rs.png":"ynW8","../assets/flags/mc.png":"A+tG","../assets/flags/ru.png":"i7D5","../assets/flags/rw.png":"+SRl","../assets/flags/sa.png":"HLej","../assets/flags/sb.png":"nHR4","../assets/flags/sc.png":"oBh7","../assets/flags/sd.png":"aHIx","../assets/flags/se.png":"DM8g","../assets/flags/sg.png":"Bp8c","../assets/flags/si.png":"si+k","../assets/flags/sk.png":"9CHy","../assets/flags/sl.png":"zbnq","../assets/flags/sm.png":"qDnD","../assets/flags/sn.png":"H4EK","../assets/flags/so.png":"ditI","../assets/flags/sr.png":"KOn9","../assets/flags/st.png":"oFWr","../assets/flags/sv.png":"6ODy","../assets/flags/sy.png":"7nFX","../assets/flags/td.png":"R+2G","../assets/flags/tg.png":"FyOY","../assets/flags/th.png":"zy5K","../assets/flags/tj.png":"hWyM","../assets/flags/tl.png":"xNdR","../assets/flags/tm.png":"2OTo","../assets/flags/tn.png":"gAYR","../assets/flags/to.png":"ncFU","../assets/flags/tr.png":"BpLH","../assets/flags/tt.png":"8O5/","../assets/flags/tv.png":"7zra","../assets/flags/tw.png":"uJ5m","../assets/flags/tz.png":"fyDg","../assets/flags/ua.png":"x3yi","../assets/flags/ug.png":"zqaQ","../assets/flags/us.png":"RExK","../assets/flags/uy.png":"9I6f","../assets/flags/uz.png":"brb2","../assets/flags/va.png":"sVjl","../assets/flags/vc.png":"+lld","../assets/flags/ve.png":"zqIu","../assets/flags/vn.png":"jHXI","../assets/flags/vu.png":"Dxqd","../assets/flags/ws.png":"TzKb","../assets/flags/ye.png":"leTJ","../assets/flags/za.png":"43TH","../assets/flags/zm.png":"DB3p","../assets/flags/zw.png":"OnIZ","../assets/flags/ks.png":"A2FK"}],"hDrq":[function(require,module,exports) {
-module.exports="/heartGreen.5369401a.png";
+module.exports="heartGreen.5369401a.png";
 },{}],"0DrJ":[function(require,module,exports) {
-module.exports="/heartYellow.41f0e780.png";
+module.exports="heartYellow.41f0e780.png";
 },{}],"BQ1L":[function(require,module,exports) {
-module.exports="/heartRed.0f4de97d.png";
+module.exports="heartRed.0f4de97d.png";
 },{}],"frDw":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=c;var e=a(require("react")),t=a(require("react-dom")),n=require("react-router-dom");function a(e){return e&&e.__esModule?e:{default:e}}function c(t){return e.default.createElement("div",{id:"wrap",style:{display:t.display.wrap}},e.default.createElement("div",{id:"blokHealh"},e.default.createElement("div",{id:"health_1",style:{background:t.counts.lose<3?"url(".concat(require("../assets/images/heartGreen.png"),") 50% 50% / 100% 100% no-repeat"):"transparent"}}),e.default.createElement("div",{id:"health_2",style:{background:t.counts.lose<2?"url(".concat(require("../assets/images/heartYellow.png"),") 50% 50% / 100% 100% no-repeat"):"transparent"}}),e.default.createElement("div",{id:"health_3",style:{background:0===t.counts.lose?"url(".concat(require("../assets/images/heartRed.png"),") 50% 50% / 100% 100% no-repeat"):"transparent"}}),e.default.createElement("span",{id:"textLose"},"Loses ",t.counts.lose,"/3")),e.default.createElement("div",{id:"bonuses"},e.default.createElement("div",{id:"biscuit"}),e.default.createElement("span",{id:"textBonus"},"Wins ",t.counts.win,"/",t.checkedContinent.map(function(n,a){if(!0===n)return e.default.createElement("span",{key:a},t.countries.copy[a].length-6)}))),!0===t.checkedChangeGame[0]?t.checkedContinent.map(function(n,a){if(!0===n)return e.default.createElement("h5",{id:"record",key:a},"Ваш рекорд: ",+JSON.parse(localStorage.getItem("Флаги(".concat(t.checkedContinentName[a],")"))))}):t.checkedContinent.map(function(n,a){if(!0===n)return e.default.createElement("h5",{id:"record",key:a},"Ваш рекорд: ",+JSON.parse(localStorage.getItem("Столицы(".concat(t.checkedContinentName[a],")"))))}),t.checkedContinent.map(function(n,a){if(!0===n)return e.default.createElement("h3",{id:"continentName",key:a},t.checkedContinentName[a])}),t.checkedChangeGame.map(function(n,a){if(!0===n)return e.default.createElement("h2",{id:"nameGame",key:a},t.checkedChangeGameName[a])}),e.default.createElement("div",{id:"flag",style:{background:t.countries.all[0].flags}}),e.default.createElement("div",{id:"countryName",style:{display:!0===t.checkedChangeGame[1]?"block":"none"}},t.countries.all[0].country),e.default.createElement("button",{id:"hint",style:{background:t.buttonHint.background},disabled:t.buttonHint.disabled,onClick:function(e){return t.onHints()}},"Подсказка (",t.counts.hints,"/3)"),e.default.createElement("button",{id:"goBackFlags",onClick:function(e){return t.onBack()}},"Назад"),"  ",e.default.createElement("br",null),e.default.createElement("div",{style:{background:t.backgrounds[0]},id:"firstChange",onClick:function(e){return t.onChange(0)}},!0===t.checkedChangeGame[0]?t.value[0]:t.valueCapital[0]),e.default.createElement("div",{style:{background:t.backgrounds[1]},id:"secondChange",onClick:function(e){return t.onChange(1)}},!0===t.checkedChangeGame[0]?t.value[1]:t.valueCapital[1]),e.default.createElement("br",null),e.default.createElement("div",{style:{background:t.backgrounds[2]},id:"thirdChange",onClick:function(e){return t.onChange(2)}},!0===t.checkedChangeGame[0]?t.value[2]:t.valueCapital[2]),e.default.createElement("div",{style:{background:t.backgrounds[3]},id:"fourthChange",onClick:function(e){return t.onChange(3)}},!0===t.checkedChangeGame[0]?t.value[3]:t.valueCapital[3]))}
 },{"react":"1n8/","react-dom":"NKHc","react-router-dom":"obMO","../assets/images/heartGreen.png":"hDrq","../assets/images/heartYellow.png":"0DrJ","../assets/images/heartRed.png":"BQ1L"}],"jbeg":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=r;var e=u(require("react")),t=u(require("react-dom")),n=require("react-router-dom");function u(e){return e&&e.__esModule?e:{default:e}}function r(t){return e.default.createElement("div",{id:"end",style:{display:t.display.endGame}},t.checkedContinent.map(function(n,u){if(!0===n){if(t.counts.win===t.countries.copy[u].length-6)return e.default.createElement("div",{key:u,id:"endText"},"OMG!!! ",e.default.createElement("br",null)," You are GENIUS");if(t.counts.lose>2)return e.default.createElement("div",{key:u},e.default.createElement("div",{key:t.counts.lose,id:"endText"},"GAME OVER"),e.default.createElement("div",{key:t.counts.lose+1,id:"loose"},"ВАШ РЕЗУЛЬТАТ ",t.counts.win," ",t.counts.win>9&&t.counts.win<21||t.counts.win>109&&t.counts.win<121?"БАЛЛОВ":t.counts.win%10==1?"БАЛЛ":t.counts.win%10>1&&t.counts.win%10<5?"БАЛЛA":"БАЛЛОВ"))}}),e.default.createElement("button",{id:"afterEnd",onClick:function(e){return t.onStart()}},"Начать Заново"),e.default.createElement("button",{id:"endMenu",onClick:function(e){return t.onBackFromEnd()}},"В меню"))}
 },{"react":"1n8/","react-dom":"NKHc","react-router-dom":"obMO"}],"fy8R":[function(require,module,exports) {
-module.exports="/12465048.36306a20.png";
+module.exports="12465048.36306a20.png";
 },{}],"PRg7":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=u;var e=a(require("react")),t=a(require("react-dom")),n=require("react-router-dom");function a(e){return e&&e.__esModule?e:{default:e}}function l(t){return e.default.createElement("div",{id:"options",style:{right:"".concat(t.positionRight,"%")}},e.default.createElement("div",null,e.default.createElement("input",{type:"radio",id:"changeFlags",name:"changeGame",defaultChecked:t.checkedChangeGame[0],onChange:function(e){return t.onChangeGame(0)}}),e.default.createElement("input",{type:"radio",id:"changeCapitals",name:"changeGame",defaultChecked:t.checkedChangeGame[1],onChange:function(e){return t.onChangeGame(1)}}),e.default.createElement("label",{className:"FlagGameBtn",htmlFor:"changeFlags"},"УГАДАТЬ СТРАНУ"),e.default.createElement("label",{className:"CapitalGameBtn",htmlFor:"changeCapitals"},"УГАДАТЬ СТОЛИЦУ")," "),e.default.createElement("div",{className:"map"},e.default.createElement("svg",{viewBox:"0 0 1000 648"},e.default.createElement("path",{d:"m 377.87264,305.66038 37.4434,-48.14151 56.16509,-6.11321 v 14.90094 l 28.65566,10.69812 12.22642,\r -10.31604 37.44339,9.55189 -9.16981,6.49528 36.67925,66.48113 29.41981,-3.43868 -35.53302,60.36793 0.38208,\r 38.20754 -21.01415,12.99057 -3.43868,41.64623 -17.95755,23.3066 -32.09434,-1.5283 -25.98113,-64.57076 12.60849,\r -18.7217 -12.99057,-32.09433 -4.96698,-34.76887 -49.28774,5.34905 -36.29717,\r -9.93396 z m 202.44856,145.11687 -5.40336,17.83109 9.72605,18.91177 17.8311,-47.00925 z",onClick:function(e){return t.onInteractive(3)},style:{opacity:t.path.opacity[3]}}),e.default.createElement("path",{d:"m 179.1934,364.11792 -11.84434,34.76887 28.65566,55.78302 13.37264,12.60849 -3.05661,86.73113 55.01887,\r 44.32076 -16.81132,-29.41981 1.80114,3.11967 0.87339,-31.77533 30.94811,-25.59906 6.11321,-28.65566 21.01415,\r -17.1934 17.1934,-56.92924 -53.10849,-21.7783 -8.78774,-26.74529 -0.68737,1.19056 -23.38338,-3.86508 z",onClick:function(e){return t.onInteractive(4)},style:{opacity:t.path.opacity[4]}}),e.default.createElement("path",{d:"m 53.493295,248.69146 c 19.992444,56.19498 19.992444,56.73532 19.992444,56.73532 l 1.621009,\r -19.45211 20.53278,24.31513 77.268092,53.4933 -25.39581,-56.19498 0.54034,3.24202 -19.45211,8.64538 -9.72605,\r -41.06556 v 3.24202 l 46.46892,-9.72605 15.12942,17.29076 7.02437,-25.39581 51.87229,-45.38825 46.46892,-16.75043 -19.45211,\r -39.44455 0.54034,3.24202 -39.44455,-1.62101 -16.75043,24.31514 -18.91177,-24.85547 35.6622,-24.85547 -161.020223,\r -3.78236 -63.7596854,39.98489 74.0260754,-4.32269 2.161345,54.03363 z m 109.688275,55.11431 12.42773,-2.16135 13.50841,\r 9.72606 -16.75043,-5.40337 z m 33.50085,15.12941 7.02437,-4.32269 5.9437,5.40337 z M 156.69753,122.7931 c 27.01682,\r -0.54033 27.01682,-0.54033 27.01682,-0.54033 l -17.8311,8.10504 z m 36.74287,0.54034 18.37144,4.86303 -12.96808,\r 4.86302 z m 29.7185,4.32269 3.78235,-12.42774 16.21009,1.62101 z m 35.12186,-19.45211 39.98489,-4.86302 -36.20254,\r 12.96807 z m -27.01682,34.58153 15.66976,-9.72606 -4.32269,18.37144 z m 8.10505,-16.75043 9.72605,-7.02437 25.39581,\r 5.9437 11.8874,21.61345 -17.8311,11.34706 -17.29076,-8.10504 20.53278,-5.40336 z m 61.058,-17.8311 118.87399,\r -5.40336 -25.39581,24.31513 -45.92858,19.45211 -20.53278,24.85547 -14.04875,-21.61345 5.40337,-25.39581 z",onClick:function(e){return t.onInteractive(5)},style:{opacity:t.path.opacity[5]}}),e.default.createElement("path",{d:"m 458.20519,156.83429 30.79917,-22.15379 29.7185,-7.56471 34.04119,17.8311 8.10504,79.96978 -23.23446,\r -16.21009 -9.18571,21.61345 -10.26639,4.32269 -8.10505,19.99244 -9.18572,-25.3958 -19.99244,\r -12.42774 15.12942,15.66975 -5.9437,15.12942 -22.69413,-28.63782 -44.30758,31.87984 -14.58908,-5.9437 1.08068,\r -24.85547 19.99244,4.32269 1.08067,-23.23446 30.79917,-15.66975 v -9.72606 l 8.64538,10.80673 36.74287,-10.80673 14.58908,\r -10.26639 -14.04874,-2.70168 -3.78236,-19.45211 -21.61345,32.96052 -9.18572,-8.64538 -13.5084,2.16134 z m -17.29076,\r 32.96052 -8.10504,-21.61346 -0.54034,16.21009 -7.56471,8.64538 z m -24.31513,0.54033 4.32269,-9.18572 2.70168,7.56471 z",onClick:function(e){return t.onInteractive(2)},style:{opacity:t.path.opacity[2]}}),e.default.createElement("path",{d:"m 556.00607,149.26958 9.72605,83.75213 -24.31513,-16.75042 -7.02438,18.37143 -10.26639,3.78235 1.62101,15.12942 28.63783,\r -1.08067 -2.70168,30.79917 32.96051,58.89666 51.87229,-34.58153 -14.58908,-16.75042 -15.66976,5.40336 -7.02437,-18.91177 25.93615,\r 14.58908 29.71849,1.62101 15.66976,18.37143 7.5647,-3.78235 16.75043,52.95296 9.18572,-7.02437 V 334.0646 l 31.3395,\r -30.25883 17.29077,28.63782 8.64538,-5.9437 4.86302,36.20254 20.53278,19.4521 -13.5084,-25.3958 v -13.50841 l 14.04874,\r 18.37143 16.21009,-16.75042 -22.15379,-29.17816 25.39581,-5.40337 17.29076,-8.64538 9.18572,-22.69412 -17.8311,-22.15379 -8.64538,\r -17.29076 18.37143,2.16134 23.23446,21.07312 -9.18571,-25.93615 15.66975,-13.5084 -9.72605,-29.17816 -22.69413,-8.64538 14.58908,\r -17.29077 39.44455,-7.02437 0.54034,23.7748 23.7748,13.50841 -16.21009,-32.42018 12.96807,2.16134 11.8874,-8.10504 -11.34707,\r -10.80673 12.96808,-5.40336 -146.43115,-14.04875 -93.47818,-18.91177 -25.93614,12.96808 -27.55715,-1.62101 -10.26639,\r 15.66975 -49.71094,-1.08067 z m 295.56396,40.52523 c 19.45211,23.23446 20.53278,24.31513 20.53278,24.31513 l -7.02437,\r 2.16135 z m 17.29076,33.50085 18.91177,-1.62101 -4.32269,11.8874 -9.72605,-0.54034 7.02437,18.91177 -11.34706,13.50841 -13.50841,\r 1.08067 3.78236,-11.34706 14.04874,-3.78235 z m -32.42018,114.5513 5.9437,-11.8874 -0.54033,7.02437 16.75042,16.21009 -4.86302,\r 4.32269 -11.34707,-5.40336 z m 15.66976,22.69412 7.02437,-3.78235 2.16134,8.64538 -5.40336,5.9437 z m -95.09919,14.04875 27.55715,\r 15.66975 7.02437,10.80672 -2.16135,11.8874 z m 44.84791,5.94369 13.50841,0.54034 13.50841,-17.8311 8.10504,5.40337 -8.10504,\r 36.20253 -17.29077,-3.78236 z m 34.04119,12.42774 21.61345,-8.10504 -9.72605,14.58908 2.70168,9.72605 -8.64538,-8.10505 -5.40337,\r 12.96808 z m -41.06556,22.69412 14.04874,-2.16134 15.12942,9.18572 z",onClick:function(e){return t.onInteractive(1)},style:{opacity:t.path.opacity[1]}}),e.default.createElement("path",{d:"m 806.18178,476.71339 0.54034,45.38825 54.57396,-11.8874 8.64539,14.58908 11.34706,4.32269 -0.54034,8.10505 17.29076,\r 1.621 12.96808,-4.32269 27.01681,-44.84791 -16.21009,-26.47648 -7.56471,-34.04119 -7.5647,24.85547 -15.12942,-9.18571 1.62101,\r -6.48404 -14.04875,-4.86303 -9.72605,11.8874 -9.18572,-4.86302 z m 72.9454,-83.75213 15.66976,9.18572 4.86302,-3.78236 14.04875,\r 2.70168 19.99244,14.04875 -3.78235,5.9437 7.5647,12.42773 -15.66975,-10.80672 -19.99244,-5.9437 -16.21009,-9.18572 z m 5.9437,\r 151.8345 0.54034,11.8874 10.26639,-10.26639 z m 56.19498,19.45211 8.10504,-8.64538 22.69413,-8.64538 -15.12942,17.8311 z m 39.44455,\r -24.31513 1.08067,7.02437 17.8311,-14.04874 -7.02437,-0.54034 -0.54034,-10.26639 -1.62101,11.34706 z",onClick:function(e){return t.onInteractive(6)},style:{opacity:t.path.opacity[6]}})),e.default.createElement("img",{src:require("../assets/images/12465048.png")}),e.default.createElement("div",{id:"AllWorld",onClick:function(e){return t.onInteractive(0)}},"ВЕСЬ МИР")),e.default.createElement("input",{type:"radio",id:"changeAllContinents",name:"continent",defaultChecked:t.checkedContinent[0],onChange:function(e){return t.onChangeContinent(0)}}),e.default.createElement("input",{type:"radio",id:"changeAsia",name:"continent",defaultChecked:t.checkedContinent[1],onChange:function(e){return t.onChangeContinent(1)}}),e.default.createElement("input",{type:"radio",id:"changeEurope",name:"continent",defaultChecked:t.checkedContinent[2],onChange:function(e){return t.onChangeContinent(2)}}),e.default.createElement("input",{type:"radio",id:"changeAfrica",name:"continent",defaultChecked:t.checkedContinent[3],onChange:function(e){return t.onChangeContinent(3)}}),e.default.createElement("input",{type:"radio",id:"changeSouthAmerica",name:"continent",defaultChecked:t.checkedContinent[4],onChange:function(e){return t.onChangeContinent(4)}}),e.default.createElement("input",{type:"radio",id:"changeNorthAmerica",name:"continent",defaultChecked:t.checkedContinent[5],onChange:function(e){return t.onChangeContinent(5)}}),e.default.createElement("input",{type:"radio",id:"changeOceania",name:"continent",defaultChecked:t.checkedContinent[6],onChange:function(e){return t.onChangeContinent(6)}}),e.default.createElement("button",{id:"apply",onClick:function(e){return t.onOptions()}},"Применить"))}function r(t){for(var n=[],a=0;a<t.checkedContinent.length;a++)null===t.recordes.flagsRecordsName[a]&&null===t.recordes.capitalsRecordsName[a]&&(n.push(t.recordes.flagsRecordsName[a]),n.push(t.recordes.capitalsRecordsName[a]));if(14===n.length)return e.default.createElement("div",{id:"recordsTable",style:{right:"".concat(t.positionRightTable,"%")}},e.default.createElement("h1",{id:"noRecords"},"У вас нет рекордов"),e.default.createElement("button",{id:"backFromTable",onClick:function(e){return t.onRecordsTable()}},"В меню"));for(var l=[],r=[],c=0;c<t.checkedContinent.length;c++)l.push(t.recordes.flagsRecordsName[c]),l.push(t.recordes.capitalsRecordsName[c]),r.push(t.recordes.flagsRecordsPoint[c]),r.push(t.recordes.capitalsRecordsPoint[c]);return e.default.createElement("div",{id:"recordsTable",style:{right:"".concat(t.positionRightTable,"%")}},e.default.createElement("table",{id:"records"},e.default.createElement("tbody",null,l.map(function(t,n){if(null!=t)return e.default.createElement("tr",{key:n},e.default.createElement("td",null,l[n]),e.default.createElement("td",null,r[n]))}))),e.default.createElement("button",{id:"backFromTable",onClick:function(e){return t.onRecordsTable()}},"В меню"))}function c(t){return e.default.createElement("div",{id:"rulesSheet",style:{left:"".concat(t.positionLeftRules,"%")}},e.default.createElement("h2",null,"Правила игры"),e.default.createElement("div",null,"Правила игры довольно просты. Существует 2 режима игры: ",e.default.createElement("span",null,'"Угадать страну по флагу"')," и",e.default.createElement("span",null,'"Угадать столицу страны".'),"Так же есть возможность выбора части мира для игры. Выбор перечисленного ранее осуществляется в ",e.default.createElement("span",null,'"Режимы игры".')),e.default.createElement("div",null,e.default.createElement("span",null,'"Угадать страну по флагу"'),": отображается флаг страны, Вам необходимо выбрать один из предложенных ",e.default.createElement("span",null,"четырех")," вариантов."),e.default.createElement("div",null,e.default.createElement("span",null,'"Угадать столицу страны"'),": отображается флаг страны с указанием ее названия ниже, Вам необходимо выбрать один из предложенных ",e.default.createElement("span",null,"четырех")," вариантов."),e.default.createElement("div",null,"За каждый правильный ответ вы получаете ",e.default.createElement("span",null,"1 балл"),". Вам дается ",e.default.createElement("span",null,"3")," права на ошибку. После 3 ошибки игра прекращается."),e.default.createElement("div",null,e.default.createElement("span",null,"Примечание:"),"Во всех режимах у вас есть возможность воспользоваться подсказкой, нажав на кнопку с соответсвующим названием во время начатой игры. В случае выбора данной опции вам отобразиться и засчитается правильный вариант ответа.",e.default.createElement("br",null),e.default.createElement("span",null,"Удачной игры!")),e.default.createElement("button",{id:"backFromRules",onClick:function(e){return t.onRules()}},"В меню"))}function u(t){return e.default.createElement("div",{id:"wrapStart",style:{display:t.display.wrapStart}},e.default.createElement("div",{id:"earth"}),e.default.createElement("div",{className:"forMedia"},e.default.createElement("button",{id:"start",onClick:function(e){return t.onStart()}}," ИГРА "),e.default.createElement("div",null,e.default.createElement("button",{id:"rules",onClick:function(e){return t.onRules()}},"ПРАВИЛА"),e.default.createElement("button",{id:"yourRecords",onClick:function(e){return t.onRecordsTable()}},"ТАБЛИЦА",e.default.createElement("br",null),"РЕКОРДОВ")),e.default.createElement("button",{id:"settings",onClick:function(e){return t.onOptions()}},"РЕЖИМЫ ИГРЫ"),e.default.createElement("button",{id:"back",style:{display:t.display.btnContinue},onClick:function(e){return t.onContinue()}},"ПРОДОЛЖИТЬ")),e.default.createElement(l,t),e.default.createElement(r,t),e.default.createElement(c,t))}
 },{"react":"1n8/","react-dom":"NKHc","react-router-dom":"obMO","../assets/images/12465048.png":"fy8R"}],"DfPw":[function(require,module,exports) {
-module.exports="/BtnBlkWhtBrdr.ef0dd34b.png";
+module.exports="BtnBlkWhtBrdr.ef0dd34b.png";
 },{}],"n6Hy":[function(require,module,exports) {
-module.exports="/button1.3f169871.png";
+module.exports="button1.3f169871.png";
 },{}],"wX7y":[function(require,module,exports) {
-module.exports="/buttonDblue.3bb24771.png";
+module.exports="buttonDblue.3bb24771.png";
 },{}],"k3dz":[function(require,module,exports) {
-module.exports="/BtnRedWhtBkg.d5205fab.png";
+module.exports="BtnRedWhtBkg.d5205fab.png";
 },{}],"7Pdf":[function(require,module,exports) {
-module.exports="/BtnDgreen.d7f53517.png";
+module.exports="BtnDgreen.d7f53517.png";
 },{}],"/deH":[function(require,module,exports) {
 "use strict";var t=r(require("react")),e=r(require("react-dom")),n=require("react-router-dom"),a=require("./countries"),o=r(require("./game")),s=r(require("./endGame")),i=r(require("./startGame"));function r(t){return t&&t.__esModule?t:{default:t}}function c(t){return(c="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}function l(){return(l=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var a in n)Object.prototype.hasOwnProperty.call(n,a)&&(t[a]=n[a])}return t}).apply(this,arguments)}function u(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},a=Object.keys(n);"function"==typeof Object.getOwnPropertySymbols&&(a=a.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),a.forEach(function(e){h(t,e,n[e])})}return t}function h(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}function p(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function d(t,e){for(var n=0;n<e.length;n++){var a=e[n];a.enumerable=a.enumerable||!1,a.configurable=!0,"value"in a&&(a.writable=!0),Object.defineProperty(t,a.key,a)}}function f(t,e,n){return e&&d(t.prototype,e),n&&d(t,n),t}function g(t,e){return!e||"object"!==c(e)&&"function"!=typeof e?v(t):e}function k(t){return(k=Object.setPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__||Object.getPrototypeOf(t)})(t)}function b(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),e&&m(t,e)}function m(t,e){return(m=Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(t,e)}function v(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}var y=function(e){function n(){var t;return p(this,n),(t=g(this,k(n).call(this))).state={countries:{all:[a.fullCounties.concat(),a.asiaChange.concat(),a.europeChange.concat(),a.africaChange.concat(),a.southAmericaChange.concat(),a.northAmericaChange.concat(),a.oceaniaChange.concat()],copy:[a.fullCounties.concat(),a.asiaChange.concat(),a.europeChange.concat(),a.africaChange.concat(),a.southAmericaChange.concat(),a.northAmericaChange.concat(),a.oceaniaChange.concat()]},display:{wrap:"none",wrapStart:"block",endGame:"none",btnContinue:"none"},counts:{win:0,lose:0,hints:3},recordes:{flagsRecordsPoint:[null,null,null,null,null,null,null],flagsRecordsName:[null,null,null,null,null,null,null],capitalsRecordsPoint:[null,null,null,null,null,null,null],capitalsRecordsName:[null,null,null,null,null,null,null]},path:{opacity:[.7,.7,.7,.7,.7,.7,.7]},buttonHint:{background:"",disabled:!1},backgrounds:["url(".concat(require("../assets/images/BtnBlkWhtBrdr.png"),") 50% 50%/cover"),"url(".concat(require("../assets/images/BtnBlkWhtBrdr.png"),") 50% 50%/cover"),"url(".concat(require("../assets/images/BtnBlkWhtBrdr.png"),") 50% 50%/cover"),"url(".concat(require("../assets/images/BtnBlkWhtBrdr.png"),") 50% 50%/cover")],value:[],valueCapital:[],className:["unblok","unblok","unblok","unblok"],checkedChangeGame:[!0,!1],checkedChangeGameName:["Угадай страну по флагу","Угадай столицу страны"],checkedContinent:[!0,!1,!1,!1,!1,!1,!1],checkedContinentName:["Весь мир","Азия","Европа","Африка","Южная Америка","Северная Америка","Океания"],positionRight:-100,positionRightTable:-100,positionLeftRules:-100},t.onChange=t.onChange.bind(v(v(t))),t.onStart=t.onStart.bind(v(v(t))),t.onBack=t.onBack.bind(v(v(t))),t.onChangeContinent=t.onChangeContinent.bind(v(v(t))),t.onChangeGame=t.onChangeGame.bind(v(v(t))),t.onHints=t.onHints.bind(v(v(t))),t.onOptions=t.onOptions.bind(v(v(t))),t.onRecordsTable=t.onRecordsTable.bind(v(v(t))),t.onRules=t.onRules.bind(v(v(t))),t.onContinue=t.onContinue.bind(v(v(t))),t.onBackFromEnd=t.onBackFromEnd.bind(v(v(t))),t.onInteractive=t.onInteractive.bind(v(v(t))),t}return b(n,t.default.Component),f(n,[{key:"componentDidUpdate",value:function(){var t=JSON.stringify(this.state);localStorage.setItem("saveGame",t)}},{key:"componentWillMount",value:function(){var t=JSON.parse(localStorage.getItem("saveGame"));t&&this.setState(u({},t));var e=JSON.parse(localStorage.getItem("recordes"));e&&this.setState({recordes:u({},e)})}},{key:"onAfterCheck",value:function(){var t=this,e=this.state.countries.all.concat(),n=this.state.countries.copy.concat();function a(t,e){return Math.random()-.5}e.splice(0,1),e.sort(a);var o=[e[0],e[1],e[2],e[3]];o.sort(a),this.setState({countries:{all:e,copy:n},value:[o[0].country,o[1].country,o[2].country,o[3].country],valueCapital:[o[0].capital,o[1].capital,o[2].capital,o[3].capital],backgrounds:['url("'.concat(require("../assets/images/BtnBlkWhtBrdr.png"),'") 50% 50% /cover'),'url("'.concat(require("../assets/images/BtnBlkWhtBrdr.png"),'") 50% 50% /cover'),'url("'.concat(require("../assets/images/BtnBlkWhtBrdr.png"),'") 50% 50% /cover'),'url("'.concat(require("../assets/images/BtnBlkWhtBrdr.png"),'") 50% 50% /cover')],className:["unblok","unblok","unblok","unblok"],buttonHint:{background:"url(".concat(require("../assets/images/button1.png"),") no-repeat 50% 50%/contain"),disabled:!1}}),this.state.checkedContinent.map(function(e,n){!0===e&&(t.state.counts.lose>2||t.state.counts.win===t.state.countries.copy[n].length-6)&&t.setState({display:{wrap:"none",endGame:"block",wrapStart:"none"}})})}},{key:"onAnimationHints",value:function(t){for(var e=0;e<this.state.backgrounds.length;e++)this.state.backgrounds[e]="url(".concat(require("../assets/images/BtnBlkWhtBrdr.png"),") 50% 50%/cover"),this.state.backgrounds[t]="url(".concat(require("../assets/images/buttonDblue.png"),") 50% 50%/cover");this.setState({backgrounds:this.state.backgrounds})}},{key:"saveRecords",value:function(){if(!0===this.state.checkedChangeGame[0]){for(var t=0;t<this.state.checkedContinent.length;t++)if(!0===this.state.checkedContinent[t]&&+JSON.parse(localStorage.getItem("Флаги(".concat(this.state.checkedContinentName[t],")")))<this.state.counts.win){var e=JSON.stringify(this.state.counts.win);this.state.recordes.flagsRecordsPoint[t]=this.state.counts.win,localStorage.setItem("Флаги(".concat(this.state.checkedContinentName[t],")"),e),this.state.recordes.flagsRecordsName[t]="Флаги(".concat(this.state.checkedContinentName[t],")")}}else if(!0===this.state.checkedChangeGame[1])for(var n=0;n<this.state.checkedContinent.length;n++)if(!0===this.state.checkedContinent[n]&&+JSON.parse(localStorage.getItem("Столицы(".concat(this.state.checkedContinentName[n],")")))<this.state.counts.win){var a=JSON.stringify(this.state.counts.win);this.state.recordes.capitalsRecordsPoint[n]=this.state.counts.win,localStorage.setItem("Столицы(".concat(this.state.checkedContinentName[n],")"),a),this.state.recordes.capitalsRecordsName[n]="Столицы(".concat(this.state.checkedContinentName[n],")")}this.setState({recordes:u({},this.state.recordes)}),localStorage.setItem("recordes",JSON.stringify(this.state.recordes))}},{key:"onChangeGame",value:function(t){for(var e=this.state.checkedChangeGame,n=0;n<e.length;n++)t===n?e[t]=!0:e[n]=!1;this.setState({checkedChangeGame:e})}},{key:"onChangeContinent",value:function(t){for(var e=this.state.checkedContinent,n=0;n<e.length;n++)t===n?e[t]=!0:e[n]=!1;this.setState({checkedContinent:e})}},{key:"onInteractive",value:function(t){for(var e=0;e<this.state.checkedContinent.length;e++)if(0===t)for(var n=0;n<this.state.checkedContinent.length;n++)this.state.checkedContinent[0]=!0,this.state.checkedContinent[n]=!1,this.state.path.opacity[n]=.1;else e===t?(this.state.checkedContinent[e]=!0,this.state.path.opacity[e]=.1):(this.state.checkedContinent[e]=!1,this.state.path.opacity[e]=.7);this.setState({checkedContinent:this.state.checkedContinent})}},{key:"onRecordsTable",value:function(){var t=this;if(-100===this.state.positionRightTable)var e=setInterval(function(){t.setState({positionRightTable:t.state.positionRightTable+10}),0===t.state.positionRightTable&&clearInterval(e)},4);else if(0===this.state.positionRightTable)var n=setInterval(function(){t.setState({positionRightTable:t.state.positionRightTable-10}),-100===t.state.positionRightTable&&clearInterval(n)},4)}},{key:"onRules",value:function(){var t=this;if(-100===this.state.positionLeftRules)var e=setInterval(function(){t.setState({positionLeftRules:t.state.positionLeftRules+10}),0===t.state.positionLeftRules&&clearInterval(e)},4);else if(0===this.state.positionLeftRules)var n=setInterval(function(){t.setState({positionLeftRules:t.state.positionLeftRules-10}),-100===t.state.positionLeftRules&&clearInterval(n)},4)}},{key:"onOptions",value:function(){var t=this;if(-100===this.state.positionRight)var e=setInterval(function(){t.setState({positionRight:t.state.positionRight+10}),0===t.state.positionRight&&clearInterval(e)},4);else if(0===this.state.positionRight)var n=setInterval(function(){t.setState({positionRight:t.state.positionRight-10}),-100===t.state.positionRight&&clearInterval(n)},4)}},{key:"onContinue",value:function(){this.setState({display:u({},this.state.display,{wrapStart:"none",wrap:"block"})})}},{key:"onBack",value:function(){this.setState({display:{wrap:"none",wrapStart:"block",endGame:"none",btnContinue:"block"}})}},{key:"onBackFromEnd",value:function(){this.state.counts.lose&&this.setState({display:{wrap:"none",wrapStart:"block",endGame:"none",btnContinue:"none"}})}},{key:"onHints",value:function(){if(this.state.counts.hints>0){this.setState({buttonHint:{background:"url(".concat(require("../assets/images/BtnRedWhtBkg.png"),") no-repeat 50% 50%/contain"),disabled:!0},className:["blok","blok","blok","blok"]});var t=this;new Promise(function(e,n){var a=0,o=setInterval(function(){200===(a+=10)&&clearInterval(o),a/10==1||a/10==4||a/10==8||a/10==12||a/10==16||a/10==20?t.onAnimationHints(0):a/10==2||a/10==6||a/10==10||a/10==14||a/10==18?t.onAnimationHints(1):a/10==3||a/10==7||a/10==11||a/10==15||a/10==19?t.onAnimationHints(2):a/10!=5&&a/10!=9&&a/10!=13&&a/10!=17||t.onAnimationHints(3)},100);setTimeout(function(){t.state.backgrounds.map(function(e,n){t.state.backgrounds[n]="url(".concat(require("../assets/images/BtnBlkWhtBrdr.png"),") 50% 50%/cover"),(!0===t.state.checkedChangeGame[0]?t.state.value[n]===t.state.countries.all[0].country:t.state.valueCapital[n]===t.state.countries.all[0].capital)&&(t.state.backgrounds[n]="url(".concat(require("../assets/images/BtnDgreen.png"),") no-repeat 50% 50%/contain"))}),e(t.setState({backgrounds:t.state.backgrounds,counts:u({},t.state.counts,{win:t.state.counts.win+1,hints:t.state.counts.hints-1})}))},2e3)}).then(function(e){return new Promise(function(e,n){setTimeout(function(){t.onAfterCheck(),t.saveRecords()},2e3)})})}}},{key:"onStart",value:function(){var t=this.state.countries.copy.concat();function e(t,e){return Math.random()-.5}for(var n=0;n<this.state.checkedContinent.length;n++)!0===this.state.checkedContinent[n]&&this.setState({countries:{all:t[n].sort(e),copy:this.state.countries.copy},value:[t[n][0].country,t[n][1].country,t[n][2].country,t[n][3].country].sort(e),valueCapital:[t[n][0].capital,t[n][1].capital,t[n][2].capital,t[n][3].capital].sort(e),display:{wrap:"block",wrapStart:"none",endGame:"none"},counts:{win:0,lose:0,hints:3}})}},{key:"onChange",value:function(t){if("blok"!=this.state.className[t]){this.setState({className:["blok","blok","blok","blok"]});var e=this.state.backgrounds;e[t]="url(".concat(require("../assets/images/buttonDblue.png"),") no-repeat 50% 50%/contain");var n=this;this.setState({backgrounds:e}),new Promise(function(e,a){setTimeout(function(){for(var a=0;a<n.state.value.length;a++)if(!0===n.state.checkedChangeGame[0]?n.state.value[a]===n.state.countries.all[0].country:n.state.valueCapital[a]===n.state.countries.all[0].capital){t===a?(n.setState({counts:u({},n.state.counts,{win:n.state.counts.win+1,lose:n.state.counts.lose})}),n.saveRecords()):n.setState({counts:u({},n.state.counts,{win:n.state.counts.win,lose:n.state.counts.lose+1})});var o=n.state.backgrounds;o[t]="url(".concat(require("../assets/images/BtnRedWhtBkg.png"),") no-repeat 50% 50%/contain"),o[a]="url(".concat(require("../assets/images/BtnDgreen.png"),") no-repeat 50% 50%/contain"),n.setState({backgrounds:o})}e(n.state.countries)},2e3)}).then(function(t){return new Promise(function(t,e){setTimeout(function(){n.onAfterCheck()},2e3)})})}}},{key:"render",value:function(){return t.default.createElement("div",null,t.default.createElement(o.default,l({},this.state,{onHints:this.onHints,onChange:this.onChange,onBack:this.onBack})),t.default.createElement(i.default,l({},this.state,{onOptions:this.onOptions,onChangeContinent:this.onChangeContinent,onChangeGame:this.onChangeGame,onStart:this.onStart,onRecordsTable:this.onRecordsTable,onRules:this.onRules,onContinue:this.onContinue,onInteractive:this.onInteractive})),t.default.createElement(s.default,l({},this.state,{onStart:this.onStart,onBackFromEnd:this.onBackFromEnd})))}}]),n}();e.default.render(t.default.createElement(y,null),document.getElementById("root"));
 },{"react":"1n8/","react-dom":"NKHc","react-router-dom":"obMO","./countries":"8KNv","./game":"frDw","./endGame":"jbeg","./startGame":"PRg7","../assets/images/BtnBlkWhtBrdr.png":"DfPw","../assets/images/button1.png":"n6Hy","../assets/images/buttonDblue.png":"wX7y","../assets/images/BtnRedWhtBkg.png":"k3dz","../assets/images/BtnDgreen.png":"7Pdf"}]},{},["/deH"], null)
-//# sourceMappingURL=/src.f2ef5896.map
+//# sourceMappingURL=src.f2ef5896.map
