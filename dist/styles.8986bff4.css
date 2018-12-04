@@ -189,7 +189,7 @@ tr > td:nth-child(2){
   outline: none;
 }
 
-#start:hover, #settings:hover, #rules:hover, #yourRecords:hover, #back:hover, #backFromTable:hover, .AllWorld:hover, 
+#start:hover, #settings:hover, #rules:hover, #yourRecords:hover, #back:hover, #backFromTable:hover, #AllWorld:hover, 
 .FlagGameBtn:hover, .CapitalGameBtn:hover, #apply:hover, #afterEnd:hover, #endMenu:hover, #backFromRules:hover{
   opacity: 1;
   transform: scale(1.35);
@@ -388,18 +388,17 @@ input {
 #AllWorld{
   display: inline-block;
   position: absolute;
-  left:50%;
-  bottom: 15%;
-  margin-left: -75px;
-  padding-top: 25px;
-  width: 180px;
-  height: 120px;
+  left:46%;
+  bottom: -7%;
+  padding-top: 15px;
+  width: 160px;
+  height: 70px;
   cursor: pointer;
+  background: url(button3.87318411.png) 50% 50%/cover;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
-  font-size: 30px;
+  font-size: 27px;
   font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
 }
 
 
@@ -413,6 +412,7 @@ input {
   height: 60px;
   background: url(buttonOrange.20c91942.png) 50% 50%/cover !important;
   cursor: pointer;
+  transition: .5s;
 }
 
 .CapitalGameBtn{
@@ -426,6 +426,7 @@ input {
   height: 60px;
   background: url(buttonOrange.20c91942.png) 50% 50%/cover !important;
   cursor: pointer;
+  transition: .5s;
 }
 
 
@@ -524,20 +525,13 @@ input {
   color: black !important;
 }
 
-#asiaInput:hover,#oceaniaInput:hover,#nAmericaInput:hover,#sAmericaInput:hover,
-#africaInput:hover,#europaInput:hover,#AllWorld:hover{
- background: url(button1.ca97618e.png) 50% 50%/cover;
- opacity: 0.8;
-}
-
 #changeAsia:checked ~ #asiaInput,#changeEurope:checked ~ #europaInput,
 #changeAfrica:checked ~ #africaInput,#changeSouthAmerica:checked ~ #sAmericaInput,
 #changeNorthAmerica:checked ~ #nAmericaInput,#changeOceania:checked ~ #oceaniaInput,
 #changeAllContinents:checked ~ #AllWorld,#changeFlags:checked ~ .FlagGameBtn,
 #changeCapitals:checked ~ .CapitalGameBtn {
  background: url(button1.ca97618e.png) 50% 50%/cover;
- transform: scale(1.2);
- color:red !important;
+ transform: scale(1.35);
  opacity:1;
 }
 
@@ -558,15 +552,15 @@ input {
 #apply{
   position: absolute;
   bottom: 5%;
-  left: 44%;
+  left: 46%;
   display: block;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 27px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black; 
   letter-spacing: 2.5px;
-  width: 150px;
-  height: 50px;
+  width: 160px;
+  height: 70px;
   background: url(buttonViolet.a054590d.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
@@ -696,7 +690,7 @@ margin-top: 10px;
 #AllWorld{
   display: inline-block;
   position: absolute;
-  left:50%;
+  left:46%;
   bottom: 12%;
   margin-left: -75px;
   padding-top: 10px;
@@ -736,6 +730,7 @@ margin-top: 10px;
   height: 120px;
   background: url(buttonOrange.20c91942.png) 50% 50%/cover !important;
   cursor: pointer;
+  
 }
 
 
