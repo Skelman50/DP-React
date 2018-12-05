@@ -129,7 +129,7 @@ class Start extends React.Component {
 			},
 		})	
 		this.state.checkedContinent.map((value,index) => {
-			if(value===true) {
+			if(value) {
 		
 		if(this.state.counts.lose>2 || this.state.counts.win===this.state.countries.copy[index].length-6) {
 			this.setState({
@@ -155,9 +155,9 @@ class Start extends React.Component {
 	}
 
 	saveRecords(){
-		if(this.state.checkedChangeGame[0]===true){
+		if(this.state.checkedChangeGame[0]){
 			for(let i = 0; i<this.state.checkedContinent.length; i++) {
-				if(this.state.checkedContinent[i]===true){
+				if(this.state.checkedContinent[i]){
 					if(+JSON.parse(localStorage.getItem(`Флаги(${this.state.checkedContinentName[i]})`))<this.state.counts.win){
 						let recordesFlag = JSON.stringify(this.state.counts.win);
 						this.state.recordes.flagsRecordsPoint[i] = this.state.counts.win
@@ -167,9 +167,9 @@ class Start extends React.Component {
 				
 				}
 			}
-		}else if(this.state.checkedChangeGame[1]===true)
+		}else if(this.state.checkedChangeGame[1])
 			{for(let i = 0; i<this.state.checkedContinent.length; i++) {
-				if(this.state.checkedContinent[i]===true){
+				if(this.state.checkedContinent[i]){
 					if(+JSON.parse(localStorage.getItem(`Столицы(${this.state.checkedContinentName[i]})`))<this.state.counts.win){
 						let recordesCap = JSON.stringify(this.state.counts.win);
 						this.state.recordes.capitalsRecordsPoint[i] = this.state.counts.win
@@ -347,34 +347,31 @@ class Start extends React.Component {
 			let id = setInterval(() =>{
 				count = count + 10;
 				index ++;
+				
 				if(index===4) {
 					index = 0;
 				}
+				this.onAnimationHints(index)
 				if (count===200) {
 					clearInterval(id);
-				}
-
-					this.onAnimationHints(index)
-				
+					this.state.backgrounds.map((value,index)=>{
+						this.state.backgrounds[index] = require('../assets/images/BtnBlkWhtBrdr.png')
+						if(this.state.checkedChangeGame[0]?(this.state.value[index]===this.state.countries.all[0].country):
+							(this.state.valueCapital[index]===this.state.countries.all[0].capital)){
+								this.state.backgrounds[index] = require('../assets/images/BtnDgreen.png')
+								
+							}	
+					})
+					res(this.setState({
+						backgrounds:this.state.backgrounds,
+						counts:{
+							...this.state.counts,
+							win:this.state.counts.win+1,
+							hints:this.state.counts.hints-1
+						}
+					}))
+				}	
 			},100)
-		setTimeout(()=>{
-			this.state.backgrounds.map((value,index)=>{
-				this.state.backgrounds[index] = require('../assets/images/BtnBlkWhtBrdr.png')
-				if(this.state.checkedChangeGame[0]===true?(this.state.value[index]===this.state.countries.all[0].country):
-					(this.state.valueCapital[index]===this.state.countries.all[0].capital)){
-						this.state.backgrounds[index] = require('../assets/images/BtnDgreen.png')
-						
-					}	
-			})
-			res(this.setState({
-				backgrounds:this.state.backgrounds,
-				counts:{
-					...this.state.counts,
-					win:this.state.counts.win+1,
-					hints:this.state.counts.hints-1
-				}
-			}))
-		},2000)
 		}).then((res)=> new Promise((res,rej)=>{
 			setTimeout(()=>{
 			this.onAfterCheck()
@@ -393,7 +390,7 @@ class Start extends React.Component {
 			return Math.random() - 0.5;
 		  }
 		for(let i = 0; i<this.state.checkedContinent.length;i++) {
-			if(this.state.checkedContinent[i]===true){
+			if(this.state.checkedContinent[i]){
 			this.setState({
 				countries:{
 					all:arr[i].sort(compareRandom),
@@ -436,7 +433,7 @@ class Start extends React.Component {
 		new Promise((res,rej)=>{
 			setTimeout(()=>{
 						for(let i=0;i<this.state.value.length;i++) {
-							if(this.state.checkedChangeGame[0]===true?(this.state.value[i]===this.state.countries.all[0].country):
+							if(this.state.checkedChangeGame[0]?(this.state.value[i]===this.state.countries.all[0].country):
 							(this.state.valueCapital[i]===this.state.countries.all[0].capital)){
 								if(index===i) {
 									this.setState({

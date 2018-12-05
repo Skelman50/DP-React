@@ -8,7 +8,7 @@ export default function EndGame (props) {
 
 	
 	{	props.checkedContinent.map((value,index)=> {
-		if(value===true){
+		if(value){
 			if (props.counts.win===props.countries.copy[index].length-6) {return (<div key={index} id="endText">OMG!!! <br /> You are GENIUS</div>)}
 			else if (props.counts.lose>2) {
 		return(	<div key={index}>
@@ -24,8 +24,8 @@ export default function EndGame (props) {
 		</div>
 		)
 		}
-		}
-	})
+	}
+})
 }
 	<button id="afterEnd" onClick={(e)=>props.onStart()}>Начать Заново</button>
 	<button id="endMenu" onClick={(e)=>props.onBackFromEnd()}>В меню</button>
