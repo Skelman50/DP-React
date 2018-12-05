@@ -4,6 +4,7 @@
     "start_url": "Guess-the-country",
     "display": "standalone",
     "background_color": "#fff",
+    "theme_color": "#317EFB",
     "description": "A simply readable GTC app.",
     "icons": [{
       "src": "../assets/icons/icon-72x72.png",
@@ -20,6 +21,10 @@
     },  {
       "src": "../assets/icons/icon-192x192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "../assets/icons/icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }]
   }

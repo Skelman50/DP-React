@@ -73,7 +73,7 @@ function Options(props){
 				onClick={(e)=>props.onInteractive(6)} style={{opacity:props.path.opacity[6]}}/>
 				
 	</svg>
-        <img src = {require('../assets/images/12465048.png')}/>
+        <img src = {require('../assets/images/modesMap.png')} alt = "Map"/>
 		<div id="AllWorld" onClick={(e)=>props.onInteractive(0)}>ВЕСЬ МИР</div>
    </div>
 

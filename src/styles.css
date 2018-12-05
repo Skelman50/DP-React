@@ -1,9 +1,24 @@
+@font-face {
+  font-family: 'Arvo';
+  font-display: auto;
+  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
 *{
 box-sizing: border-box;
+}
+html{
+  height: 100%;
 }
 body{
 margin: 0;
 text-align: center;
+height: 100%;
+}
+#root{
+  height: 100%;
+}
+#root > div:nth-child(1){
+  height: 100%;
 }
 
 .loader {
@@ -21,24 +36,28 @@ text-align: center;
 #wrapStart {
   padding-top: 300px;
   position: relative;
-  height: 100vh;
-  background: url(../assets/images/46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg) 50% 50%/cover;
+  height: 100%;
+  background: url(../assets/images/space.jpg) 50% 50%/cover;
   overflow: hidden;
 }
 
 #earth {
   position: absolute;
-  width: 900px;
-  padding-top: 900px;
+  width: 950px;
+  padding-top: 950px;
   left: 50%;
-  margin-left: -450px;
-  top:29%;
+  margin-left: -475px;
+  top:3%;
   background: url(../assets/images/earthMap.jpg) 0 0 repeat;
   border-radius: 50%;
-  background-size: 1800px;
- /* animation: rotate 120s linear infinite;*/
+  background-size: 1900px;
+  animation: rotate 120s linear infinite;
   transform-style: preserve-3d;
   box-shadow: inset 60px 0 230px 18px rgba(0, 0, 0, 1);
+}
+@keyframes rotate {
+  0% {background-position: 0 0;}
+  100% {background-position: 1900px 0;}
 }
 
 #earth:after {
@@ -65,7 +84,7 @@ text-align: center;
 }
 
 #start{
-  opacity: 0.55;
+  opacity: 0.9;
   display: block;
   font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
@@ -77,6 +96,7 @@ text-align: center;
   background: url(../assets/images/button1.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
+  transition: .3s;
 }
 #start + div {
   padding: 1% 0;
@@ -94,6 +114,7 @@ text-align: center;
   border-collapse: collapse;
   font-size: 30px;
   letter-spacing: 3px;
+  transition: .3s;
 }
 
 td,tr {
@@ -118,6 +139,7 @@ tr > td:nth-child(2){
   background: url(../assets/images/button1.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
+  transition: .3s;
 }
 
 #backFromRules{
@@ -136,7 +158,7 @@ tr > td:nth-child(2){
 }
 
 #settings {
-  opacity: 0.55;
+  opacity: 0.9;
   display: block;
   margin: 0 auto;
   font-size: 50px;
@@ -149,9 +171,10 @@ tr > td:nth-child(2){
   border: none;
   cursor: pointer;
   margin-bottom: 20px;
+  transition: .3s;
 }
 #rules {
-  opacity: 0.55;
+  opacity: 0.9;
   vertical-align: middle;
   display: inline-block;
   font-size: 50px;
@@ -164,9 +187,10 @@ tr > td:nth-child(2){
   background: url(../assets/images/button3.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
+  transition: .3s;
 }
 #yourRecords {
-  opacity: 0.55;
+  opacity: 0.9;
   vertical-align: middle;
   display: inline-block;
   margin-left: 7% !important;
@@ -180,10 +204,11 @@ tr > td:nth-child(2){
   background: url(../assets/images/button4.png) 50% 50%/cover;
   border: none;
   cursor: pointer;
+  transition: .3s;
 }
 
 #back{
-  opacity: 0.55;
+  opacity: 0.9;
   display: none;
   margin: 0 auto;
   font-size: 40px;
@@ -195,6 +220,7 @@ tr > td:nth-child(2){
   background: url(../assets/images/button2.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
+  transition: .3s;
 }
 #start:focus, #settings:focus, #rules:focus, #yourRecords:focus, #back:focus {
   outline: none;
@@ -203,7 +229,7 @@ tr > td:nth-child(2){
 #start:hover, #settings:hover, #rules:hover, #yourRecords:hover, #back:hover, #backFromTable:hover, #AllWorld:hover, 
 .FlagGameBtn:hover, .CapitalGameBtn:hover, #apply:hover, #afterEnd:hover, #endMenu:hover, #backFromRules:hover{
   opacity: 1;
-  transform: scale(1.25);
+  transform: scale(1.1);
   transition: .3s;
   z-index: 3;
 }
@@ -222,11 +248,12 @@ tr > td:nth-child(2){
 #wrap,#end {
   display: none;
   position: relative;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   background:url(../assets/images/karta_mira.jpg) 50% 50%/cover  rgba( 0, 0, 0, 0.5);
   background-blend-mode: multiply;
   padding-top: 15px;
+  overflow: auto;
 }
 
 
@@ -244,7 +271,6 @@ tr > td:nth-child(2){
   width: 500px;
   height: 280px;
   margin: 0 auto;
-  opacity: .85;
 }
 #firstChange,#secondChange,#fourthChange,#thirdChange {
   display:inline-block; 
@@ -340,7 +366,7 @@ svg
     position: absolute;
     top: 0;
     left: 0;
-    height: 99%;
+    height: 99.5%;
     width: 100%;
 }
 path
@@ -375,7 +401,6 @@ path:hover
   padding: 0 10%;
   margin: 0 auto;
   background:url(../assets/images/paper_texture3878.jpg) 50% 50%/cover;
-  padding-top: 70px;
   font-family: 'Lobster', cursive;
 }
 
@@ -385,7 +410,7 @@ path:hover
 
 #rulesSheet > div{
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 #rulesSheet > div > span{
@@ -564,8 +589,6 @@ input {
   position: absolute;
   bottom: 5%;
   left: 46%;
-  display: block;
-  margin: 0 auto;
   font-size: 27px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black; 
@@ -582,10 +605,9 @@ margin-top: 25px;
 
 #goBackFlags {
   display: inline-block;
-  opacity: 0.55;
   font-size: 23px;
   font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
+  color: rgba(0, 0, 0, 0.55);
   letter-spacing: 2px;
   width: 150px;
   height: 67px;
@@ -594,6 +616,7 @@ margin-top: 25px;
   cursor: pointer;
   margin-left: 15px;
   margin-top: 15px;
+  transition: .5s;
 }
 
 #hint {
@@ -602,27 +625,23 @@ margin-top: 25px;
   margin: auto 0;
   font-size: 23px;
   font-family: 'Ubuntu Condensed', sans-serif;
-  color: black; 
+  color: rgba(0, 0, 0, 0.55); 
   letter-spacing: 2.5px;
   width: 150px;
   height: 67px;
   border: none;
   cursor: pointer;
-  opacity: 0.55;
    margin-right: 15px;
    margin-top: 15px;
+   transition: .5s;
 }
 
-#hint:hover {
-  opacity: 1;
+#hint:hover, #goBackFlags:hover {
   transition: .5s;
+  color: rgba(0, 0, 0, 1)
 }
 
 
-#goBackFlags:hover{
-  opacity: 1;
-  transition: .5s;
-}
 #textBonus{
 display: block;
 margin-top: 10px;
@@ -643,7 +662,7 @@ margin-top: 10px;
 
 #afterEnd{
   margin-top: 13vh;
-  opacity: 0.55;
+  opacity: 0.9;
   display: inline-block;
   font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
@@ -658,7 +677,7 @@ margin-top: 10px;
 #endMenu{
   margin-left: 8%; 
   vertical-align: bottom;
-  opacity: 0.55;
+  opacity: 0.9;
   display: inline-block;
   font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
@@ -679,6 +698,9 @@ margin-top: 10px;
 }
 
 @media (max-width: 1000px) {
+  #earth{
+    top: 25%;
+  }
 
   #options{
     padding-top: 20%; 
@@ -746,100 +768,17 @@ margin-top: 10px;
   
 }
 
-
-#asiaInput {
-  display: inline-block;
-  position: absolute;
-  right:10%;
-  top: 25%;
-  padding-top: 25px;
-  width: 200px;
-  height: 100px;
-  cursor: pointer;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  font-size: 50px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
+#rulesSheet{
+  padding: 0 1%;
 }
 
-#europaInput {
-  display: inline-block;
-  position: absolute;
-  right:48%;
-  top: 15%;
-  padding-top: 25px;
-  width: 200px;
-  height: 100px;
-  cursor: pointer;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  font-size: 50px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
+#rulesSheet > h2{
+  font-size: 70px;
 }
 
-#africaInput {
-  display: inline-block;
-  position: absolute;
-  left:45%;
-  bottom: 38%;
-  padding-top: 25px;
-  width: 200px;
-  height: 100px;
-  cursor: pointer;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  font-size: 50px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
-}
-
-#sAmericaInput {
-  display: inline-block;
-  position: absolute;
-  left:14%;
-  bottom: 30%;
-  padding-top: 10px;
-  width: 300px;
-  height: 140px;
-  cursor: pointer;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  font-size: 50px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
-}
-#nAmericaInput {
-  display: inline-block;
-  position: absolute;
-  left:8%;
-  top: 24%;
-  padding-top: 10px;
-  width: 300px;
-  height: 140px;
-  cursor: pointer;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  font-size: 50px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
-}
-
-#oceaniaInput {
-  display: inline-block;
-  position: absolute;
-  right:18%;
-  padding-top: 25px;
-  bottom: 30%;
-  width: 200px;
-  height: 100px;
-  cursor: pointer;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  font-size: 50px;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
+#rulesSheet > div{
+  font-size: 40px;
+  margin-top: 25px;
 }
 
 #records{
@@ -950,8 +889,6 @@ tr > td:nth-child(2){
   width: 500px;
   padding-top:300px;
   margin: 0 auto;
-
-  opacity: .85;
 }
   .forMedia {
   margin-top: 30%;
@@ -959,10 +896,9 @@ tr > td:nth-child(2){
 
   #goBackFlags {
   display: inline-block;
-  opacity: 0.55;
   font-size: 32px;
   font-family: 'Ubuntu Condensed', sans-serif;
-  color: black !important;
+  color: rgba(0, 0, 0, 0.55);
   letter-spacing: 2px;
   width: 300px;
   height: 134px;
@@ -986,7 +922,7 @@ tr > td:nth-child(2){
   background: url(../assets/images/button1.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
-  opacity: 0.55;
+  opacity: 0.9;
    margin-right: 15px;
    margin-top: 35px;
 }
@@ -1007,7 +943,6 @@ tr > td:nth-child(2){
 }
 
 #start{
-  opacity: 0.55;
   display: block;
   font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
@@ -1022,7 +957,6 @@ tr > td:nth-child(2){
 }
 
 #settings {
-  opacity: 0.55;
   display: block;
   margin: 0 auto;
   font-size: 50px;
@@ -1037,7 +971,6 @@ tr > td:nth-child(2){
   margin-top: 25px;
 }
 #rules {
-  opacity: 0.55;
   vertical-align: middle;
   display: inline-block;
   font-size: 50px;
@@ -1053,7 +986,6 @@ tr > td:nth-child(2){
   margin-top: 25px;
 }
 #yourRecords {
-  opacity: 0.55;
   vertical-align: middle;
   display: inline-block;
   margin-left: 7% !important;
@@ -1071,7 +1003,6 @@ tr > td:nth-child(2){
 }
 
 #back{
-  opacity: 0.55;
   display: none;
   margin: 0 auto;
   font-size: 40px;
@@ -1086,73 +1017,4 @@ tr > td:nth-child(2){
    margin-top: 25px;
 }
 
-  }
-
-
-@media (min-width: 1000px) {
-
-  #rulesSheet{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  padding: 0 10%;
-  margin: 0 auto;
-  background:url(../assets/images/paper_texture3878.jpg) 50% 50%/cover;
-  padding-top: 25px;
-  font-family: 'Lobster', cursive;
-}
-
-#rulesSheet > h2{
-  font-size: 35px;
-}
-
-#rulesSheet > div{
-  font-size: 28px;
-  margin-top: 35px;
-}
-
-
-  #earth {
-  position: absolute;
-  width: 950px;
-  padding-top: 950px;
-  left: 50%;
-  margin-left: -475px;
-  top:3%;
-  background: url(../assets/images/earthMap.jpg) 0 0 repeat;
-  border-radius: 50%;
-  background-size: 1900px;
-  animation: rotate 120s linear infinite;
-  transform-style: preserve-3d;
-  box-shadow: inset 60px 0 230px 18px rgba(0, 0, 0, 1);
-}
-
-#earth:after {
-  content: "";
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  box-shadow: -220px 45px 230px 35px rgba(0,0,0,.9) inset;
-}
-
-#earth:before {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.2;
-  background: radial-gradient(circle at 300px 300px, #fff, #000);
-}
-
-@keyframes rotate {
-  0% {background-position: 0 0;}
-  100% {background-position: 1900px 0;}
-}
 }
