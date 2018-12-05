@@ -78,7 +78,22 @@ class Start extends React.Component {
 		localStorage.setItem('saveGame', local)
 }
 
+	componentDidMount(){
+		this.setState({
+			display:{
+				...this.state.display,
+				wrapStart:'block'
+			}
+		})
+	}
+
 	componentWillMount(){
+		this.setState({
+			display:{
+				...this.state.display,
+				wrapStart:'none'
+			}
+		})
 		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
 		if(getLocal) {
 			this.setState({
@@ -421,7 +436,6 @@ class Start extends React.Component {
 }
 
 	onChange(index){
-		console.log(this.state)
 		let className = this.state.className
 		if(className[index] != "blok") {
 			this.setState({
