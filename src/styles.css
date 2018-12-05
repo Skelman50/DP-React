@@ -37,7 +37,7 @@ height: 100%;
   padding-top: 300px;
   position: relative;
   height: 100%;
-  background: url(../assets/images/space.jpg) 50% 50%/cover;
+  background: url(../assets/images/space.jpg) 50% 50%/cover #00bfff;
   overflow: hidden;
 }
 
@@ -127,12 +127,11 @@ tr > td:nth-child(2){
 }
 
 #backFromTable{
-  opacity: 0.8;
+  opacity: 0.9;
   display: block;
   font-size: 50px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black !important;
-  letter-spacing: 3px;
   margin: 50px auto 0;
   width: 250px;
   height: 113px;
@@ -592,7 +591,7 @@ input {
   font-size: 27px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: black; 
-  letter-spacing: 2.5px;
+  text-align: center;
   width: 160px;
   height: 70px;
   background: url(../assets/images/buttonViolet.png) 50% 50%/cover;
