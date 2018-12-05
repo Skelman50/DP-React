@@ -28,6 +28,10 @@ self.__precacheManifest = [
     "revision": "9fb65b100ccb383838ad00de43be6ce6"
   },
   {
+    "url": "12465048.604c1c40.png",
+    "revision": "bd467d7f704de653928277fefc073167"
+  },
+  {
     "url": "46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.7e8769f3.jpg",
     "revision": "4f3663515855375b4e133efd04b349d8"
   },
@@ -508,6 +512,10 @@ self.__precacheManifest = [
     "revision": "5d6313173554da00093426379b9349ca"
   },
   {
+    "url": "earthMap.1328e24a.jpg",
+    "revision": "e74c44106c54af236649d281ddb52c6f"
+  },
+  {
     "url": "earthMap.a1e10855.jpg",
     "revision": "67af2d48066f5f886468f1c5c250455f"
   },
@@ -610,6 +618,10 @@ self.__precacheManifest = [
   {
     "url": "funnyWmap.976f9970.png",
     "revision": "0007e9b2fde44ef4bbba54ad2a052bf1"
+  },
+  {
+    "url": "funnyWmap.b3ca7088.jpg",
+    "revision": "5d59bf9d04059f23a8200f7d226dbfea"
   },
   {
     "url": "ga.28fae49b.png",
@@ -813,7 +825,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "bb464a4dc83fb7bf612edff8b40e0d77"
+    "revision": "45cb3c025026b2c94b863836d9e30464"
   },
   {
     "url": "iq.6495574f.png",
@@ -874,6 +886,10 @@ self.__precacheManifest = [
   {
     "url": "karta_mira.4fa60be6.jpg",
     "revision": "e29e8b241d72b7545e7a47cf879ae858"
+  },
+  {
+    "url": "karta_mira.70fd1457.jpg",
+    "revision": "5c592bc0d97be38c7f2f8af00e08cfab"
   },
   {
     "url": "karta_mira.c43497c5.jpg",
@@ -1300,6 +1316,10 @@ self.__precacheManifest = [
     "revision": "976116db0f5f4681a6ce56366099be8f"
   },
   {
+    "url": "paper_texture3878.9d12d324.jpg",
+    "revision": "6ad49d43050b7bf398771e60c2005c85"
+  },
+  {
     "url": "paper_texture3878.c5efe285.jpg",
     "revision": "976116db0f5f4681a6ce56366099be8f"
   },
@@ -1512,6 +1532,10 @@ self.__precacheManifest = [
     "revision": "1db754c795556276551df028c46ac91c"
   },
   {
+    "url": "src.22a8adaa.js",
+    "revision": "504fcc70035320996a380925d77deaa1"
+  },
+  {
     "url": "src.78399e21.js",
     "revision": "47b23d0e9e9910d3de038e199dacbcd0"
   },
@@ -1542,6 +1566,10 @@ self.__precacheManifest = [
   {
     "url": "styles.3d24e7c4.css",
     "revision": "0ed35350218ff5abc2da9290c9e5c149"
+  },
+  {
+    "url": "styles.3dd8a8bb.css",
+    "revision": "0edbeef01d2557802a4c4c9185dbf441"
   },
   {
     "url": "styles.8986bff4.css",
