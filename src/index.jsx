@@ -42,11 +42,11 @@ class Start extends React.Component {
 				opacity:[0.7,0.7,0.7,0.7,0.7,0.7,0.7]
 			},
 			buttonHint:{
-				background:'',
+				background:require('../assets/images/button1.png'),
 				disabled:false,
 			},
-			backgrounds:[`url(${require('../assets/images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`,`url(${require('../assets/images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`,
-						`url(${require('../assets/images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`,`url(${require('../assets/images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`],
+			backgrounds:[require('../assets/images/BtnBlkWhtBrdr.png'),require('../assets/images/BtnBlkWhtBrdr.png'),
+						require('../assets/images/BtnBlkWhtBrdr.png'),require('../assets/images/BtnBlkWhtBrdr.png')],
 			value:[],
 			valueCapital:[],
 			className:['unblok','unblok','unblok','unblok'],
@@ -78,22 +78,9 @@ class Start extends React.Component {
 		localStorage.setItem('saveGame', local)
 }
 
-	componentDidMount(){
-		this.setState({
-			display:{
-				...this.state.display,
-				wrapStart:'block'
-			}
-		})
-	}
 
 	componentWillMount(){
-		this.setState({
-			display:{
-				...this.state.display,
-				wrapStart:'none'
-			}
-		})
+	
 		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
 		if(getLocal) {
 			this.setState({
@@ -133,11 +120,11 @@ class Start extends React.Component {
 			arrSort[2].country,arrSort[3].country],
 			valueCapital:[arrSort[0].capital,arrSort[1].capital,
 			arrSort[2].capital,arrSort[3].capital],
-			backgrounds:[`url("${require("../assets/images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,`url("${require("../assets/images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,
-						 `url("${require("../assets/images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`,`url("${require("../assets/images/BtnBlkWhtBrdr.png")}") 50% 50% /cover`],
+			backgrounds:[require("../assets/images/BtnBlkWhtBrdr.png"),require("../assets/images/BtnBlkWhtBrdr.png"),
+						 require("../assets/images/BtnBlkWhtBrdr.png"),require("../assets/images/BtnBlkWhtBrdr.png")],
 			className:['unblok','unblok','unblok','unblok'],
 			buttonHint:{
-				background:`url(${require('../assets/images/button1.png')}) no-repeat 50% 50%/contain`,
+				background:require('../assets/images/button1.png'),
 				disabled:false,
 			},
 		})	
@@ -159,8 +146,8 @@ class Start extends React.Component {
 
 	onAnimationHints(index) {
 		for(let i=0;i<this.state.backgrounds.length;i++){
-			this.state.backgrounds[i]=`url(${require('../assets/images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`
-			this.state.backgrounds[index]=`url(${require('../assets/images/buttonDblue.png')}) 50% 50%/cover`;
+			this.state.backgrounds[i]=require('../assets/images/BtnBlkWhtBrdr.png')
+			this.state.backgrounds[index]=require('../assets/images/buttonDblue.png')
 		}
 		this.setState({
 			backgrounds:this.state.backgrounds
@@ -251,60 +238,59 @@ class Start extends React.Component {
 
 	onRecordsTable(){
 		
-		const this_=this;
 		if(this.state.positionRightTable===-100){
-		let id = setInterval(function(){
-			this_.setState({
-				positionRightTable:this_.state.positionRightTable+10
+		let id = setInterval(() => {
+			this.setState({
+				positionRightTable:this.state.positionRightTable+10
 			})
-			if (this_.state.positionRightTable===0) {clearInterval(id)}
+			if (this.state.positionRightTable===0) {clearInterval(id)}
 		},4)
 		}else if(this.state.positionRightTable===0){
-			let id = setInterval(function(){
-				this_.setState({
-					positionRightTable:this_.state.positionRightTable-10
+			let id = setInterval(() => {
+				this.setState({
+					positionRightTable:this.state.positionRightTable-10
 				})
-				if (this_.state.positionRightTable===-100) {clearInterval(id)}
+				if (this.state.positionRightTable===-100) {clearInterval(id)}
 			},4)
 		}
 
 	}
 
 	onRules(){
-		const this_=this;
+
 		if(this.state.positionLeftRules===-100){
-		let id = setInterval(function(){
-			this_.setState({
-				positionLeftRules:this_.state.positionLeftRules+10
+		let id = setInterval(() =>{
+			this.setState({
+				positionLeftRules:this.state.positionLeftRules+10
 			})
-			if (this_.state.positionLeftRules===0) {clearInterval(id)}
+			if (this.state.positionLeftRules===0) {clearInterval(id)}
 		},4)
 		}else if(this.state.positionLeftRules===0){
-			let id = setInterval(function(){
-				this_.setState({
-					positionLeftRules:this_.state.positionLeftRules-10
+			let id = setInterval(()=>{
+				this.setState({
+					positionLeftRules:this.state.positionLeftRules-10
 				})
-				if (this_.state.positionLeftRules===-100) {clearInterval(id)}
+				if (this.state.positionLeftRules===-100) {clearInterval(id)}
 			},4)
 		}
 
 	}
 
 	onOptions() {
-		const this_=this;
+	
 		if(this.state.positionRight===-100){
-		let id = setInterval(function(){
-			this_.setState({
-				positionRight:this_.state.positionRight+10
+		let id = setInterval(()=>{
+			this.setState({
+				positionRight:this.state.positionRight+10
 			})
-			if (this_.state.positionRight===0) {clearInterval(id)}
+			if (this.state.positionRight===0) {clearInterval(id)}
 		},4)
 		}else if(this.state.positionRight===0){
-			let id = setInterval(function(){
-				this_.setState({
-					positionRight:this_.state.positionRight-10
+			let id = setInterval(()=>{
+				this.setState({
+					positionRight:this.state.positionRight-10
 				})
-				if (this_.state.positionRight===-100) {clearInterval(id)}
+				if (this.state.positionRight===-100) {clearInterval(id)}
 			},4)
 		}
 
@@ -349,53 +335,50 @@ class Start extends React.Component {
 		if(this.state.counts.hints>0) {
 		this.setState({
 			buttonHint:{
-				background:`url(${require('../assets/images/BtnRedWhtBkg.png')}) no-repeat 50% 50%/contain`,
+				background:require("../assets/images/BtnRedWhtBkg.png"),
 				disabled:true,
 				
 			},
 			className:['blok','blok','blok','blok'],
 		})
-		const this_=this;
-		new Promise(function(res,rej){
-			
+		new Promise((res,rej)=>{
+			let index = 0;
 			let count = 0;
-			let id = setInterval(function(){
-				count = count + 10
+			let id = setInterval(() =>{
+				count = count + 10;
+				index ++;
+				if(index===4) {
+					index = 0;
+				}
 				if (count===200) {
 					clearInterval(id);
 				}
-				if (count/10===1||count/10===4||count/10===8||count/10===12||count/10===16||count/10===20) {
-					this_.onAnimationHints(0)
-				}else if (count/10===2||count/10===6||count/10===10||count/10===14||count/10===18) {
-					this_.onAnimationHints(1)
-				}else if (count/10===3||count/10===7||count/10===11||count/10===15||count/10===19) {
-					this_.onAnimationHints(2)
-				}else if (count/10===5||count/10===9||count/10===13||count/10===17) {
-					this_.onAnimationHints(3)
-				}
+
+					this.onAnimationHints(index)
+				
 			},100)
-		setTimeout(function(){
-			this_.state.backgrounds.map((value,index)=>{
-				this_.state.backgrounds[index] = `url(${require('../assets/images/BtnBlkWhtBrdr.png')}) 50% 50%/cover`
-				if(this_.state.checkedChangeGame[0]===true?(this_.state.value[index]===this_.state.countries.all[0].country):
-					(this_.state.valueCapital[index]===this_.state.countries.all[0].capital)){
-						this_.state.backgrounds[index] = `url(${require('../assets/images/BtnDgreen.png')}) no-repeat 50% 50%/contain`
+		setTimeout(()=>{
+			this.state.backgrounds.map((value,index)=>{
+				this.state.backgrounds[index] = require('../assets/images/BtnBlkWhtBrdr.png')
+				if(this.state.checkedChangeGame[0]===true?(this.state.value[index]===this.state.countries.all[0].country):
+					(this.state.valueCapital[index]===this.state.countries.all[0].capital)){
+						this.state.backgrounds[index] = require('../assets/images/BtnDgreen.png')
 						
 					}	
 			})
-			res(this_.setState({
-				backgrounds:this_.state.backgrounds,
+			res(this.setState({
+				backgrounds:this.state.backgrounds,
 				counts:{
-					...this_.state.counts,
-					win:this_.state.counts.win+1,
-					hints:this_.state.counts.hints-1
+					...this.state.counts,
+					win:this.state.counts.win+1,
+					hints:this.state.counts.hints-1
 				}
 			}))
 		},2000)
-		}).then((res)=> new Promise(function(res,rej){
-			setTimeout(function(){
-			this_.onAfterCheck()
-			this_.saveRecords()
+		}).then((res)=> new Promise((res,rej)=>{
+			setTimeout(()=>{
+			this.onAfterCheck()
+			this.saveRecords()
 		},2000)
 	
 		}))
@@ -442,49 +425,52 @@ class Start extends React.Component {
 				className:['blok','blok','blok','blok']
 			})
 		let bcg = this.state.backgrounds;
-		bcg[index] = `url(${require('../assets/images/buttonDblue.png')}) no-repeat 50% 50%/contain`;
-		const this_=this;
+		bcg[index] = require('../assets/images/buttonDblue.png')
 		this.setState({
-			backgrounds:bcg
+			backgrounds:bcg,
+			buttonHint:{
+				background:require("../assets/images/BtnRedWhtBkg.png"),
+				disabled:true,
+			}
 		})
-		new Promise(function(res,rej){
-			setTimeout(function(){
-						for(let i=0;i<this_.state.value.length;i++) {
-							if(this_.state.checkedChangeGame[0]===true?(this_.state.value[i]===this_.state.countries.all[0].country):
-							(this_.state.valueCapital[i]===this_.state.countries.all[0].capital)){
+		new Promise((res,rej)=>{
+			setTimeout(()=>{
+						for(let i=0;i<this.state.value.length;i++) {
+							if(this.state.checkedChangeGame[0]===true?(this.state.value[i]===this.state.countries.all[0].country):
+							(this.state.valueCapital[i]===this.state.countries.all[0].capital)){
 								if(index===i) {
-									this_.setState({
+									this.setState({
 										counts:{
-											...this_.state.counts,
-											win:this_.state.counts.win+1,
-											lose:this_.state.counts.lose,
+											...this.state.counts,
+											win:this.state.counts.win+1,
+											lose:this.state.counts.lose,
 										}
 									})
-									this_.saveRecords()
+									this.saveRecords()
 								}else{
-									this_.setState({
+									this.setState({
 										counts:{
-											...this_.state.counts,
-											win:this_.state.counts.win,
-											lose:this_.state.counts.lose+1
+											...this.state.counts,
+											win:this.state.counts.win,
+											lose:this.state.counts.lose+1
 										}
 									})		
 								}
-								const bcg = this_.state.backgrounds
-								bcg[index] = `url(${require('../assets/images/BtnRedWhtBkg.png')}) no-repeat 50% 50%/contain`;
-								bcg[i] = `url(${require('../assets/images/BtnDgreen.png')}) no-repeat 50% 50%/contain`;
-								this_.setState({
+								const bcg = this.state.backgrounds
+								bcg[index] = require('../assets/images/BtnRedWhtBkg.png');
+								bcg[i] = require('../assets/images/BtnDgreen.png');
+								this.setState({
 								backgrounds:bcg
 								})
 							}
 						}
-				res(this_.state.countries)
+				res(this.state.countries)
 		},2000)
 			
 	})
-			.then((res)=> new Promise(function(res,rej){
-				setTimeout(function(){
-					this_.onAfterCheck()
+			.then((res)=> new Promise((res,rej)=>{
+				setTimeout(()=>{
+					this.onAfterCheck()
 			},2000)
 		
 		}))
