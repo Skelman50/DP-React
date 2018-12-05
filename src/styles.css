@@ -1,16 +1,26 @@
 *{
 box-sizing: border-box;
 }
+html{
+  height: 100%;
+}
 body{
 margin: 0;
 text-align: center;
+height: 100%;
+}
+#root{
+  height: 100%;
+}
+#root > div:nth-child(1){
+  height: 100%;
 }
 
 
 #wrapStart {
   padding-top: 300px;
   position: relative;
-  height: 100vh;
+  height: 100%;
   background: url(../assets/images/46f683c5ea42ddd9fdc0a33443aa83be6f3f9f86.jpg) 50% 50%/cover;
   overflow: hidden;
 }
@@ -211,11 +221,12 @@ tr > td:nth-child(2){
 #wrap,#end {
   display: none;
   position: relative;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   background:url(../assets/images/karta_mira.jpg) 50% 50%/cover  rgba( 0, 0, 0, 0.5);
   background-blend-mode: multiply;
   padding-top: 15px;
+  overflow: auto;
 }
 
 
@@ -329,7 +340,7 @@ svg
     position: absolute;
     top: 0;
     left: 0;
-    height: 99%;
+    height: 99.5%;
     width: 100%;
 }
 path
