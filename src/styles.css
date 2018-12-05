@@ -37,7 +37,11 @@ height: 100%;
   padding-top: 300px;
   position: relative;
   height: 100%;
+<<<<<<< HEAD
   background: url(../assets/images/space.jpg) 50% 50%/cover #00bfff;
+=======
+  background: url(../assets/images/space.jpg) 50% 50%/cover,#00bfff;
+>>>>>>> 44abd218e8206ee0839a3cca0cf046b05e2d0907
   overflow: hidden;
 }
 
@@ -54,10 +58,6 @@ height: 100%;
   animation: rotate 120s linear infinite;
   transform-style: preserve-3d;
   box-shadow: inset 60px 0 230px 18px rgba(0, 0, 0, 1);
-}
-@keyframes rotate {
-  0% {background-position: 0 0;}
-  100% {background-position: 1900px 0;}
 }
 
 #earth:after {
@@ -628,7 +628,6 @@ margin-top: 25px;
   letter-spacing: 2.5px;
   width: 150px;
   height: 67px;
-  background: url(../assets/images/button1.png) 50% 50%/cover !important;
   border: none;
   cursor: pointer;
    margin-right: 15px;
@@ -695,6 +694,13 @@ margin-top: 10px;
   font-family: 'Prosto One', cursive;
   color: #f4f5f9;
   font-size: 3em;
+}
+
+@media (min-width: 1000px) {
+@keyframes rotate {
+  0% {background-position: 0 0;}
+  100% {background-position: 1900px 0;}
+  }
 }
 
 @media (max-width: 1000px) {

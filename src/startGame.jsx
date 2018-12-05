@@ -77,29 +77,6 @@ function Options(props){
 		<div id="AllWorld" onClick={(e)=>props.onInteractive(0)}>ВЕСЬ МИР</div>
    </div>
 
-		<input type="radio" id="changeAllContinents" name="continent" defaultChecked={props.checkedContinent[0]}
-		onChange={(e)=>props.onChangeContinent(0)}/> 
-		<input type="radio" id="changeAsia" name="continent" defaultChecked={props.checkedContinent[1]}
-		onChange={(e)=>props.onChangeContinent(1)}/> 
-		<input type="radio" id="changeEurope" name="continent" defaultChecked={props.checkedContinent[2]}
-		onChange={(e)=>props.onChangeContinent(2)}/> 
-		<input type="radio" id="changeAfrica" name="continent"  defaultChecked={props.checkedContinent[3]}
-		onChange={(e)=>props.onChangeContinent(3)}/> 
-		<input type="radio" id="changeSouthAmerica" name="continent" defaultChecked={props.checkedContinent[4]}
-		onChange={(e)=>props.onChangeContinent(4)}/> 
-		<input type="radio" id="changeNorthAmerica" name="continent" defaultChecked={props.checkedContinent[5]}
-		onChange={(e)=>props.onChangeContinent(5)}/> 
-		<input type="radio" id="changeOceania" name="continent" defaultChecked={props.checkedContinent[6]}
-		onChange={(e)=>props.onChangeContinent(6)}/> 
-	 	{/*<label id="AllWorld"  htmlFor="changeAllContinents" onClick={(e)=>props.onInteractive(0)}>ВСЕ КОНТИНЕНТЫ</label>
-		<label id="asiaInput" htmlFor="changeAsia">АЗИЯ</label>
-		<label id="europaInput" htmlFor="changeEurope">ЕВРОПА</label>
-		<label id="africaInput" htmlFor="changeAfrica">АФРИКА</label>
-		<label id="sAmericaInput" htmlFor="changeSouthAmerica">ЮЖНАЯ АМЕРИКА</label>
-		<label id="nAmericaInput" htmlFor="changeNorthAmerica">СЕВЕРНАЯ АМЕРИКА</label>
-		<label id="oceaniaInput" htmlFor="changeOceania">ОКЕАНИЯ</label>
-		</div>*/}
-
 	<button id="apply" onClick={(e)=>props.onOptions()}>Применить</button>
 </div>	
 	)
