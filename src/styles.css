@@ -37,11 +37,7 @@ height: 100%;
   padding-top: 300px;
   position: relative;
   height: 100%;
-<<<<<<< HEAD
-  background: url(../assets/images/space.jpg) 50% 50%/cover #00bfff;
-=======
   background: url(../assets/images/space.jpg) 50% 50%/cover,#00bfff;
->>>>>>> 44abd218e8206ee0839a3cca0cf046b05e2d0907
   overflow: hidden;
 }
 
