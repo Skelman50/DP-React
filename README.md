@@ -1,4 +1,4 @@
-# DP-React
+# Guess-the-country
 This is an educational game that will increase your knowledge of geography.
 
 ## Get Started
