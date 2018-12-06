@@ -170,7 +170,6 @@ export default function StartPage(props){
 	<button id="start" onClick={(e)=>props.onStart()}> ИГРА </button>
 	
 	<div>
-		
 		<button id="rules" onClick={(e)=>props.onRules()}>ПРАВИЛА</button> 
 		
 		<button id="yourRecords" onClick={(e)=>props.onRecordsTable()}>ТАБЛИЦА<br></br>РЕКОРДОВ</button>

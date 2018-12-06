@@ -84,8 +84,17 @@ class Start extends React.Component {
 		let getLocal = JSON.parse(localStorage.getItem("saveGame"))
 		if(getLocal) {
 			this.setState({
-				...getLocal
+				...getLocal,
+				className:['unblok','unblok','unblok','unblok'],
+				buttonHint:{
+					background:require('../assets/images/button1.png'),
+					disabled:false,
+				},
+				backgrounds:[require('../assets/images/BtnBlkWhtBrdr.png'),require('../assets/images/BtnBlkWhtBrdr.png'),
+						require('../assets/images/BtnBlkWhtBrdr.png'),require('../assets/images/BtnBlkWhtBrdr.png')],
+
 			})
+
 		}
 
 		let getRecords = JSON.parse(localStorage.getItem("recordes"))
@@ -96,7 +105,7 @@ class Start extends React.Component {
 			}
 		})
 	}
-			
+					
 	}
 
 	
@@ -110,7 +119,7 @@ class Start extends React.Component {
 		  }
 		  arr.sort(compareRandom)
 		 let arrSort = [arr[0],arr[1],arr[2],arr[3]];
-		  arrSort.sort(compareRandom)
+		  arrSort.sort(compareRandom).sort(compareRandom)
 		this.setState({
 			countries:{
 				all:arr,
